@@ -73,6 +73,11 @@ h1, h2, h3 { margin: 0; }
 .card h3 { font-size: 1rem; }
 .card .desc { font-size: .85rem; margin: 0; flex: 1; }
 .card .precio { font-weight: 700; font-size: 1.05rem; }
+.card .marca { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.ver-mas {
+  margin: 24px 0; padding: 12px 24px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--card); color: var(--text); font-size: .95rem;
+}
 .add-btn {
   margin-top: 6px; padding: 10px; border: none; border-radius: 8px; cursor: pointer;
   background: var(--accent); color: var(--bg); font-weight: 600; font-size: .95rem;

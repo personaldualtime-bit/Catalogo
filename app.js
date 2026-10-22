@@ -1,11 +1,103 @@
 (() => {
   const CLAVE_CARRITO = "carrito_" + TIENDA.whatsapp;
+  const POR_PAGINA = 48;
   const fmt = new Intl.NumberFormat(TIENDA.locale, { style: "currency", currency: TIENDA.moneda, maximumFractionDigits: 0 });
   const $ = (id) => document.getElementById(id);
 
-  let carrito = cargarCarrito(); // { [id]: cantidad }
+  let productos = [];
+  let carrito = {}; // { [id]: cantidad }
   let categoriaActiva = "Todas";
   let textoBusqueda = "";
+  let visibles = POR_PAGINA;
+
+  // ---------- Carga de datos ----------
+  // Parser CSV que respeta comillas, comas y saltos de línea dentro de celdas.
+  function parsearCSV(texto) {
+    const filas = [];
+    let fila = [], celda = "", comillas = false;
+    for (let i = 0; i < texto.length; i++) {
+      const c = texto[i];
+      if (comillas) {
+        if (c === '"' && texto[i + 1] === '"') { celda += '"'; i++; }
+        else if (c === '"') comillas = false;
+        else celda += c;
+      } else if (c === '"') comillas = true;
+      else if (c === ",") { fila.push(celda); celda = ""; }
+      else if (c === "\n" || c === "\r") {
+        if (c === "\r" && texto[i + 1] === "\n") i++;
+        fila.push(celda); filas.push(fila); fila = []; celda = "";
+      } else celda += c;
+    }
+    if (celda || fila.length) { fila.push(celda); filas.push(fila); }
+    return filas;
+  }
+
+  // Normaliza encabezados: "Categoría" -> "categoria", "Precio $" -> "precio"
+  function norm(s) {
+    return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  }
+  function clave(s) { return norm(s).replace(/[^a-z0-9]/g, ""); }
+
+  // Acepta 12500, "12.500", "$ 12.500,50", "12,500.50"
+  function parsearPrecio(v) {
+    if (typeof v === "number") return v;
+    let s = String(v || "").replace(/[^\d.,]/g, "");
+    if (s.includes(",") && s.includes(".")) {
+      s = s.lastIndexOf(",") > s.lastIndexOf(".") ? s.replace(/\./g, "").replace(",", ".") : s.replace(/,/g, "");
+    } else if (s.includes(",")) {
+      s = /,\d{3}$/.test(s) ? s.replace(/,/g, "") : s.replace(",", ".");
+    } else if (/\.\d{3}$/.test(s)) {
+      s = s.replace(/\./g, "");
+    }
+    return Number(s) || 0;
+  }
+
+  // Convierte links de Google Drive compartidos en una URL de imagen directa.
+  function urlImagen(v) {
+    const s = String(v || "").trim();
+    const m = s.match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?.*id=)([\w-]+)/);
+    return m ? `https://drive.google.com/thumbnail?id=${m[1]}&sz=w800` : s;
+  }
+
+  function slug(s) {
+    return norm(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
+  }
+
+  function normalizar(p, categoriaDefecto) {
+    const nombre = String(p.nombre || "").trim();
+    if (!nombre) return null;
+    const activo = String(p.activo ?? "si").trim().toLowerCase();
+    if (["no", "0", "false", "x", "agotado"].includes(activo)) return null;
+    const categoria = String(p.categoria || categoriaDefecto || "Otros").trim();
+    return {
+      id: String(p.id || "").trim() || slug(categoria + " " + nombre),
+      categoria,
+      marca: String(p.marca || "").trim(),
+      nombre,
+      precio: parsearPrecio(p.precio),
+      descripcion: String(p.descripcion || "").trim(),
+      imagen: urlImagen(p.imagen),
+    };
+  }
+
+  async function cargarHoja({ url, categoria }) {
+    const resp = await fetch(url, { cache: "no-store" });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const [encabezado, ...filas] = parsearCSV(await resp.text());
+    const cols = encabezado.map(clave);
+    return filas.map((f) => normalizar(Object.fromEntries(cols.map((c, i) => [c, f[i]])), categoria));
+  }
+
+  async function cargarProductos() {
+    if (!HOJAS.length) return PRODUCTOS.map((p) => normalizar(p)).filter(Boolean);
+    const resultados = await Promise.allSettled(HOJAS.map(cargarHoja));
+    resultados.filter((r) => r.status === "rejected").forEach((r) => console.error("Error cargando hoja:", r.reason));
+    const lista = resultados.flatMap((r) => (r.status === "fulfilled" ? r.value : [])).filter(Boolean);
+    if (!lista.length && resultados.some((r) => r.status === "rejected")) throw new Error("No se pudo cargar ninguna hoja");
+    // Si hay ids repetidos, se queda con el primero
+    const vistos = new Set();
+    return lista.filter((p) => !vistos.has(p.id) && vistos.add(p.id));
+  }
 
   // ---------- Persistencia ----------
   function cargarCarrito() {
@@ -19,7 +111,7 @@
     try { localStorage.setItem(CLAVE_CARRITO, JSON.stringify(carrito)); } catch {}
   }
 
-  function buscarProducto(id) { return PRODUCTOS.find((p) => p.id === id); }
+  function buscarProducto(id) { return productos.find((p) => p.id === id); }
 
   function placeholder(nombre) {
     const letra = (nombre || "?").trim().charAt(0).toUpperCase();
@@ -33,27 +125,34 @@
 
   // ---------- Catálogo ----------
   function renderCategorias() {
-    const cats = ["Todas", ...new Set(PRODUCTOS.map((p) => p.categoria).filter(Boolean))];
+    const cats = ["Todas", ...new Set(productos.map((p) => p.categoria))];
     $("categorias").innerHTML = cats
       .map((c) => `<button class="chip ${c === categoriaActiva ? "activa" : ""}" data-cat="${escapar(c)}">${escapar(c)}</button>`)
       .join("");
   }
 
+  function filtrados() {
+    const palabras = norm(textoBusqueda).split(/\s+/).filter(Boolean);
+    return productos.filter((p) => {
+      if (categoriaActiva !== "Todas" && p.categoria !== categoriaActiva) return false;
+      const texto = norm(`${p.nombre} ${p.marca} ${p.descripcion} ${p.id}`);
+      return palabras.every((w) => texto.includes(w));
+    });
+  }
+
   function renderGrilla() {
-    const q = textoBusqueda.toLowerCase();
-    const lista = PRODUCTOS.filter((p) =>
-      (categoriaActiva === "Todas" || p.categoria === categoriaActiva) &&
-      (!q || p.nombre.toLowerCase().includes(q) || (p.descripcion || "").toLowerCase().includes(q))
-    );
+    const lista = filtrados();
     $("vacio").hidden = lista.length > 0;
-    $("grilla").innerHTML = lista.map((p) => `
+    $("ver-mas").hidden = lista.length <= visibles;
+    $("grilla").innerHTML = lista.slice(0, visibles).map((p) => `
       <article class="card">
         <img src="${escapar(p.imagen || placeholder(p.nombre))}" alt="${escapar(p.nombre)}" loading="lazy"
              onerror="this.onerror=null;this.src='${placeholder(p.nombre)}'">
         <div class="card-body">
+          ${p.marca ? `<span class="marca">${escapar(p.marca)}</span>` : ""}
           <h3>${escapar(p.nombre)}</h3>
           ${p.descripcion ? `<p class="desc muted">${escapar(p.descripcion)}</p>` : `<p class="desc"></p>`}
-          <span class="precio">${fmt.format(p.precio)}</span>
+          <span class="precio">${p.precio ? fmt.format(p.precio) : "Consultar"}</span>
           <button class="add-btn" data-add="${escapar(p.id)}">Agregar</button>
         </div>
       </article>`).join("");
@@ -72,6 +171,7 @@
     return Object.entries(carrito).map(([id, cant]) => ({ ...buscarProducto(id), cant }));
   }
   function total() { return items().reduce((s, i) => s + i.precio * i.cant, 0); }
+  function precioTexto(i) { return i.precio ? fmt.format(i.precio * i.cant) : "a consultar"; }
 
   function renderCarrito() {
     const lista = items();
@@ -83,8 +183,8 @@
       ? lista.map((i) => `
         <div class="cart-item">
           <span class="nombre">${escapar(i.nombre)}</span>
-          <strong>${fmt.format(i.precio * i.cant)}</strong>
-          <span class="sub">${fmt.format(i.precio)} c/u</span>
+          <strong>${precioTexto(i)}</strong>
+          <span class="sub">${i.precio ? `${fmt.format(i.precio)} c/u` : ""}</span>
           <div class="qty">
             <button data-menos="${escapar(i.id)}" aria-label="Quitar uno">−</button>
             <span>${i.cant}</span>
@@ -107,7 +207,7 @@
     const lineas = [
       `Hola ${TIENDA.nombre}! Quiero hacer este pedido:`,
       "",
-      ...items().map((i) => `• ${i.cant} x ${i.nombre} — ${fmt.format(i.precio * i.cant)}`),
+      ...items().map((i) => `• ${i.cant} x ${i.marca ? i.marca + " " : ""}${i.nombre} [${i.id}] — ${precioTexto(i)}`),
       "",
       `*Total: ${fmt.format(total())}*`,
     ];
@@ -137,10 +237,12 @@
     const cat = e.target.dataset.cat;
     if (!cat) return;
     categoriaActiva = cat;
+    visibles = POR_PAGINA;
     renderCategorias();
     renderGrilla();
   });
-  $("buscar").addEventListener("input", (e) => { textoBusqueda = e.target.value; renderGrilla(); });
+  $("buscar").addEventListener("input", (e) => { textoBusqueda = e.target.value; visibles = POR_PAGINA; renderGrilla(); });
+  $("ver-mas").addEventListener("click", () => { visibles += POR_PAGINA; renderGrilla(); });
   $("grilla").addEventListener("click", (e) => {
     const id = e.target.dataset.add;
     if (!id) return;
@@ -167,7 +269,19 @@
   document.title = TIENDA.nombre;
   $("tienda-nombre").textContent = TIENDA.nombre;
   $("tienda-desc").textContent = TIENDA.descripcion;
-  renderCategorias();
-  renderGrilla();
   renderCarrito();
+
+  cargarProductos()
+    .then((lista) => {
+      productos = lista;
+      carrito = cargarCarrito();
+      $("cargando").hidden = true;
+      renderCategorias();
+      renderGrilla();
+      renderCarrito();
+    })
+    .catch((err) => {
+      console.error(err);
+      $("cargando").textContent = "No se pudo cargar el catálogo. Probá recargar la página.";
+    });
 })();

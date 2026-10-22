@@ -3,22 +3,30 @@
 // ===========================================================
 
 const TIENDA = {
-  nombre: "Mi Tienda",
+  nombre: "Dual Time",
   descripcion: "Elegí tus productos y enviá el pedido por WhatsApp",
   // Número en formato internacional, solo dígitos (sin +, espacios ni guiones).
   // Ej. Argentina: 54 9 11 1234-5678 -> "5491112345678"
-  whatsapp: "5491112345678",
+  whatsapp: "5492984501003",
   moneda: "ARS",
   locale: "es-AR",
 };
 
-// Cada producto: id único, nombre, precio, categoría, imagen (opcional) y descripción (opcional).
-// Las imágenes van en la carpeta img/ (ej. "img/remera.jpg"). Si no hay imagen, se muestra un placeholder.
+// Planillas de Google Sheets publicadas como CSV (Archivo → Compartir → Publicar en la web → CSV).
+// Podés poner una sola hoja con todo, o una URL por pestaña (Instrumentos, Audio, Iluminación…).
+// Si una pestaña no tiene columna "categoria", se usa la "categoria" indicada acá.
+// Mientras esta lista esté vacía, se muestran los PRODUCTOS de ejemplo de abajo.
+const HOJAS = [
+  // { url: "https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=0&single=true&output=csv" },
+  // { url: "https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=123&single=true&output=csv", categoria: "Iluminación" },
+];
+
+// Productos de ejemplo (solo se usan si HOJAS está vacía).
 const PRODUCTOS = [
-  { id: "p1", nombre: "Remera básica", precio: 12000, categoria: "Ropa", imagen: "", descripcion: "Algodón 100%, varios colores." },
-  { id: "p2", nombre: "Buzo con capucha", precio: 28500, categoria: "Ropa", imagen: "", descripcion: "Frisa invierno." },
-  { id: "p3", nombre: "Gorra", precio: 9000, categoria: "Accesorios", imagen: "", descripcion: "Talle único, regulable." },
-  { id: "p4", nombre: "Taza cerámica", precio: 7500, categoria: "Hogar", imagen: "", descripcion: "350 ml, apta microondas." },
-  { id: "p5", nombre: "Tote bag", precio: 8000, categoria: "Accesorios", imagen: "", descripcion: "Lienzo resistente." },
-  { id: "p6", nombre: "Vela aromática", precio: 6500, categoria: "Hogar", imagen: "", descripcion: "Cera de soja, 40 h." },
+  { id: "GUI-001", categoria: "Instrumentos", marca: "Yamaha", nombre: "Guitarra criolla C40", precio: 185000, imagen: "", descripcion: "Tapa de abeto, ideal para estudio." },
+  { id: "TEC-001", categoria: "Instrumentos", marca: "Casio", nombre: "Teclado CT-S300", precio: 320000, imagen: "", descripcion: "61 teclas sensibles." },
+  { id: "AUD-001", categoria: "Audio", marca: "JBL", nombre: "Parlante activo EON710", precio: 890000, imagen: "", descripcion: "10\", 1300 W." },
+  { id: "AUD-002", categoria: "Audio", marca: "Behringer", nombre: "Consola Xenyx Q802USB", precio: 210000, imagen: "", descripcion: "8 canales con USB." },
+  { id: "ILU-001", categoria: "Iluminación", marca: "", nombre: "Cabezal móvil LED 60 W", precio: 275000, imagen: "", descripcion: "DMX, 8 gobos." },
+  { id: "ELE-001", categoria: "Electrónica", marca: "", nombre: "Cable XLR 6 m", precio: 15000, imagen: "", descripcion: "Conectores metálicos." },
 ];
