@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div>
+        <h1 id="tienda-nombre">Catálogo</h1>
+        <p id="tienda-desc" class="muted"></p>
+      </div>
+      <button id="abrir-carrito" class="cart-btn" aria-label="Abrir carrito">
+        🛒 <span id="cart-count" class="badge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="filtros">
+      <input id="buscar" type="search" placeholder="Buscar productos…" aria-label="Buscar">
+      <div id="categorias" class="chips"></div>
+    </div>
+    <div id="grilla" class="grid"></div>
+    <p id="vacio" class="muted center" hidden>No hay productos que coincidan.</p>
+  </main>
+
+  <div id="overlay" class="overlay" hidden></div>
+  <aside id="carrito" class="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <h2>Tu pedido</h2>
+      <button id="cerrar-carrito" class="icon-btn" aria-label="Cerrar">✕</button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="drawer-foot">
+      <div class="total-row"><span>Total</span><strong id="cart-total">$0</strong></div>
+      <input id="cliente-nombre" type="text" placeholder="Tu nombre (opcional)">
+      <textarea id="cliente-nota" rows="2" placeholder="Notas: talle, color, entrega… (opcional)"></textarea>
+      <button id="enviar" class="wa-btn" disabled>Enviar pedido por WhatsApp</button>
+      <button id="vaciar" class="link-btn">Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
