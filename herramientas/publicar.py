@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convierte editar/productos.csv y editar/fotos/ en productos.json e img/, y lo sube a GitHub.
+"""Convierte editar/productos.csv y editar/fotos/ en productos.js e img/, y lo sube a GitHub.
 
 Lo ejecuta el timer de systemd cada minuto. Si no hubo cambios no hace nada.
 Uso manual:  python3 herramientas/publicar.py [--sin-push] [--forzar]
@@ -22,7 +22,7 @@ CSV = EDITAR / "productos.csv"
 FOTOS = EDITAR / "fotos"
 ESTADO = EDITAR / "ESTADO.txt"
 IMG = RAIZ / "img"
-JSON = RAIZ / "productos.json"
+SALIDA = RAIZ / "productos.js"
 
 ESPERA_SEG = 30          # no publica si algo se modificó hace menos de esto (edición en curso)
 LADO_MAX = 800           # px del lado mayor de las fotos publicadas
@@ -169,7 +169,7 @@ def git(*args, check=True):
 
 
 def subir():
-    rutas = ["editar/productos.csv", "productos.json", "img"]
+    rutas = ["editar/productos.csv", "productos.js", "img"]
     git("add", "-A", "--", *rutas)
     if subprocess.run(["git", "diff", "--cached", "--quiet", "--", *rutas], cwd=RAIZ).returncode:
         git("commit", "-m", f"Actualizar catálogo ({datetime.now():%Y-%m-%d %H:%M})", "--", *rutas)
@@ -204,9 +204,9 @@ def main():
     try:
         fotos = procesar_fotos()
         productos = armar_productos(fotos)
-        nuevo = json.dumps({"productos": productos}, ensure_ascii=False, indent=1) + "\n"
-        if not JSON.exists() or JSON.read_text(encoding="utf-8") != nuevo:
-            JSON.write_text(nuevo, encoding="utf-8")
+        nuevo = "window.CATALOGO = " + json.dumps({"productos": productos}, ensure_ascii=False, indent=1) + ";\n"
+        if not SALIDA.exists() or SALIDA.read_text(encoding="utf-8") != nuevo:
+            SALIDA.write_text(nuevo, encoding="utf-8")
         subido = False if sin_push else subir()
         resultado = f"OK — {len(productos)} productos publicados" + (" (subido a GitHub)" if subido else "")
     except Exception as e:  # noqa: BLE001 — cualquier error se informa en ESTADO.txt

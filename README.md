@@ -8,7 +8,7 @@ editar/                 ← lo único que se toca (compartida en red para Window
 ├── productos.csv       lista de productos
 ├── fotos/              fotos originales (cualquier tamaño)
 └── ESTADO.txt          resultado de la última publicación y avisos
-productos.json, img/    los genera el script — no editar a mano
+productos.js, img/      los genera el script — no editar a mano
 herramientas/           script de publicación e instaladores
 ```
 

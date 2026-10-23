@@ -11,11 +11,16 @@
   let visibles = POR_PAGINA;
 
   // ---------- Carga de datos ----------
-  // productos.json lo genera herramientas/publicar.py a partir de editar/productos.csv
-  async function cargarProductos() {
-    const resp = await fetch("productos.json", { cache: "no-cache" });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    return (await resp.json()).productos;
+  // productos.js lo genera herramientas/publicar.py a partir de editar/productos.csv.
+  // Se carga como <script> (no fetch) para que también funcione abriendo index.html desde la carpeta.
+  function cargarProductos() {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = "productos.js?t=" + Date.now(); // evita la caché: los cambios se ven al recargar
+      s.onload = () => (window.CATALOGO ? resolve(window.CATALOGO.productos) : reject(new Error("productos.js vacío")));
+      s.onerror = () => reject(new Error("No se encontró productos.js"));
+      document.head.appendChild(s);
+    });
   }
 
   function norm(s) {
