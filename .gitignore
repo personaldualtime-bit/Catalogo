@@ -8,3 +8,5 @@ editar/ESTADO.txt
 Thumbs.db
 desktop.ini
 __pycache__/
+# Logo original en alta resolución (el sitio usa las versiones logo-*.webp/png)
+logo-dt/DT_2020.png

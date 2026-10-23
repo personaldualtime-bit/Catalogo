@@ -38,12 +38,21 @@ h1, h2, h3 { margin: 0; }
 }
 .top-inner, .wrap { max-width: 1100px; margin: 0 auto; padding: 16px; }
 .top-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.top h1 { font-size: 1.3rem; }
+.marca-tienda { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.logo { line-height: 0; flex-shrink: 0; }
+.logo img { display: block; width: 130px; height: auto; }
 .top p { margin: 2px 0 0; font-size: .9rem; }
+@media (min-width: 700px) {
+  .logo img { width: 200px; }
+}
+@media (max-width: 420px) {
+  #tienda-desc { display: none; }
+}
 
 .cart-btn {
   position: relative; border: 1px solid var(--line); background: var(--bg);
   color: var(--text); border-radius: 999px; padding: 10px 16px; font-size: 1.1rem; cursor: pointer;
+  white-space: nowrap; flex-shrink: 0;
 }
 .badge {
   display: inline-block; min-width: 22px; padding: 2px 6px; margin-left: 4px;

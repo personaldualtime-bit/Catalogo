@@ -190,7 +190,7 @@
 
   // ---------- Init ----------
   document.title = TIENDA.nombre;
-  $("tienda-nombre").textContent = TIENDA.nombre;
+  $("tienda-logo").alt = TIENDA.nombre;
   $("tienda-desc").textContent = TIENDA.descripcion;
   renderCarrito();
 
