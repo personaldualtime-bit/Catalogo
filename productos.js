@@ -53,6 +53,15 @@ window.CATALOGO = {
    "precio": 350000,
    "descripcion": "4” , 50Wrms",
    "imagen": ""
+  },
+  {
+   "id": "rtx5060ti",
+   "categoria": "Informatica",
+   "marca": "GigaByte",
+   "nombre": "Placa video GPU",
+   "precio": 2000000,
+   "descripcion": "placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g",
+   "imagen": "img/rtx5060ti.jpg?v=f71fdd1f"
   }
  ]
 };
