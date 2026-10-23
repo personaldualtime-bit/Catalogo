@@ -11,92 +11,15 @@
   let visibles = POR_PAGINA;
 
   // ---------- Carga de datos ----------
-  // Parser CSV que respeta comillas, comas y saltos de línea dentro de celdas.
-  function parsearCSV(texto) {
-    const filas = [];
-    let fila = [], celda = "", comillas = false;
-    for (let i = 0; i < texto.length; i++) {
-      const c = texto[i];
-      if (comillas) {
-        if (c === '"' && texto[i + 1] === '"') { celda += '"'; i++; }
-        else if (c === '"') comillas = false;
-        else celda += c;
-      } else if (c === '"') comillas = true;
-      else if (c === ",") { fila.push(celda); celda = ""; }
-      else if (c === "\n" || c === "\r") {
-        if (c === "\r" && texto[i + 1] === "\n") i++;
-        fila.push(celda); filas.push(fila); fila = []; celda = "";
-      } else celda += c;
-    }
-    if (celda || fila.length) { fila.push(celda); filas.push(fila); }
-    return filas;
+  // productos.json lo genera herramientas/publicar.py a partir de editar/productos.csv
+  async function cargarProductos() {
+    const resp = await fetch("productos.json", { cache: "no-cache" });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    return (await resp.json()).productos;
   }
 
-  // Normaliza encabezados: "Categoría" -> "categoria", "Precio $" -> "precio"
   function norm(s) {
     return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  }
-  function clave(s) { return norm(s).replace(/[^a-z0-9]/g, ""); }
-
-  // Acepta 12500, "12.500", "$ 12.500,50", "12,500.50"
-  function parsearPrecio(v) {
-    if (typeof v === "number") return v;
-    let s = String(v || "").replace(/[^\d.,]/g, "");
-    if (s.includes(",") && s.includes(".")) {
-      s = s.lastIndexOf(",") > s.lastIndexOf(".") ? s.replace(/\./g, "").replace(",", ".") : s.replace(/,/g, "");
-    } else if (s.includes(",")) {
-      s = /,\d{3}$/.test(s) ? s.replace(/,/g, "") : s.replace(",", ".");
-    } else if (/\.\d{3}$/.test(s)) {
-      s = s.replace(/\./g, "");
-    }
-    return Number(s) || 0;
-  }
-
-  // Convierte links de Google Drive compartidos en una URL de imagen directa.
-  function urlImagen(v) {
-    const s = String(v || "").trim();
-    const m = s.match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?.*id=)([\w-]+)/);
-    return m ? `https://drive.google.com/thumbnail?id=${m[1]}&sz=w800` : s;
-  }
-
-  function slug(s) {
-    return norm(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
-  }
-
-  function normalizar(p, categoriaDefecto) {
-    const nombre = String(p.nombre || "").trim();
-    if (!nombre) return null;
-    const activo = String(p.activo ?? "si").trim().toLowerCase();
-    if (["no", "0", "false", "x", "agotado"].includes(activo)) return null;
-    const categoria = String(p.categoria || categoriaDefecto || "Otros").trim();
-    return {
-      id: String(p.id || "").trim() || slug(categoria + " " + nombre),
-      categoria,
-      marca: String(p.marca || "").trim(),
-      nombre,
-      precio: parsearPrecio(p.precio),
-      descripcion: String(p.descripcion || "").trim(),
-      imagen: urlImagen(p.imagen),
-    };
-  }
-
-  async function cargarHoja({ url, categoria }) {
-    const resp = await fetch(url, { cache: "no-store" });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const [encabezado, ...filas] = parsearCSV(await resp.text());
-    const cols = encabezado.map(clave);
-    return filas.map((f) => normalizar(Object.fromEntries(cols.map((c, i) => [c, f[i]])), categoria));
-  }
-
-  async function cargarProductos() {
-    if (!HOJAS.length) return PRODUCTOS.map((p) => normalizar(p)).filter(Boolean);
-    const resultados = await Promise.allSettled(HOJAS.map(cargarHoja));
-    resultados.filter((r) => r.status === "rejected").forEach((r) => console.error("Error cargando hoja:", r.reason));
-    const lista = resultados.flatMap((r) => (r.status === "fulfilled" ? r.value : [])).filter(Boolean);
-    if (!lista.length && resultados.some((r) => r.status === "rejected")) throw new Error("No se pudo cargar ninguna hoja");
-    // Si hay ids repetidos, se queda con el primero
-    const vistos = new Set();
-    return lista.filter((p) => !vistos.has(p.id) && vistos.add(p.id));
   }
 
   // ---------- Persistencia ----------

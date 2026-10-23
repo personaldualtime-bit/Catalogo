@@ -1,0 +1,10 @@
+# Originales de fotos: se publican reducidas en img/
+editar/fotos/*
+!editar/fotos/.gitkeep
+editar/ESTADO.txt
+# Temporales de LibreOffice / Excel / Windows
+.~lock.*#
+~$*
+Thumbs.db
+desktop.ini
+__pycache__/
