@@ -30,7 +30,7 @@ window.CATALOGO = {
   {
    "id": "ILU-001",
    "categoria": "Iluminación",
-   "marca": "",
+   "marca": "GBR",
    "nombre": "Cabezal móvil LED 60 W",
    "precio": 275000,
    "descripcion": "DMX, 8 gobos.",
@@ -39,7 +39,7 @@ window.CATALOGO = {
   {
    "id": "ELE-001",
    "categoria": "Electrónica",
-   "marca": "",
+   "marca": "Roxtone",
    "nombre": "Cable XLR 6 m",
    "precio": 15000,
    "descripcion": "Conectores metálicos.",

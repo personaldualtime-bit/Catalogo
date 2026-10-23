@@ -2,7 +2,7 @@
 GUI-001;Instrumentos;Yamaha;Guitarra criolla C40;185000;Tapa de abeto, ideal para estudio.;;si
 TEC-001;Instrumentos;Casio;Teclado CT-S300;320000;61 teclas sensibles.;;si
 AUD-001;Audio;JBL;Parlante activo EON710;890000;"10"", 1300 W.";;si
-ILU-001;Iluminación;;Cabezal móvil LED 60 W;275000;DMX, 8 gobos.;;si
-ELE-001;Electrónica;;Cable XLR 6 m;15000;Conectores metálicos.;;si
+ILU-001;Iluminación;GBR;Cabezal móvil LED 60 W;275000;DMX, 8 gobos.;;si
+ELE-001;Electrónica;Roxtone;Cable XLR 6 m;15000;Conectores metálicos.;;si
 AUD-101;Audio;CERWIN VEGA;Bafle activo ;350000;4” , 50Wrms;;si
 rtx5060ti;Informatica;GigaByte;Placa video GPU;2000000;placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g;rtx5060ti.wepb;si
