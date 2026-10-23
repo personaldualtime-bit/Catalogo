@@ -35,6 +35,24 @@ window.CATALOGO = {
    "precio": 275000,
    "descripcion": "DMX, 8 gobos.",
    "imagen": ""
+  },
+  {
+   "id": "ELE-001",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Cable XLR 6 m",
+   "precio": 15000,
+   "descripcion": "Conectores metálicos.",
+   "imagen": ""
+  },
+  {
+   "id": "AUD-101",
+   "categoria": "Audio",
+   "marca": "CERWIN VEGA",
+   "nombre": "Bafle activo",
+   "precio": 350000,
+   "descripcion": "4” , 50Wrms",
+   "imagen": ""
   }
  ]
 };
