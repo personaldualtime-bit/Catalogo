@@ -62,6 +62,15 @@ window.CATALOGO = {
    "precio": 2000000,
    "descripcion": "placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g",
    "imagen": "img/rtx5060ti.jpg?v=f71fdd1f"
+  },
+  {
+   "id": "D600-WATERPROOF-CAMARA",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Camara tipo gopro",
+   "precio": 55000,
+   "descripcion": "camara con estuche sumergible \nvideo = 1280x720px 30fps\nbateria = 900mAh\ndimension (LxWxH) = 59,3x24,6x41,1mm",
+   "imagen": "img/d600-waterproof-camara.jpg?v=2c8a3002"
   }
  ]
 };
