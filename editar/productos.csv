@@ -1,8 +1,16 @@
-Ôªøid;categoria;marca;nombre;precio;descripcion;imagen;activo
-GUI-001;Instrumentos;Yamaha;Guitarra criolla C40;185000;Tapa de abeto, ideal para estudio.;;si
-TEC-001;Instrumentos;Casio;Teclado CT-S300;320000;61 teclas sensibles.;;si
-AUD-001;Audio;JBL;Parlante activo EON710;890000;"10"", 1300 W.";;si
-ILU-001;Iluminaci√≥n;GBR;Cabezal m√≥vil LED 60 W;275000;DMX, 8 gobos.;;si
-ELE-001;Electr√≥nica;Roxtone;Cable XLR 6 m;15000;Conectores met√°licos.;;si
-AUD-101;Audio;CERWIN VEGA;Bafle activo ;350000;4‚Äù , 50Wrms;;si
-rtx5060ti;Informatica;GigaByte;Placa video GPU;2000000;placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g;rtx5060ti.wepb;si
+id	categoria	marca	nombre	precio	descripcion	imagen	activo
+GUI-001	Instrumentos	Yamaha	Guitarra criolla C40	185000	Tapa de abeto, ideal para estudio.		si
+TEC-001	Instrumentos	Casio	Teclado CT-S300	320000	61 teclas sensibles.		si
+AUD-001	Audio	JBL	Parlante activo EON710	890000	"10"", 1300 W."		si
+moving-led-500	IluminaciÛn	GBR	Cabezal mÛvil LED 30 W	410000	"*9/11 canales DMX-512
+*Rueda de colores y figuras
+*7 colores
+*7 gobos
+*Efecto de flash con velocidad
+*Paneo: 540 InclinaciÛn (tilt): 270
+*Display Digital multi funciÛn
+*Medidas 30 altura, BASE 15 x 14 cm
+*Peso 3.5 kg"	moving-led-500	si
+ELE-001	ElectrÛnica	Roxtone	Cable XLR 6 m	15000	Conectores met·licos.		si
+AUD-101	Audio	CERWIN VEGA	Bafle activo 	350000	4î , 50Wrms		si
+rtx5060ti	Informatica	GigaByte	Placa video GPU	2000000	placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g	rtx5060ti.wepb	si
