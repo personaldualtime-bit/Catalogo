@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Convierte editar/productos.csv y editar/fotos/ en productos.js e img/, y lo sube a GitHub.
 
+Si está montada la carpeta compartida de Windows (ORIGEN), primero copia de ahí el CSV y las fotos.
+
 Lo ejecuta el timer de systemd cada minuto. Si no hubo cambios no hace nada.
 Uso manual:  python3 herramientas/publicar.py [--sin-push] [--forzar]
 """
@@ -9,6 +11,7 @@ import hashlib
 import io
 import json
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -23,6 +26,7 @@ FOTOS = EDITAR / "fotos"
 ESTADO = EDITAR / "ESTADO.txt"
 IMG = RAIZ / "img"
 SALIDA = RAIZ / "productos.js"
+ORIGEN = Path("/mnt/catalogo-web/EDITAR")   # carpeta de CENTRAL (ver herramientas/instalar-montaje.sh)
 
 ESPERA_SEG = 30          # no publica si algo se modificó hace menos de esto (edición en curso)
 LADO_MAX = 800           # px del lado mayor de las fotos publicadas
@@ -79,6 +83,38 @@ def leer_csv():
     if "nombre" not in cols:
         raise ValueError(f"productos.csv no tiene columna 'nombre' (encabezados leídos: {filas[0]})")
     return [(n, dict(zip(cols, f))) for n, f in enumerate(filas[1:], start=2)]
+
+
+# ---------- Carpeta de Windows ----------
+def copiar_si_cambio(src, destino):
+    s = src.stat()
+    if destino.exists():
+        d = destino.stat()
+        if d.st_size == s.st_size and int(d.st_mtime) == int(s.st_mtime):
+            return
+    shutil.copy2(src, destino)
+
+
+def sincronizar():
+    """Trae productos.csv y fotos/ desde ORIGEN a editar/. Sin ORIGEN (PC apagada, sin montar) usa la copia local."""
+    try:
+        if not (ORIGEN / "productos.csv").is_file():
+            return False
+        copiar_si_cambio(ORIGEN / "productos.csv", CSV)
+        FOTOS.mkdir(parents=True, exist_ok=True)
+        remotas = set()
+        if (ORIGEN / "fotos").is_dir():
+            for src in (ORIGEN / "fotos").iterdir():
+                if src.is_file() and src.suffix.lower() in EXT_FOTOS and not src.name.startswith(("~", ".")):
+                    remotas.add(src.name)
+                    copiar_si_cambio(src, FOTOS / src.name)
+        for local in FOTOS.iterdir():
+            if local.suffix.lower() in EXT_FOTOS and local.name not in remotas:
+                local.unlink()
+        return True
+    except OSError as e:
+        avisos.append(f"No se pudo leer la carpeta de Windows ({e}); se usa la copia local")
+        return False
 
 
 # ---------- Fotos ----------
@@ -185,20 +221,22 @@ def ultima_modificacion():
     return max((f.stat().st_mtime for f in archivos if f.exists()), default=0)
 
 
-def escribir_estado(resultado):
-    """Deja el resultado en editar/ESTADO.txt (visible desde Windows). Solo reescribe si cambió algo."""
+def escribir_estado(resultado, en_windows=False):
+    """Deja el resultado en ESTADO.txt (local y en la carpeta de Windows). Solo reescribe si cambió algo."""
     cuerpo = resultado + ("\r\n\r\nAvisos:\r\n" + "\r\n".join(f"  - {a}" for a in avisos) if avisos else "")
-    try:
-        anterior = ESTADO.read_text(encoding="utf-8-sig").split("  ", 1)[-1] if ESTADO.exists() else ""
-        if cuerpo + "\r\n" != anterior or "subido" in resultado:
-            ESTADO.write_text(f"{datetime.now():%d/%m/%Y %H:%M}  {cuerpo}\r\n", encoding="utf-8-sig")
-    except OSError:
-        pass
+    for estado in [ESTADO, ORIGEN / "ESTADO.txt"] if en_windows else [ESTADO]:
+        try:
+            anterior = estado.read_text(encoding="utf-8-sig").split("  ", 1)[-1] if estado.exists() else ""
+            if cuerpo + "\r\n" != anterior or "subido" in resultado:
+                estado.write_text(f"{datetime.now():%d/%m/%Y %H:%M}  {cuerpo}\r\n", encoding="utf-8-sig")
+        except OSError:
+            pass
     print(cuerpo.replace("\r\n", "\n"))
 
 
 def main():
     sin_push = "--sin-push" in sys.argv
+    en_windows = sincronizar()
     if "--forzar" not in sys.argv and time.time() - ultima_modificacion() < ESPERA_SEG:
         return  # todavía editando; se reintenta en la próxima pasada
     try:
@@ -211,7 +249,7 @@ def main():
         resultado = f"OK — {len(productos)} productos publicados" + (" (subido a GitHub)" if subido else "")
     except Exception as e:  # noqa: BLE001 — cualquier error se informa en ESTADO.txt
         resultado = f"ERROR — {e}"
-    escribir_estado(resultado)
+    escribir_estado(resultado, en_windows)
     if resultado.startswith("ERROR"):
         sys.exit(1)
 

@@ -64,6 +64,22 @@ systemctl --user disable --now catalogo-publicar.timer   # pausar publicación a
 
 El timer corre mientras la sesión del usuario está abierta. Para que corra aunque nadie haya iniciado sesión: `sudo loginctl enable-linger $USER`.
 
+## Editar en la carpeta compartida de CENTRAL (Windows)
+
+Los archivos a editar viven en `\\CENTRAL\Users\Public\Documents\CATALOGO-WEB-WSAPP\EDITAR`
+(desde Linux: `smb://central/Users/Public/Documents/CATALOGO-WEB-WSAPP/EDITAR`):
+
+```
+EDITAR\
+├── productos.csv   se edita acá
+├── fotos\          se copian acá las fotos
+└── ESTADO.txt      resultado de la última publicación
+```
+
+Instalación una sola vez en la PC Linux: `sudo bash herramientas/instalar-montaje.sh`
+(monta la carpeta en `/mnt/catalogo-web`). Cada minuto `publicar.py` copia el CSV y las fotos de ahí a
+`editar/` y publica. Si CENTRAL está apagada, usa la última copia local.
+
 ## Editar desde Windows 7 (misma red)
 
 1. **Equipo → Conectar a unidad de red**, carpeta `\\DT-FM\catalogo` (o `\\<IP de la PC Linux>\catalogo`).
