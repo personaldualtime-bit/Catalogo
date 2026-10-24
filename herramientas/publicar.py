@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Convierte editar/productos.csv y editar/fotos/ en productos.js e img/, y lo sube a GitHub.
 
-Si está montada la carpeta compartida de Windows (ORIGEN), primero copia de ahí el CSV y las fotos.
+Antes copia el CSV y las fotos desde la carpeta compartida de la PC Windows (ORIGEN_*), si responde.
 
 Lo ejecuta el timer de systemd cada minuto. Si no hubo cambios no hace nada.
 Uso manual:  python3 herramientas/publicar.py [--sin-push] [--forzar]
@@ -10,8 +10,8 @@ import csv
 import hashlib
 import io
 import json
+import os
 import re
-import shutil
 import subprocess
 import sys
 import time
@@ -26,7 +26,8 @@ FOTOS = EDITAR / "fotos"
 ESTADO = EDITAR / "ESTADO.txt"
 IMG = RAIZ / "img"
 SALIDA = RAIZ / "productos.js"
-ORIGEN = Path("/mnt/catalogo-web/EDITAR")   # carpeta de CENTRAL (ver herramientas/instalar-montaje.sh)
+ORIGEN_RECURSO = "//central/Users"                              # carpeta compartida de la PC Windows
+ORIGEN_CARPETA = "Public/Documents/CATALOGO-WEB-WSAPP/EDITAR"
 
 ESPERA_SEG = 30          # no publica si algo se modificó hace menos de esto (edición en curso)
 LADO_MAX = 800           # px del lado mayor de las fotos publicadas
@@ -86,34 +87,48 @@ def leer_csv():
 
 
 # ---------- Carpeta de Windows ----------
-def copiar_si_cambio(src, destino):
-    s = src.stat()
-    if destino.exists():
-        d = destino.stat()
-        if d.st_size == s.st_size and int(d.st_mtime) == int(s.st_mtime):
-            return
-    shutil.copy2(src, destino)
+def smb(*comandos):
+    """Ejecuta comandos de smbclient dentro de la carpeta compartida de CENTRAL (sin contraseña)."""
+    r = subprocess.run(["smbclient", "-N", "-t", "15", ORIGEN_RECURSO, "-D", ORIGEN_CARPETA, "-c", "; ".join(comandos)],
+                       capture_output=True, text=True, timeout=120, env={"LC_ALL": "C", "PATH": "/usr/bin:/bin"})
+    if r.returncode or "NT_STATUS" in r.stdout:
+        raise OSError((r.stdout + r.stderr).strip().splitlines()[-1][:200])
+    return r.stdout
+
+
+def listar_smb(salida):
+    """{nombre: (tamaño, mtime)} de las líneas de archivos de un 'ls' de smbclient."""
+    archivos = {}
+    for linea in salida.splitlines():
+        m = re.match(r"^  (.+?)\s+([A-Z]*)\s+(\d+)\s+(\w{3} \w{3} [ \d]\d \d\d:\d\d:\d\d \d{4})$", linea)
+        if m and "D" not in m.group(2) and m.group(1) not in (".", ".."):
+            archivos[m.group(1)] = (int(m.group(3)), time.mktime(time.strptime(m.group(4), "%a %b %d %H:%M:%S %Y")))
+    return archivos
 
 
 def sincronizar():
-    """Trae productos.csv y fotos/ desde ORIGEN a editar/. Sin ORIGEN (PC apagada, sin montar) usa la copia local."""
+    """Trae productos.csv y fotos/ desde CENTRAL a editar/. Si CENTRAL no responde usa la copia local."""
     try:
-        if not (ORIGEN / "productos.csv").is_file():
-            return False
-        copiar_si_cambio(ORIGEN / "productos.csv", CSV)
+        raiz = listar_smb(smb("ls"))
+        if "productos.csv" not in raiz:
+            raise OSError("no está productos.csv en la carpeta EDITAR")
+        fotos = {n: v for n, v in listar_smb(smb("ls fotos\\*")).items()
+                 if Path(n).suffix.lower() in EXT_FOTOS and not n.startswith(("~", "."))}
         FOTOS.mkdir(parents=True, exist_ok=True)
-        remotas = set()
-        if (ORIGEN / "fotos").is_dir():
-            for src in (ORIGEN / "fotos").iterdir():
-                if src.is_file() and src.suffix.lower() in EXT_FOTOS and not src.name.startswith(("~", ".")):
-                    remotas.add(src.name)
-                    copiar_si_cambio(src, FOTOS / src.name)
+        pendientes = [("productos.csv", CSV, *raiz["productos.csv"])]
+        pendientes += [(f"fotos\\{n}", FOTOS / n, *v) for n, v in fotos.items()]
+        bajar = [(r, l, t) for r, l, tam, t in pendientes
+                 if not l.exists() or l.stat().st_size != tam or int(l.stat().st_mtime) != int(t)]
+        if bajar:
+            smb(*[f'get "{r}" "{l}"' for r, l, _ in bajar])
+            for _, local, t in bajar:
+                os.utime(local, (t, t))
         for local in FOTOS.iterdir():
-            if local.suffix.lower() in EXT_FOTOS and local.name not in remotas:
+            if local.suffix.lower() in EXT_FOTOS and local.name not in fotos:
                 local.unlink()
         return True
-    except OSError as e:
-        avisos.append(f"No se pudo leer la carpeta de Windows ({e}); se usa la copia local")
+    except (OSError, subprocess.TimeoutExpired) as e:
+        avisos.append(f"No se pudo leer la carpeta de CENTRAL ({e}); se usa la copia local")
         return False
 
 
@@ -224,13 +239,14 @@ def ultima_modificacion():
 def escribir_estado(resultado, en_windows=False):
     """Deja el resultado en ESTADO.txt (local y en la carpeta de Windows). Solo reescribe si cambió algo."""
     cuerpo = resultado + ("\r\n\r\nAvisos:\r\n" + "\r\n".join(f"  - {a}" for a in avisos) if avisos else "")
-    for estado in [ESTADO, ORIGEN / "ESTADO.txt"] if en_windows else [ESTADO]:
-        try:
-            anterior = estado.read_text(encoding="utf-8-sig").split("  ", 1)[-1] if estado.exists() else ""
-            if cuerpo + "\r\n" != anterior or "subido" in resultado:
-                estado.write_text(f"{datetime.now():%d/%m/%Y %H:%M}  {cuerpo}\r\n", encoding="utf-8-sig")
-        except OSError:
-            pass
+    try:
+        anterior = ESTADO.read_text(encoding="utf-8-sig").split("  ", 1)[-1] if ESTADO.exists() else ""
+        if cuerpo + "\r\n" != anterior or "subido" in resultado:
+            ESTADO.write_text(f"{datetime.now():%d/%m/%Y %H:%M}  {cuerpo}\r\n", encoding="utf-8-sig")
+            if en_windows:
+                smb(f'put "{ESTADO}" ESTADO.txt')
+    except (OSError, subprocess.TimeoutExpired):
+        pass
     print(cuerpo.replace("\r\n", "\n"))
 
 

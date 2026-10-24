@@ -76,9 +76,8 @@ EDITAR\
 └── ESTADO.txt      resultado de la última publicación
 ```
 
-Instalación una sola vez en la PC Linux: `sudo bash herramientas/instalar-montaje.sh`
-(monta la carpeta en `/mnt/catalogo-web`). Cada minuto `publicar.py` copia el CSV y las fotos de ahí a
-`editar/` y publica. Si CENTRAL está apagada, usa la última copia local.
+Cada minuto `publicar.py` copia con `smbclient` (sin contraseña) el CSV y las fotos de ahí a `editar/`
+y publica. `ESTADO.txt` también se copia a esa carpeta. Si CENTRAL está apagada, usa la última copia local.
 
 ## Editar desde Windows 7 (misma red)
 
