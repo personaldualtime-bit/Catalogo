@@ -115,6 +115,11 @@ def sincronizar():
         fotos = {n: v for n, v in listar_smb(smb("ls fotos\\*")).items()
                  if Path(n).suffix.lower() in EXT_FOTOS and not n.startswith(("~", "."))}
         FOTOS.mkdir(parents=True, exist_ok=True)
+        for otro, (_, t) in raiz.items():
+            if otro != "productos.csv" and otro.lower().endswith((".csv", ".xlsx", ".xls")) \
+                    and t > raiz["productos.csv"][1]:
+                avisos.append(f"'{otro}' es más nuevo que productos.csv: si tiene cambios, "
+                              "abrilo y guardalo como productos.csv (CSV)")
         pendientes = [("productos.csv", CSV, *raiz["productos.csv"])]
         pendientes += [(f"fotos\\{n}", FOTOS / n, *v) for n, v in fotos.items()]
         bajar = [(r, l, t) for r, l, tam, t in pendientes
@@ -180,9 +185,12 @@ def url_imagen(valor, id_, fotos):
 
 # ---------- Productos ----------
 def armar_productos(fotos):
-    productos, vistos = [], {}
+    productos, vistos, usadas = [], {}, set()
     for fila, p in leer_csv():
         nombre = p.get("nombre", "").strip()
+        imagen = p.get("imagen", "").strip()
+        if not re.match(r"https?://", imagen):
+            usadas.add(slug(Path(imagen).stem) if imagen else slug(p.get("id", "")))
         if not nombre:
             if any(v.strip() for v in p.values()):
                 avisos.append(f"Fila {fila}: sin nombre, se ignora")
@@ -208,6 +216,9 @@ def armar_productos(fotos):
             "descripcion": p.get("descripcion", "").strip(),
             "imagen": url_imagen(p.get("imagen"), id_, fotos),
         })
+    sueltas = sorted(set(fotos) - usadas)
+    if sueltas:
+        avisos.append("Fotos sin producto en productos.csv (agregá una fila con ese código): " + ", ".join(sueltas))
     return productos
 
 
