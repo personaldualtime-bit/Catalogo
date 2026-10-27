@@ -1,20 +1,17 @@
-id	categoria	marca	nombre	precio	descripcion	imagen	activo
-GUI-001	Instrumentos	Yamaha	Guitarra criolla C40	185000	Tapa de abeto, ideal para estudio.		si
-TEC-001	Instrumentos	Casio	Teclado CT-S300	320000	61 teclas sensibles.		si
-AUD-001	Audio	JBL	Parlante activo EON710	890000	"10"", 1300 W."		si
-moving-led-500	Iluminación	GBR	Cabezal móvil LED 30 W	410000	"*9/11 canales DMX-512
-*Rueda de colores y figuras
+id;categoria;marca;nombre;precio;descripcion;imagen;activo
+CT-S300;Instrumentos;Casio;Teclado CT-S300;537000;61 teclas sensibles.;;si
+moving-led-500;Iluminación;GBR;Cabezal móvil LED 30 W;410000;"DMX ,*Rueda de colores y figuras
 *7 colores
 *7 gobos
 *Efecto de flash con velocidad
 *Paneo: 540 Inclinación (tilt): 270
 *Display Digital multi función
 *Medidas 30 altura, BASE 15 x 14 cm
-*Peso 3.5 kg"	moving-led-500	si
-ELE-001	Electrónica	Roxtone	Cable XLR 6 m	15000	Conectores metálicos.		si
-AUD-101	Audio	CERWIN VEGA	Bafle activo 	350000	4” , 50Wrms		si
-rtx5060ti	Informatica	GigaByte	Placa video GPU	2000000	placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g	rtx5060ti.wepb	si
-D600-WATERPROOF-CAMARA	Electrónica		Camara tipo gopro	55000	"camara con estuche sumergible 
+*Peso 3.5 kg";moving-led-500;si
+ELE-001;Electrónica;Roxtone;Cable XLR 6 m;15000;Conectores metálicos.;;si
+AUD-101;Audio;CERWIN VEGA;Bafle activo ;350000;4” , 50Wrms;;si
+rtx5060ti;Informatica;GigaByte;Placa video GPU;2000000;placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g;rtx5060ti.wepb;NO
+D600-WATERPROOF-CAMARA;Electrónica;;Camara tipo gopro;55000;"camara con estuche sumergible 
 video = 1280x720px 30fps
 bateria = 900mAh
-dimension (LxWxH) = 59,3x24,6x41,1mm"	D600-WATERPROOF-CAMARA	SI
+dimension (LxWxH) = 59,3x24,6x41,1mm";D600-WATERPROOF-CAMARA;SI

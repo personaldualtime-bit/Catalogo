@@ -1,30 +1,12 @@
 window.CATALOGO = {
  "productos": [
   {
-   "id": "GUI-001",
-   "categoria": "Instrumentos",
-   "marca": "Yamaha",
-   "nombre": "Guitarra criolla C40",
-   "precio": 185000,
-   "descripcion": "Tapa de abeto, ideal para estudio.",
-   "imagen": ""
-  },
-  {
-   "id": "TEC-001",
+   "id": "CT-S300",
    "categoria": "Instrumentos",
    "marca": "Casio",
    "nombre": "Teclado CT-S300",
-   "precio": 320000,
+   "precio": 537000,
    "descripcion": "61 teclas sensibles.",
-   "imagen": ""
-  },
-  {
-   "id": "AUD-001",
-   "categoria": "Audio",
-   "marca": "JBL",
-   "nombre": "Parlante activo EON710",
-   "precio": 890000,
-   "descripcion": "10\", 1300 W.",
    "imagen": ""
   },
   {
@@ -33,7 +15,7 @@ window.CATALOGO = {
    "marca": "GBR",
    "nombre": "Cabezal móvil LED 30 W",
    "precio": 410000,
-   "descripcion": "*9/11 canales DMX-512\n*Rueda de colores y figuras\n*7 colores\n*7 gobos\n*Efecto de flash con velocidad\n*Paneo: 540 Inclinación (tilt): 270\n*Display Digital multi función\n*Medidas 30 altura, BASE 15 x 14 cm\n*Peso 3.5 kg",
+   "descripcion": "DMX ,*Rueda de colores y figuras\n*7 colores\n*7 gobos\n*Efecto de flash con velocidad\n*Paneo: 540 Inclinación (tilt): 270\n*Display Digital multi función\n*Medidas 30 altura, BASE 15 x 14 cm\n*Peso 3.5 kg",
    "imagen": "img/moving-led-500.jpg?v=253352dc"
   },
   {
@@ -53,15 +35,6 @@ window.CATALOGO = {
    "precio": 350000,
    "descripcion": "4” , 50Wrms",
    "imagen": ""
-  },
-  {
-   "id": "rtx5060ti",
-   "categoria": "Informatica",
-   "marca": "GigaByte",
-   "nombre": "Placa video GPU",
-   "precio": 2000000,
-   "descripcion": "placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g",
-   "imagen": "img/rtx5060ti.jpg?v=f71fdd1f"
   },
   {
    "id": "D600-WATERPROOF-CAMARA",
