@@ -1,5 +1,5 @@
 id;categoria;marca;nombre;precio;descripcion;imagen;activo
-CT-S300;Instrumentos;Casio;Teclado CT-S300;537000;61 teclas sensibles.;;si
+CT-S300;Instrumentos;CASIO;Teclado CT-S300;537000;61 teclas sensibles.;;si
 moving-led-500;Iluminación;GBR;Cabezal móvil LED 30 W;410000;"DMX ,*Rueda de colores y figuras
 *7 colores
 *7 gobos
@@ -15,7 +15,7 @@ D600-WATERPROOF-CAMARA;Electrónica;;Camara tipo gopro;55000;"camara con estuche 
 video = 1280x720px 30fps
 bateria = 900mAh
 dimension (LxWxH) = 59,3x24,6x41,1mm";D600-WATERPROOF-CAMARA;SI
-JH-360;Electrónica;JAHRO;Conv VGA HDMI;24000;Convertidor VGA a HDMI;JH-360;Si
+JH-360;Electrónica;JAHRO;Conv HDMI a VGA con audio;24000;Convertidor HDMI a VGA con audio;JH-360;Si
 JH-201C;Electrónica;JAHRO;Conv audio digital analógico;19000;Convertidor audio digital a analógico;JH-201C;Si
 SM-C7837;Electrónica;;Cable USB a RS232;15000;Cable USB a RS232 señal serial;SM-C7837;Si
 UM-2060;Electrónica;LUXELL;Conv Display Port a VGA;29000;Adaptador OTG convertidor Display Port a VGA;UM-2060;Si
@@ -30,12 +30,12 @@ UM-2085;Electrónica;LUXELL;Conv USB 3.0 a VGA;43000;Adaptador OTG convertidor US
 UM2070;Electrónica;LUXELL;Conv DVI-D a VGA;23000;Adapatador OTG convertidor activo DVI-D (24+1) a VGA;UM2070;Si
 UM-2120;Electrónica;LUXELL;Conv USB C a HDMI;44000;Adaptador OTG convertidor USB C a HDMI;UM-2120;Si
 UM-2110;Electrónica;LUXELL;Conv USB C a HDMI + USB 3.0 + USB C;51000;Adaptador OTG convertidor USB C a HDMI + USB 3.0 + USB C;UM-2110;Si
-M100;Electrónica;Logitech;Mouse con cable USB;16000;Mouse con cable USB;M100;Si
-M240 SILENT;Electrónica;Logitech;Mouse inalámbrico BT;42000;Mouse inalámbrico BT Silent Touch;M240 SILENT;Si
+M100;Electrónica;LOGITECH;Mouse con cable USB;16000;Mouse con cable USB;M100;Si
+M240 SILENT;Electrónica;LOGITECH;Mouse inalámbrico BT;42000;Mouse inalámbrico BT Silent Touch;M240 SILENT;Si
 WM103 WH;Electrónica;MARVO;Mouse inalámbrico a USB;20000;Mouse inalámbrico a USB Diseño Ergonómico;WM103 WH;Si
-MF100;Electrónica;Multi;Mouse mini con cable USB;6000;Mouse mini con cable 1,2m USB;MF100;Si
-C920s;Electrónica;Logitech;Webcam Full HD1080p;232000;Webcam Full HD 1080p con tapa de obturador;C920s;Si
-C270;Electrónica;Logitech;Webcam HD;64000;Webcam HD 720p;C270;Si
+MF100;Electrónica;MULTI;Mouse mini con cable USB;6000;Mouse mini con cable 1,2m USB;MF100;Si
+C920s;Electrónica;LOGITECH;Webcam Full HD1080p;232000;Webcam Full HD 1080p con tapa de obturador;C920s;Si
+C270;Electrónica;LOGITECH;Webcam HD;64000;Webcam HD 720p;C270;Si
 MWK-08;Electrónica;LUXELL;Mini teclado inalámbrico;21000;Mini teclado inalámbrico estilo querty;MWK-08;Si
 MDP-VGA;Electrónica;ARWEN;Conv Mini Display Port a VGA;19000;Adaptador OTG convertidor Mini Display Port a VGA;MDP-VGA;Si
 CAB-MDP-HDM;Electrónica;ARWEN;Conv Mini Display Port a HDMI;24000;Adaptador OTG convertidor Mini Display Port a HDMI;CAB-MDP-HDM;Si
@@ -43,3 +43,13 @@ USB-SD-TF;Electrónica;;OTG USB lector de memoria;20000;OTG Lector SD y micro SD 
 HDG-080;Electrónica;LUXELL;Conector HDMI H a Mini HDMI M;17000;Adaptador Conector Convertidor HDMI H a Mini HDMI M;HDG-080;Si
 UM-2145;Electrónica;LUXELL;Adaptador USB C H a USB 3.0 M;10000;Adaptador Conector Convertidor USB C H a USB 3.0 M;UM-2145;Si
 MSD-USB 2.0;Electrónica;;Adaptador lector Micro SD a USB;7000;Adaptador lector Micro SD a USB 2.0;MSD-USB 2.0;Si
+RE200;Electrónica;TP-LINK;Repetidor extensor de wifi;62000;Repetidor extensor de wifi doble banda - 300 Mbps 2.4GHz - 433 Mbps 5GHz;RE200;Si
+JH-001B;Electrónica;JAHRO;Conv VGA a HDMI;25000;Convertidor de VGA a HDMI con audio;JH-001B;Si
+JH-003K;Electrónica;JAHRO;Conv HDMI a AV (3RCA);25000;Convertidor de HDMI a AV (3RCA);JH-003K;Si
+JH-003P;Electrónica;JAHRO;Conv AV (3RCA) a HDMI;25000;Convertidor de AV (3RCA) a HDMI;JH-003P;Si
+C-IPH;Electrónica;;Adaptador USB C a LIGHTNING;8000;Adaptador USB C a LIGHTNING;C-IPH;Si
+USB-CMI-3.0-1M;Electrónica;ARWEN;Cable USB C a Micro B;11000;Cable USB C a Micro B - 3.0 - 1M;USB-CMI-3.0-1M;Si
+3058;Electrónica;;Cable USB 3.0 1,5M;23000;Cable USB 3.0 1,5M;3058;Si
+USB3 A SATA;Electrónica;NOGA;Cable USB 3.0 a SATA;15000;Cable USB 3.0 a SATA 8TB 5GBPS;USB3 A SATA;Si
+MPC02;Electrónica;MARVO;Webcam HD 1080p ;65000;Webcam Full HD 1080p con micrófono;MPC02;Si
+KL-WEBCAM-1080P;Electrónica;KELYX;Webcam Full HD 1080p;28000;Webcam Full HD 1080p con micrófono;KL-WEBCAM-1080P;Si

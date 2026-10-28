@@ -3,7 +3,7 @@ window.CATALOGO = {
   {
    "id": "CT-S300",
    "categoria": "Instrumentos",
-   "marca": "Casio",
+   "marca": "CASIO",
    "nombre": "Teclado CT-S300",
    "precio": 537000,
    "descripcion": "61 teclas sensibles.",
@@ -49,9 +49,9 @@ window.CATALOGO = {
    "id": "JH-360",
    "categoria": "Electrónica",
    "marca": "JAHRO",
-   "nombre": "Conv VGA HDMI",
+   "nombre": "Conv HDMI a VGA con audio",
    "precio": 24000,
-   "descripcion": "Convertidor VGA a HDMI",
+   "descripcion": "Convertidor HDMI a VGA con audio",
    "imagen": "img/jh-360.jpg?v=94362935"
   },
   {
@@ -120,7 +120,7 @@ window.CATALOGO = {
   {
    "id": "M100",
    "categoria": "Electrónica",
-   "marca": "Logitech",
+   "marca": "LOGITECH",
    "nombre": "Mouse con cable USB",
    "precio": 16000,
    "descripcion": "Mouse con cable USB",
@@ -129,7 +129,7 @@ window.CATALOGO = {
   {
    "id": "M240 SILENT",
    "categoria": "Electrónica",
-   "marca": "Logitech",
+   "marca": "LOGITECH",
    "nombre": "Mouse inalámbrico BT",
    "precio": 42000,
    "descripcion": "Mouse inalámbrico BT Silent Touch",
@@ -147,7 +147,7 @@ window.CATALOGO = {
   {
    "id": "MF100",
    "categoria": "Electrónica",
-   "marca": "Multi",
+   "marca": "MULTI",
    "nombre": "Mouse mini con cable USB",
    "precio": 6000,
    "descripcion": "Mouse mini con cable 1,2m USB",
@@ -156,7 +156,7 @@ window.CATALOGO = {
   {
    "id": "C920s",
    "categoria": "Electrónica",
-   "marca": "Logitech",
+   "marca": "LOGITECH",
    "nombre": "Webcam Full HD1080p",
    "precio": 232000,
    "descripcion": "Webcam Full HD 1080p con tapa de obturador",
@@ -165,7 +165,7 @@ window.CATALOGO = {
   {
    "id": "C270",
    "categoria": "Electrónica",
-   "marca": "Logitech",
+   "marca": "LOGITECH",
    "nombre": "Webcam HD",
    "precio": 64000,
    "descripcion": "Webcam HD 720p",
@@ -233,6 +233,96 @@ window.CATALOGO = {
    "precio": 7000,
    "descripcion": "Adaptador lector Micro SD a USB 2.0",
    "imagen": ""
+  },
+  {
+   "id": "RE200",
+   "categoria": "Electrónica",
+   "marca": "TP-LINK",
+   "nombre": "Repetidor extensor de wifi",
+   "precio": 62000,
+   "descripcion": "Repetidor extensor de wifi doble banda - 300 Mbps 2.4GHz - 433 Mbps 5GHz",
+   "imagen": "img/re200.jpg?v=3a1ead02"
+  },
+  {
+   "id": "JH-001B",
+   "categoria": "Electrónica",
+   "marca": "JAHRO",
+   "nombre": "Conv VGA a HDMI",
+   "precio": 25000,
+   "descripcion": "Convertidor de VGA a HDMI con audio",
+   "imagen": "img/jh-001b.jpg?v=41862e47"
+  },
+  {
+   "id": "JH-003K",
+   "categoria": "Electrónica",
+   "marca": "JAHRO",
+   "nombre": "Conv HDMI a AV (3RCA)",
+   "precio": 25000,
+   "descripcion": "Convertidor de HDMI a AV (3RCA)",
+   "imagen": "img/jh-003k.jpg?v=e0baf194"
+  },
+  {
+   "id": "JH-003P",
+   "categoria": "Electrónica",
+   "marca": "JAHRO",
+   "nombre": "Conv AV (3RCA) a HDMI",
+   "precio": 25000,
+   "descripcion": "Convertidor de AV (3RCA) a HDMI",
+   "imagen": "img/jh-003p.jpg?v=6873b009"
+  },
+  {
+   "id": "C-IPH",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Adaptador USB C a LIGHTNING",
+   "precio": 8000,
+   "descripcion": "Adaptador USB C a LIGHTNING",
+   "imagen": "img/c-iph.jpg?v=65580782"
+  },
+  {
+   "id": "USB-CMI-3.0-1M",
+   "categoria": "Electrónica",
+   "marca": "ARWEN",
+   "nombre": "Cable USB C a Micro B",
+   "precio": 11000,
+   "descripcion": "Cable USB C a Micro B - 3.0 - 1M",
+   "imagen": ""
+  },
+  {
+   "id": "3058",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Cable USB 3.0 1,5M",
+   "precio": 23000,
+   "descripcion": "Cable USB 3.0 1,5M",
+   "imagen": "img/3058.jpg?v=c9740d93"
+  },
+  {
+   "id": "USB3 A SATA",
+   "categoria": "Electrónica",
+   "marca": "NOGA",
+   "nombre": "Cable USB 3.0 a SATA",
+   "precio": 15000,
+   "descripcion": "Cable USB 3.0 a SATA 8TB 5GBPS",
+   "imagen": "img/usb3-a-sata.jpg?v=7087e759"
+  },
+  {
+   "id": "MPC02",
+   "categoria": "Electrónica",
+   "marca": "MARVO",
+   "nombre": "Webcam HD 1080p",
+   "precio": 65000,
+   "descripcion": "Webcam Full HD 1080p con micrófono",
+   "imagen": "img/mpc02.jpg?v=3d187d98"
+  },
+  {
+   "id": "KL-WEBCAM-1080P",
+   "categoria": "Electrónica",
+   "marca": "KELYX",
+   "nombre": "Webcam Full HD 1080p",
+   "precio": 28000,
+   "descripcion": "Webcam Full HD 1080p con micrófono",
+   "imagen": "img/kl-webcam-1080p.jpg?v=017c7abe"
   }
  ]
 };
