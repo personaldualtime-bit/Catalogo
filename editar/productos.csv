@@ -22,11 +22,18 @@ UM-2060;Electrónica;LUXELL;Conv Display Port a VGA;29000;Adaptador OTG convertid
 UM-2085;Electrónica;LUXELL;Conv USB 3.0 a VGA;43000;Adaptador OTG convertidor USB 3.0 a VGA;UM-2085;Si
 UM2070;Electrónica;LUXELL;Conv DVI-D a VGA;23000;Adapatador OTG convertidor activo DVI-D (24+1) a VGA;UM2070;Si
 UM-2120;Electrónica;LUXELL;Conv USB C a HDMI;44000;Adaptador OTG convertidor USB C a HDMI;UM-2120;Si
-C270;;;C270;;;C270;no
-C920s;;;C920s;;;C920s;no
-M100;;;M100;;;M100;no
-M240 SILENT;;;M240 SILENT;;;M240 SILENT;no
-MF100;;;MF100;;;MF100;no
-MWK-08;;;MWK-08;;;MWK-08;no
-UM-2110;;;UM-2110;;;UM-2110;no
-WM103 WH;;;WM103 WH;;;WM103 WH;no
+JH-360;Electrónica;JAHRO;Conv VGA HDMI;24000;Convertidor VGA a HDMI;JH-360;Si
+JH-201C;Electrónica;JAHRO;Conv audio digital analógico;19000;Convertidor audio digital a analógico;JH-201C;Si
+SM-C7837;Electrónica;;Cable USB a RS232;15000;Cable USB a RS232 señal serial;SM-C7837;Si
+UM-2060;Electrónica;LUXELL;Conv Display Port a VGA;29000;Adaptador OTG convertidor Display Port a VGA;UM-2060;Si
+UM-2085;Electrónica;LUXELL;Conv USB 3.0 a VGA;43000;Adaptador OTG convertidor USB 3.0 a VGA;UM-2085;Si
+UM2070;Electrónica;LUXELL;Conv DVI-D a VGA;23000;Adapatador OTG convertidor activo DVI-D (24+1) a VGA;UM2070;Si
+UM-2120;Electrónica;LUXELL;Conv USB C a HDMI;44000;Adaptador OTG convertidor USB C a HDMI;UM-2120;Si
+UM-2110;Electrónica;LUXELL;Conv USB C a HDMI + USB 3.0 + USB C;51000;Adaptador OTG convertidor USB C a HDMI + USB 3.0 + USB C;UM-2110;Si
+M100;Electrónica;Logitech;Mouse con cable USB;16000;Mouse con cable USB;M100;Si
+M240 SILENT;Electrónica;Logitech;Mouse inalámbrico BT;42000;Mouse inalámbrico BT Silent Touch;M240 SILENT;Si
+WM103 WH;Electrónica;MARVO;Mouse inalámbrico a USB;20000;Mouse inalámbrico a USB Diseño Ergonómico;WM103 WH;Si
+MF100;Electrónica;Multi;Mouse mini con cable USB;6000;Mouse mini con cable 1,2m USB;MF100;Si
+C920s;Electrónica;Logitech;Webcam Full HD1080p;232000;Webcam Full HD 1080p con tapa de obturador;C920s;Si
+C270;Electrónica;Logitech;Webcam HD;64000;Webcam HD 720p;C270;Si
+MWK-08;Electrónica;LUXELL;Mini teclado inalámbrico;21000;Mini teclado inalámbrico estilo querty;MWK-08;Si

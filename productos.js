@@ -107,6 +107,78 @@ window.CATALOGO = {
    "precio": 44000,
    "descripcion": "Adaptador OTG convertidor USB C a HDMI",
    "imagen": "img/um-2120.jpg?v=8a85b7d7"
+  },
+  {
+   "id": "UM-2110",
+   "categoria": "Electrónica",
+   "marca": "LUXELL",
+   "nombre": "Conv USB C a HDMI + USB 3.0 + USB C",
+   "precio": 51000,
+   "descripcion": "Adaptador OTG convertidor USB C a HDMI + USB 3.0 + USB C",
+   "imagen": "img/um-2110.jpg?v=24aa0ddf"
+  },
+  {
+   "id": "M100",
+   "categoria": "Electrónica",
+   "marca": "Logitech",
+   "nombre": "Mouse con cable USB",
+   "precio": 16000,
+   "descripcion": "Mouse con cable USB",
+   "imagen": "img/m100.jpg?v=d4b54ef2"
+  },
+  {
+   "id": "M240 SILENT",
+   "categoria": "Electrónica",
+   "marca": "Logitech",
+   "nombre": "Mouse inalámbrico BT",
+   "precio": 42000,
+   "descripcion": "Mouse inalámbrico BT Silent Touch",
+   "imagen": "img/m240-silent.jpg?v=4bf38285"
+  },
+  {
+   "id": "WM103 WH",
+   "categoria": "Electrónica",
+   "marca": "MARVO",
+   "nombre": "Mouse inalámbrico a USB",
+   "precio": 20000,
+   "descripcion": "Mouse inalámbrico a USB Diseño Ergonómico",
+   "imagen": "img/wm103-wh.jpg?v=4c7663a1"
+  },
+  {
+   "id": "MF100",
+   "categoria": "Electrónica",
+   "marca": "Multi",
+   "nombre": "Mouse mini con cable USB",
+   "precio": 6000,
+   "descripcion": "Mouse mini con cable 1,2m USB",
+   "imagen": "img/mf100.jpg?v=05af1b26"
+  },
+  {
+   "id": "C920s",
+   "categoria": "Electrónica",
+   "marca": "Logitech",
+   "nombre": "Webcam Full HD1080p",
+   "precio": 232000,
+   "descripcion": "Webcam Full HD 1080p con tapa de obturador",
+   "imagen": "img/c920s.jpg?v=3114a217"
+  },
+  {
+   "id": "C270",
+   "categoria": "Electrónica",
+   "marca": "Logitech",
+   "nombre": "Webcam HD",
+   "precio": 64000,
+   "descripcion": "Webcam HD 720p",
+   "imagen": "img/c270.jpg?v=ac1fe892"
+  },
+  {
+   "id": "MWK-08",
+   "categoria": "Electrónica",
+   "marca": "LUXELL",
+   "nombre": "Mini teclado inalámbrico",
+   "precio": 21000,
+   "descripcion": "Mini teclado inalámbrico estilo querty",
+   "imagen": "img/mwk-08.jpg?v=b69b64f0"
   }
  ]
 };
