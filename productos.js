@@ -179,6 +179,60 @@ window.CATALOGO = {
    "precio": 21000,
    "descripcion": "Mini teclado inalámbrico estilo querty",
    "imagen": "img/mwk-08.jpg?v=b69b64f0"
+  },
+  {
+   "id": "MDP-VGA",
+   "categoria": "Electrónica",
+   "marca": "ARWEN",
+   "nombre": "Conv Mini Display Port a VGA",
+   "precio": 19000,
+   "descripcion": "Adaptador OTG convertidor Mini Display Port a VGA",
+   "imagen": "img/mdp-vga.jpg?v=cb7ce2fb"
+  },
+  {
+   "id": "CAB-MDP-HDM",
+   "categoria": "Electrónica",
+   "marca": "ARWEN",
+   "nombre": "Conv Mini Display Port a HDMI",
+   "precio": 24000,
+   "descripcion": "Adaptador OTG convertidor Mini Display Port a HDMI",
+   "imagen": "img/cab-mdp-hdm.jpg?v=22d50aa5"
+  },
+  {
+   "id": "USB-SD-TF",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "OTG USB lector de memoria",
+   "precio": 20000,
+   "descripcion": "OTG Lector SD y micro SD a USB 2.0 USB C y V8",
+   "imagen": "img/usb-sd-tf.jpg?v=91b67b11"
+  },
+  {
+   "id": "HDG-080",
+   "categoria": "Electrónica",
+   "marca": "LUXELL",
+   "nombre": "Conector HDMI H a Mini HDMI M",
+   "precio": 17000,
+   "descripcion": "Adaptador Conector Convertidor HDMI H a Mini HDMI M",
+   "imagen": "img/hdg-080.jpg?v=838407c1"
+  },
+  {
+   "id": "UM-2145",
+   "categoria": "Electrónica",
+   "marca": "LUXELL",
+   "nombre": "Adaptador USB C H a USB 3.0 M",
+   "precio": 10000,
+   "descripcion": "Adaptador Conector Convertidor USB C H a USB 3.0 M",
+   "imagen": "img/um-2145.jpg?v=a056fa2a"
+  },
+  {
+   "id": "MSD-USB 2.0",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Adaptador lector Micro SD a USB",
+   "precio": 7000,
+   "descripcion": "Adaptador lector Micro SD a USB 2.0",
+   "imagen": ""
   }
  ]
 };
