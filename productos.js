@@ -332,6 +332,15 @@ window.CATALOGO = {
    "precio": 25000,
    "descripcion": "Switch internet 5 puertos 1000 Mbps",
    "imagen": "img/ms105g.jpg?v=ce44fb98"
+  },
+  {
+   "id": "MW300RE",
+   "categoria": "Electrónica",
+   "marca": "MERCUSYS",
+   "nombre": "Repetidor extensor de wifi",
+   "precio": 38000,
+   "descripcion": "Repetidor extensor de wifi 300 Mbps 2.4GHz",
+   "imagen": "img/mw300re.jpg?v=df1f25ed"
   }
  ]
 };
