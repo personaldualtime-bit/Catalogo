@@ -323,6 +323,15 @@ window.CATALOGO = {
    "precio": 28000,
    "descripcion": "Webcam Full HD 1080p con micrófono",
    "imagen": "img/kl-webcam-1080p.jpg?v=017c7abe"
+  },
+  {
+   "id": "MS105G",
+   "categoria": "Electrónica",
+   "marca": "MERCUSYS",
+   "nombre": "Switch internet 5 puertos",
+   "precio": 25000,
+   "descripcion": "Switch internet 5 puertos 1000 Mbps",
+   "imagen": "img/ms105g.jpg?v=ce44fb98"
   }
  ]
 };
