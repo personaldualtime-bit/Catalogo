@@ -23,7 +23,7 @@ window.CATALOGO = {
    "categoria": "Electrónica",
    "marca": "Roxtone",
    "nombre": "Cable XLR 6 m",
-   "precio": 15000,
+   "precio": 26000,
    "descripcion": "Conectores metálicos.",
    "imagen": ""
   },
