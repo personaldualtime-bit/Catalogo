@@ -28,13 +28,13 @@ window.CATALOGO = {
    "imagen": ""
   },
   {
-   "id": "AUD-101",
+   "id": "MINIVEGA",
    "categoria": "Audio",
    "marca": "CERWIN VEGA",
    "nombre": "Bafle activo",
    "precio": 350000,
    "descripcion": "4” , 50Wrms",
-   "imagen": ""
+   "imagen": "img/minivega.jpg?v=6ca05ff0"
   },
   {
    "id": "D600-WATERPROOF-CAMARA",
@@ -42,8 +42,8 @@ window.CATALOGO = {
    "marca": "",
    "nombre": "Camara tipo gopro",
    "precio": 55000,
-   "descripcion": "camara con estuche sumergible \nvideo = 1280x720px 30fps\nbateria = 900mAh\ndimension (LxWxH) = 59,3x24,6x41,1mm",
-   "imagen": "img/d600-waterproof-camara.jpg?v=2c8a3002"
+   "descripcion": "Cámara con estuche sumergible \nvideo = 1280x720px 30fps\nbateria = 900mAh\ndimension (LxWxH) = 59,3x24,6x41,1mm",
+   "imagen": "img/d600-waterproof-camara.jpg?v=8e246b87"
   },
   {
    "id": "JH-360",
@@ -226,13 +226,13 @@ window.CATALOGO = {
    "imagen": "img/um-2145.jpg?v=a056fa2a"
   },
   {
-   "id": "MSD-USB 2.0",
+   "id": "MSD-USB 20",
    "categoria": "Electrónica",
    "marca": "",
    "nombre": "Adaptador lector Micro SD a USB",
    "precio": 7000,
    "descripcion": "Adaptador lector Micro SD a USB 2.0",
-   "imagen": ""
+   "imagen": "img/msd-usb-20.jpg?v=553de4c5"
   },
   {
    "id": "RE200",
@@ -280,13 +280,13 @@ window.CATALOGO = {
    "imagen": "img/c-iph.jpg?v=65580782"
   },
   {
-   "id": "USB-CMI-3.0-1M",
+   "id": "USB-CMI-30-1M",
    "categoria": "Electrónica",
    "marca": "ARWEN",
    "nombre": "Cable USB C a Micro B",
    "precio": 11000,
    "descripcion": "Cable USB C a Micro B - 3.0 - 1M",
-   "imagen": ""
+   "imagen": "img/usb-cmi-30-1m.jpg?v=1e5d267c"
   },
   {
    "id": "3058",
@@ -341,6 +341,15 @@ window.CATALOGO = {
    "precio": 38000,
    "descripcion": "Repetidor extensor de wifi 300 Mbps 2.4GHz",
    "imagen": "img/mw300re.jpg?v=df1f25ed"
+  },
+  {
+   "id": "UM-2405",
+   "categoria": "Electrónica",
+   "marca": "LUXELL",
+   "nombre": "Capturadora de video HDMI USB",
+   "precio": 46000,
+   "descripcion": "Capturadora de video HDMI a USB - Soporte de entrada máx. resolución 3840x2160 @30Hz",
+   "imagen": "img/um-2405.jpg?v=f7a914c7"
   }
  ]
 };

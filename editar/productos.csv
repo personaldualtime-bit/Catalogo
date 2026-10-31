@@ -9,9 +9,9 @@ moving-led-500;Iluminación;GBR;Cabezal móvil LED 30 W;410000;"DMX ,*Rueda de col
 *Medidas 30 altura, BASE 15 x 14 cm
 *Peso 3.5 kg";moving-led-500;si
 ELE-001;Electrónica;Roxtone;Cable XLR 6 m;26000;Conectores metálicos.;;si
-AUD-101;Audio;CERWIN VEGA;Bafle activo ;350000;4” , 50Wrms;;si
+MINIVEGA;Audio;CERWIN VEGA;Bafle activo ;350000;4” , 50Wrms;MINIVEGA;si
 rtx5060ti;Informatica;GigaByte;Placa video GPU;2000000;placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g;rtx5060ti.wepb;NO
-D600-WATERPROOF-CAMARA;Electrónica;;Camara tipo gopro;55000;"camara con estuche sumergible 
+D600-WATERPROOF-CAMARA;Electrónica;;Camara tipo gopro;55000;"Cámara con estuche sumergible 
 video = 1280x720px 30fps
 bateria = 900mAh
 dimension (LxWxH) = 59,3x24,6x41,1mm";D600-WATERPROOF-CAMARA;SI
@@ -42,16 +42,17 @@ CAB-MDP-HDM;Electrónica;ARWEN;Conv Mini Display Port a HDMI;24000;Adaptador OTG 
 USB-SD-TF;Electrónica;;OTG USB lector de memoria;20000;OTG Lector SD y micro SD a USB 2.0 USB C y V8;USB-SD-TF;Si
 HDG-080;Electrónica;LUXELL;Conector HDMI H a Mini HDMI M;17000;Adaptador Conector Convertidor HDMI H a Mini HDMI M;HDG-080;Si
 UM-2145;Electrónica;LUXELL;Adaptador USB C H a USB 3.0 M;10000;Adaptador Conector Convertidor USB C H a USB 3.0 M;UM-2145;Si
-MSD-USB 2.0;Electrónica;;Adaptador lector Micro SD a USB;7000;Adaptador lector Micro SD a USB 2.0;MSD-USB 2.0;Si
+MSD-USB 20;Electrónica;;Adaptador lector Micro SD a USB;7000;Adaptador lector Micro SD a USB 2.0;MSD-USB 20;Si
 RE200;Electrónica;TP-LINK;Repetidor extensor de wifi;62000;Repetidor extensor de wifi doble banda - 300 Mbps 2.4GHz - 433 Mbps 5GHz;RE200;Si
 JH-001B;Electrónica;JAHRO;Conv VGA a HDMI;25000;Convertidor de VGA a HDMI con audio;JH-001B;Si
 JH-003K;Electrónica;JAHRO;Conv HDMI a AV (3RCA);25000;Convertidor de HDMI a AV (3RCA);JH-003K;Si
 JH-003P;Electrónica;JAHRO;Conv AV (3RCA) a HDMI;25000;Convertidor de AV (3RCA) a HDMI;JH-003P;Si
 C-IPH;Electrónica;;Adaptador USB C a LIGHTNING;8000;Adaptador USB C a LIGHTNING;C-IPH;Si
-USB-CMI-3.0-1M;Electrónica;ARWEN;Cable USB C a Micro B;11000;Cable USB C a Micro B - 3.0 - 1M;USB-CMI-3.0-1M;Si
+USB-CMI-30-1M;Electrónica;ARWEN;Cable USB C a Micro B;11000;Cable USB C a Micro B - 3.0 - 1M;USB-CMI-30-1M;Si
 3058;Electrónica;;Cable USB 3.0 1,5M;23000;Cable USB 3.0 1,5M;3058;Si
 USB3 A SATA;Electrónica;NOGA;Cable USB 3.0 a SATA;15000;Cable USB 3.0 a SATA 8TB 5GBPS;USB3 A SATA;Si
 MPC02;Electrónica;MARVO;Webcam HD 1080p ;65000;Webcam Full HD 1080p con micrófono;MPC02;Si
 KL-WEBCAM-1080P;Electrónica;KELYX;Webcam Full HD 1080p;28000;Webcam Full HD 1080p con micrófono;KL-WEBCAM-1080P;Si
 MS105G;Electrónica;MERCUSYS;Switch internet 5 puertos;25000;Switch internet 5 puertos 1000 Mbps;MS105G;Si
 MW300RE;Electrónica;MERCUSYS;Repetidor extensor de wifi;38000;Repetidor extensor de wifi 300 Mbps 2.4GHz;;Si
+UM-2405;Electrónica;LUXELL;Capturadora de video HDMI USB;46000;Capturadora de video HDMI a USB - Soporte de entrada máx. resolución 3840x2160 @30Hz;UM-2405;Si
