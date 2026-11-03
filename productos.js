@@ -1,15 +1,6 @@
 window.CATALOGO = {
  "productos": [
   {
-   "id": "CT-S300",
-   "categoria": "Instrumentos",
-   "marca": "CASIO",
-   "nombre": "Teclado CT-S300",
-   "precio": 537000,
-   "descripcion": "61 teclas sensibles.",
-   "imagen": ""
-  },
-  {
    "id": "moving-led-500",
    "categoria": "Iluminación",
    "marca": "GBR",
@@ -19,19 +10,10 @@ window.CATALOGO = {
    "imagen": "img/moving-led-500.jpg?v=253352dc"
   },
   {
-   "id": "ELE-001",
-   "categoria": "Electrónica",
-   "marca": "Roxtone",
-   "nombre": "Cable XLR 6 m",
-   "precio": 26000,
-   "descripcion": "Conectores metálicos.",
-   "imagen": ""
-  },
-  {
    "id": "VEGAMINRD",
    "categoria": "Audio",
    "marca": "CERWIN VEGA",
-   "nombre": "Bafle activo",
+   "nombre": "Parlante BT 4” 50W R.M.S.",
    "precio": 350000,
    "descripcion": "Parlante BT 4” 50W R.M.S.",
    "imagen": "img/vegaminrd.jpg?v=91ed25ef"
@@ -40,7 +22,7 @@ window.CATALOGO = {
    "id": "D600-WATERPROOF-CAMARA",
    "categoria": "Electrónica",
    "marca": "",
-   "nombre": "Camara tipo gopro",
+   "nombre": "Cámara sumergible",
    "precio": 55000,
    "descripcion": "Cámara con estuche sumergible \nvideo = 1280x720px 30fps\nbateria = 900mAh\ndimension (LxWxH) = 59,3x24,6x41,1mm",
    "imagen": "img/d600-waterproof-camara.jpg?v=8e246b87"

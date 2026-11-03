@@ -1,5 +1,4 @@
 id;categoria;marca;nombre;precio;descripcion;imagen;activo
-CT-S300;Instrumentos;CASIO;Teclado CT-S300;537000;61 teclas sensibles.;;si
 moving-led-500;Iluminación;GBR;Cabezal móvil LED 30 W;410000;"DMX ,*Rueda de colores y figuras
 *7 colores
 *7 gobos
@@ -8,10 +7,9 @@ moving-led-500;Iluminación;GBR;Cabezal móvil LED 30 W;410000;"DMX ,*Rueda de col
 *Display Digital multi función
 *Medidas 30 altura, BASE 15 x 14 cm
 *Peso 3.5 kg";moving-led-500;si
-ELE-001;Electrónica;Roxtone;Cable XLR 6 m;26000;Conectores metálicos.;;si
-VEGAMINRD;Audio;CERWIN VEGA;Bafle activo ;350000;Parlante BT 4” 50W R.M.S.;VEGAMINRD;Si
+VEGAMINRD;Audio;CERWIN VEGA;Parlante BT 4” 50W R.M.S.;350000;Parlante BT 4” 50W R.M.S.;VEGAMINRD;Si
 rtx5060ti;Informatica;GigaByte;Placa video GPU;2000000;placa-de-video-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8g;rtx5060ti.wepb;NO
-D600-WATERPROOF-CAMARA;Electrónica;;Camara tipo gopro;55000;"Cámara con estuche sumergible 
+D600-WATERPROOF-CAMARA;Electrónica;;Cámara sumergible;55000;"Cámara con estuche sumergible 
 video = 1280x720px 30fps
 bateria = 900mAh
 dimension (LxWxH) = 59,3x24,6x41,1mm";D600-WATERPROOF-CAMARA;SI
