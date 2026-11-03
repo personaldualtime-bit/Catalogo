@@ -447,8 +447,17 @@ window.CATALOGO = {
    "marca": "KINGSTON",
    "nombre": "Micro SD con adaptador 256GB 100MB/S",
    "precio": 135000,
-   "descripcion": "Micro SD con adaptador 64GB 100MB/S C10 U1 V10 A1",
+   "descripcion": "Micro SD con adaptador 256GB 100MB/S C10 U3 A1",
    "imagen": "img/sdcs2-256gb.jpg?v=0bf63d8e"
+  },
+  {
+   "id": "SDC2-512GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Micro SD con adaptador 512GB 100MB/S",
+   "precio": 362000,
+   "descripcion": "Micro SD con adaptador 512GB 100MB/S C10 U3 A1",
+   "imagen": "img/sdc2-512gb.jpg?v=fd7959cd"
   }
  ]
 };
