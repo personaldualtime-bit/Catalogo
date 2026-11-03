@@ -404,6 +404,33 @@ window.CATALOGO = {
    "precio": 39000,
    "descripcion": "Pendrive 64GB USB A 3.2",
    "imagen": "img/kyson-64gb.jpg?v=17a7f3e4"
+  },
+  {
+   "id": "SDCS3-64GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Micro SD con adaptador 64GB 100MB/S",
+   "precio": 60000,
+   "descripcion": "Micro SD con adaptador 64GB 100MB/S C10 U1 V10 A1",
+   "imagen": "img/sdcs3-64gb.jpg?v=4683d53d"
+  },
+  {
+   "id": "SDCS3-128GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Micro SD con adaptador 128GB 150MB/S",
+   "precio": 90000,
+   "descripcion": "Micro SD con adaptador 128GB 150MB/S C10 U1 V10 A1",
+   "imagen": "img/sdcs3-128gb.jpg?v=ca1a21ef"
+  },
+  {
+   "id": "SDCZ50-032G-B35",
+   "categoria": "Electrónica",
+   "marca": "SAN DISK",
+   "nombre": "Pendrive 32GB USB A 2.0",
+   "precio": 30000,
+   "descripcion": "Pendrive 32GB USB A 2.0",
+   "imagen": "img/sdcz50-032g-b35.jpg?v=b107cd39"
   }
  ]
 };
