@@ -448,7 +448,7 @@ window.CATALOGO = {
    "nombre": "Micro SD con adaptador 256GB 100MB/S",
    "precio": 135000,
    "descripcion": "Micro SD con adaptador 64GB 100MB/S C10 U1 V10 A1",
-   "imagen": ""
+   "imagen": "img/sdcs2-256gb.jpg?v=0bf63d8e"
   }
  ]
 };
