@@ -440,6 +440,15 @@ window.CATALOGO = {
    "precio": 46000,
    "descripcion": "Pendrive Rotary 64GB USB A 3.0",
    "imagen": "img/hs-usb-m200s-64g-u3.jpg?v=4625ad59"
+  },
+  {
+   "id": "SDCS2-256GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Micro SD con adaptador 256GB 100MB/S",
+   "precio": 135000,
+   "descripcion": "Micro SD con adaptador 64GB 100MB/S C10 U1 V10 A1",
+   "imagen": ""
   }
  ]
 };
