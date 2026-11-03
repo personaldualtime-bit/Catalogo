@@ -28,13 +28,13 @@ window.CATALOGO = {
    "imagen": ""
   },
   {
-   "id": "MINIVEGA",
+   "id": "VEGAMINRD",
    "categoria": "Audio",
    "marca": "CERWIN VEGA",
    "nombre": "Bafle activo",
    "precio": 350000,
-   "descripcion": "4” , 50Wrms",
-   "imagen": "img/minivega.jpg?v=6ca05ff0"
+   "descripcion": "Parlante BT 4” 50W R.M.S.",
+   "imagen": "img/vegaminrd.jpg?v=91ed25ef"
   },
   {
    "id": "D600-WATERPROOF-CAMARA",
@@ -350,6 +350,15 @@ window.CATALOGO = {
    "precio": 46000,
    "descripcion": "Capturadora de video HDMI a USB - Soporte de entrada máx. resolución 3840x2160 @30Hz",
    "imagen": "img/um-2405.jpg?v=f7a914c7"
+  },
+  {
+   "id": "HX-008S",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Cable Extensión de Tarjeta Gráfica de Minería 8 condensadores",
+   "precio": 22000,
+   "descripcion": "Cable Extensión de Tarjeta Gráfica de Minería 8 condensadores",
+   "imagen": "img/hx-008s.jpg?v=c90b9df2"
   }
  ]
 };
