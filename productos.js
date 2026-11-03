@@ -364,9 +364,9 @@ window.CATALOGO = {
    "id": "HS-USB-E307C(STD)128",
    "categoria": "Electrónica",
    "marca": "HIKSEMY",
-   "nombre": "Pendrive Dual 128GB USB A-C 3.2",
+   "nombre": "Pendrive Dual 128GB USB A 3.2 - c",
    "precio": 75000,
-   "descripcion": "Pendrive Dual 128GB USB A-C 3.2",
+   "descripcion": "Pendrive Dual 128GB USB A 3.2 - c",
    "imagen": "img/hs-usb-e307c-std-128.jpg?v=3146acf7"
   },
   {
@@ -413,6 +413,24 @@ window.CATALOGO = {
    "precio": 30000,
    "descripcion": "Pendrive 32GB USB A 2.0",
    "imagen": "img/sdcz50-032g-b35.jpg?v=b107cd39"
+  },
+  {
+   "id": "SDDDC3-064G-Z46",
+   "categoria": "Electrónica",
+   "marca": "SAN DISK",
+   "nombre": "Pendrive Dual 64GB USB A 3.1 - C",
+   "precio": 39000,
+   "descripcion": "Pendrive Dual 64GB USB A 3.1 - C",
+   "imagen": "img/sdddc3-064g-z46.jpg?v=ecb11879"
+  },
+  {
+   "id": "DT70-64GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Pendrive 64GB USB Tipo C",
+   "precio": 36000,
+   "descripcion": "Pendrive 64GB USB Tipo C",
+   "imagen": "img/dt70-64gb.jpg?v=7f223da0"
   }
  ]
 };
