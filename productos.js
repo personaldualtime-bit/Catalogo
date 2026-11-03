@@ -363,7 +363,7 @@ window.CATALOGO = {
   {
    "id": "HS-USB-E307C(STD)128",
    "categoria": "Electrónica",
-   "marca": "HIKSEMY",
+   "marca": "HIKSEMI",
    "nombre": "Pendrive Dual 128GB USB A 3.2 - c",
    "precio": 75000,
    "descripcion": "Pendrive Dual 128GB USB A 3.2 - c",
@@ -372,7 +372,7 @@ window.CATALOGO = {
   {
    "id": "HS-USB-M200(STD)128G",
    "categoria": "Electrónica",
-   "marca": "HIKSEMY",
+   "marca": "HIKSEMI",
    "nombre": "Pendrive 128GB USB A 3.0",
    "precio": 70000,
    "descripcion": "Pendrive 128GB USB A 3.0",
@@ -431,6 +431,15 @@ window.CATALOGO = {
    "precio": 36000,
    "descripcion": "Pendrive 64GB USB Tipo C",
    "imagen": "img/dt70-64gb.jpg?v=7f223da0"
+  },
+  {
+   "id": "HS-USB-M200S 64G U3",
+   "categoria": "Electrónica",
+   "marca": "HIKSEMI",
+   "nombre": "Pendrive 64GB USB A 3.0",
+   "precio": 46000,
+   "descripcion": "Pendrive Rotary 64GB USB A 3.0",
+   "imagen": "img/hs-usb-m200s-64g-u3.jpg?v=4625ad59"
   }
  ]
 };
