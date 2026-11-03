@@ -458,6 +458,24 @@ window.CATALOGO = {
    "precio": 362000,
    "descripcion": "Micro SD con adaptador 512GB 100MB/S C10 U3 A1",
    "imagen": "img/sdc2-512gb.jpg?v=fd7959cd"
+  },
+  {
+   "id": "SDSQUNR-032G-GN3MA",
+   "categoria": "Electrónica",
+   "marca": "SAN DISK",
+   "nombre": "Micro SD con adaptador 32GB 100MB/S",
+   "precio": 49000,
+   "descripcion": "Micro SD con adaptador 32GB 100MB/S C10 HC",
+   "imagen": "img/sdsqunr-032g-gn3ma.jpg?v=3a252b17"
+  },
+  {
+   "id": "SDSQUNR-032G-GN6MN",
+   "categoria": "Electrónica",
+   "marca": "SAN DISK",
+   "nombre": "Micro SD con adaptador 32GB 100MB/S",
+   "precio": 25000,
+   "descripcion": "Micro SD con adaptador 32GB 100MB/S C10 667x",
+   "imagen": "img/sdsqunr-032g-gn6mn.jpg?v=07be6278"
   }
  ]
 };
