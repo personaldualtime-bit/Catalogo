@@ -359,6 +359,51 @@ window.CATALOGO = {
    "precio": 22000,
    "descripcion": "Cable Extensión de Tarjeta Gráfica de Minería 8 condensadores",
    "imagen": "img/hx-008s.jpg?v=c90b9df2"
+  },
+  {
+   "id": "CON512",
+   "categoria": "Electrónica",
+   "marca": "VAPEX",
+   "nombre": "Adaptador USB C a LIGHTNING para mics",
+   "precio": 9000,
+   "descripcion": "Adaptador USB C a LIGHTNING para micrófonos",
+   "imagen": "img/con512.jpg?v=3f5a0198"
+  },
+  {
+   "id": "DTXS-64GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Pendrive 64GB USB A 3.2",
+   "precio": 39000,
+   "descripcion": "Pendrive 64GB USB A 3.2",
+   "imagen": "img/dtxs-64gb.jpg?v=bec81ef2"
+  },
+  {
+   "id": "HS-USB-E307C(STD)128",
+   "categoria": "Electrónica",
+   "marca": "HIKSEMY",
+   "nombre": "Pendrive Dual 128GB USB A-C 3.2",
+   "precio": 75000,
+   "descripcion": "Pendrive Dual 128GB USB A-C 3.2",
+   "imagen": "img/hs-usb-e307c-std-128.jpg?v=3146acf7"
+  },
+  {
+   "id": "HS-USB-M200(STD)128G",
+   "categoria": "Electrónica",
+   "marca": "HIKSEMY",
+   "nombre": "Pendrive 128GB USB A 3.0",
+   "precio": 70000,
+   "descripcion": "Pendrive 128GB USB A 3.0",
+   "imagen": "img/hs-usb-m200-std-128g.jpg?v=b22f1f35"
+  },
+  {
+   "id": "KYSON 64GB",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Pendrive 64GB USB A 3.2",
+   "precio": 39000,
+   "descripcion": "Pendrive 64GB USB A 3.2",
+   "imagen": "img/kyson-64gb.jpg?v=17a7f3e4"
   }
  ]
 };
