@@ -258,7 +258,7 @@ window.CATALOGO = {
    "marca": "",
    "nombre": "Adaptador USB C a LIGHTNING",
    "precio": 8000,
-   "descripcion": "Adaptador USB C a LIGHTNING",
+   "descripcion": "Adaptador USB C a LIGHTNING para alimentación",
    "imagen": "img/c-iph.jpg?v=65580782"
   },
   {
@@ -364,7 +364,7 @@ window.CATALOGO = {
    "id": "HS-USB-E307C(STD)128",
    "categoria": "Electrónica",
    "marca": "HIKSEMI",
-   "nombre": "Pendrive Dual 128GB USB A 3.2 - c",
+   "nombre": "Pendrive Dual 128GB USB A 3.2 - C",
    "precio": 75000,
    "descripcion": "Pendrive Dual 128GB USB A 3.2 - c",
    "imagen": "img/hs-usb-e307c-std-128.jpg?v=3146acf7"
@@ -503,6 +503,15 @@ window.CATALOGO = {
    "precio": 150000,
    "descripcion": "Micro SD 128GB \"Capture 4K\" Read 180MB/S- Write 150MB/S C10 U3 V30 A2",
    "imagen": "img/hs-tf-e3-128g.jpg?v=05e0ecef"
+  },
+  {
+   "id": "SNV3S/500G",
+   "categoria": "Electrónica",
+   "marca": "KINGSTON",
+   "nombre": "Disco Estado Sòli",
+   "precio": 0,
+   "descripcion": "",
+   "imagen": ""
   }
  ]
 };

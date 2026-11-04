@@ -45,7 +45,7 @@ RE200;Electrónica;TP-LINK;Repetidor extensor de wifi;62000;Repetidor extensor de
 JH-001B;Electrónica;JAHRO;Conv VGA a HDMI;25000;Convertidor de VGA a HDMI con audio;JH-001B;Si
 JH-003K;Electrónica;JAHRO;Conv HDMI a AV (3RCA);25000;Convertidor de HDMI a AV (3RCA);JH-003K;Si
 JH-003P;Electrónica;JAHRO;Conv AV (3RCA) a HDMI;25000;Convertidor de AV (3RCA) a HDMI;JH-003P;Si
-C-IPH;Electrónica;;Adaptador USB C a LIGHTNING;8000;Adaptador USB C a LIGHTNING;C-IPH;Si
+C-IPH;Electrónica;;Adaptador USB C a LIGHTNING;8000;Adaptador USB C a LIGHTNING para alimentación;C-IPH;Si
 USB-CMI-30-1M;Electrónica;ARWEN;Cable USB C a Micro B;11000;Cable USB C a Micro B - 3.0 - 1M;USB-CMI-30-1M;Si
 3058;Electrónica;;Cable USB 3.0 1,5M;23000;Cable USB 3.0 1,5M;3058;Si
 USB3 A SATA;Electrónica;NOGA;Cable USB 3.0 a SATA;15000;Cable USB 3.0 a SATA 8TB 5GBPS;USB3 A SATA;Si
@@ -57,7 +57,7 @@ UM-2405;Electrónica;LUXELL;Capturadora de video HDMI USB;46000;Capturadora de vi
 HX-008S;Electrónica;;Cable Extensión de Tarjeta Gráfica de Minería 8 condensadores;22000;Cable Extensión de Tarjeta Gráfica de Minería 8 condensadores;HX-008S;Si
 CON512;Electrónica;VAPEX;Adaptador USB C a LIGHTNING para mics;9000;Adaptador USB C a LIGHTNING para micrófonos;CON512;Si
 DTXS-64GB;Electrónica;KINGSTON;Pendrive 64GB USB A 3.2;39000;Pendrive 64GB USB A 3.2;DTXS-64GB;Si
-HS-USB-E307C(STD)128;Electrónica;HIKSEMI;Pendrive Dual 128GB USB A 3.2 - c;75000;Pendrive Dual 128GB USB A 3.2 - c;HS-USB-E307C(STD)128;Si
+HS-USB-E307C(STD)128;Electrónica;HIKSEMI;Pendrive Dual 128GB USB A 3.2 - C;75000;Pendrive Dual 128GB USB A 3.2 - c;HS-USB-E307C(STD)128;Si
 HS-USB-M200(STD)128G;Electrónica;HIKSEMI;Pendrive 128GB USB A 3.0;70000;Pendrive 128GB USB A 3.0;HS-USB-M200(STD)128G;Si
 KYSON 64GB;Electrónica;KINGSTON;Pendrive 64GB USB A 3.2;39000;Pendrive 64GB USB A 3.2;KYSON 64GB;Si
 SDCS3-64GB;Electrónica;KINGSTON;Micro SD con adaptador 64GB 100MB/S;60000;Micro SD con adaptador 64GB 100MB/S C10 U1 V10 A1;SDCS3-64GB;Si
@@ -73,3 +73,4 @@ SDSQUNR-032G-GN6MN;Electrónica;SAN DISK;Micro SD con adaptador 32GB 100MB/S;2500
 HS-TF-E1 256G;Electrónica;HIKSEMI;Micro SD 256GB 92MB/S;265000;Micro SD 256GB 92MB/S V30;HS-TF-E1 256G;Si
 HS-TF-E1 512G;Electrónica;HIKSEMI;Micro SD 512GB 92MB/S;328000;Micro SD 512GB 92MB/S V30;HS-TF-E1 512G;Si
 HS-TF-E3 128G;Electrónica;HIKSEMI;Micro SD 128GB - Read 180MB/S- Write 150MB/S ;150000;"Micro SD 128GB ""Capture 4K"" Read 180MB/S- Write 150MB/S C10 U3 V30 A2 ";HS-TF-E3 128G;Si
+SNV3S/500G;Electrónica;KINGSTON;Disco Estado Sòli;;;SNV3S/500G;
