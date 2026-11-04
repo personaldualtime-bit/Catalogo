@@ -502,7 +502,7 @@ window.CATALOGO = {
    "nombre": "Micro SD 128GB - Read 180MB/S- Write 150MB/S",
    "precio": 150000,
    "descripcion": "Micro SD 128GB \"Capture 4K\" Read 180MB/S- Write 150MB/S C10 U3 V30 A2",
-   "imagen": ""
+   "imagen": "img/hs-tf-e3-128g.jpg?v=05e0ecef"
   }
  ]
 };
