@@ -508,7 +508,7 @@ window.CATALOGO = {
    "id": "SNV3S/500G",
    "categoria": "Electrónica",
    "marca": "KINGSTON",
-   "nombre": "Disco Estado Sòli",
+   "nombre": "Disco Rígido Estado Sólido 500GB",
    "precio": 0,
    "descripcion": "",
    "imagen": ""
