@@ -474,8 +474,35 @@ window.CATALOGO = {
    "marca": "SAN DISK",
    "nombre": "Micro SD con adaptador 32GB 100MB/S",
    "precio": 25000,
-   "descripcion": "Micro SD con adaptador 32GB 100MB/S C10 667x",
+   "descripcion": "Micro SD con adaptador 32GB 100MB/S C10 A1",
    "imagen": "img/sdsqunr-032g-gn6mn.jpg?v=07be6278"
+  },
+  {
+   "id": "HS-TF-E1 256G",
+   "categoria": "Electrónica",
+   "marca": "HIKSEMI",
+   "nombre": "Micro SD 256GB 92MB/S",
+   "precio": 265000,
+   "descripcion": "Micro SD 256GB 92MB/S V30",
+   "imagen": "img/hs-tf-e1-256g.jpg?v=5d69da7a"
+  },
+  {
+   "id": "HS-TF-E1 512G",
+   "categoria": "Electrónica",
+   "marca": "HIKSEMI",
+   "nombre": "Micro SD 512GB 92MB/S",
+   "precio": 328000,
+   "descripcion": "Micro SD 512GB 92MB/S V30",
+   "imagen": "img/hs-tf-e1-512g.jpg?v=00c6ce26"
+  },
+  {
+   "id": "HS-TF-E3 128G",
+   "categoria": "Electrónica",
+   "marca": "HIKSEMI",
+   "nombre": "Micro SD 128GB - Read 180MB/S- Write 150MB/S",
+   "precio": 150000,
+   "descripcion": "Micro SD 128GB \"Capture 4K\" Read 180MB/S- Write 150MB/S C10 U3 V30 A2",
+   "imagen": ""
   }
  ]
 };
