@@ -526,19 +526,28 @@ window.CATALOGO = {
    "id": "TL-WN725N",
    "categoria": "Electrónica",
    "marca": "TP-LINK",
-   "nombre": "Receptor inalámbrico WIFI 2.GHZ 150Mbps",
+   "nombre": "Receptor inalámbrico WiFi 2.4GHZ 150Mbps",
    "precio": 22000,
-   "descripcion": "Receptor inalámbrico WIFI 2.GHZ 150Mbps",
+   "descripcion": "Receptor inalámbrico WiFi 2.GHZ 150Mbps",
    "imagen": "img/tl-wn725n.jpg?v=61e5ac9e"
   },
   {
    "id": "ARCHER T3U NANO",
    "categoria": "Electrónica",
    "marca": "TP-LINK",
-   "nombre": "Receptor inalámbrico WIFI doble banda",
+   "nombre": "Receptor inalámbrico WiFi doble banda 5GHZ - 2.4GHZ",
    "precio": 47000,
-   "descripcion": "Receptor inalámbrico WIFI 2.GHZ 400Mbps - 5G-hz 867Mpbs",
+   "descripcion": "Receptor inalámbrico WiFi 2.GHZ 400Mbps - 5GHZ 867Mpbs",
    "imagen": "img/archer-t3u-nano.jpg?v=46710c99"
+  },
+  {
+   "id": "ARCHER T2UB NANO",
+   "categoria": "Electrónica",
+   "marca": "TP-LINK",
+   "nombre": "Receptor inalámbrico de WiFi doble banda y BT",
+   "precio": 35000,
+   "descripcion": "Receptor inalámbrico de WiFi doble banda 2.4GHZ 200Mbps - 5GHZ 433 Mbps y Bluetooth 4.2",
+   "imagen": "img/archer-t2ub-nano.jpg?v=f4d441af"
   }
  ]
 };
