@@ -505,12 +505,21 @@ window.CATALOGO = {
    "imagen": "img/hs-tf-e3-128g.jpg?v=05e0ecef"
   },
   {
-   "id": "SNV3S/500G",
+   "id": "SNV3S-500G",
    "categoria": "Electrónica",
    "marca": "KINGSTON",
-   "nombre": "Disco Rígido Estado Sólido 500GB",
-   "precio": 0,
-   "descripcion": "",
+   "nombre": "Disco Estado Sólido 500GB",
+   "precio": 360000,
+   "descripcion": "Disco Estado Sólido 500GB  PCIe 4.0 NVMe M.2",
+   "imagen": ""
+  },
+  {
+   "id": "WDS500G5G0A",
+   "categoria": "Electrónica",
+   "marca": "WESTERN DIGITAL",
+   "nombre": "Disco Estado Sólido 500GB 2.5\"",
+   "precio": 285000,
+   "descripcion": "Disco Estado Sólido 500GB 2.5\" SATA SSD",
    "imagen": ""
   }
  ]
