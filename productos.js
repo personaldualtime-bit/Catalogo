@@ -521,6 +521,24 @@ window.CATALOGO = {
    "precio": 285000,
    "descripcion": "Disco Estado Sólido 500GB 2.5\" SATA SSD",
    "imagen": ""
+  },
+  {
+   "id": "TL-WN725N",
+   "categoria": "Electrónica",
+   "marca": "TP-LINK",
+   "nombre": "Receptor inalámbrico WIFI 2.GHZ 150Mbps",
+   "precio": 22000,
+   "descripcion": "Receptor inalámbrico WIFI 2.GHZ 150Mbps",
+   "imagen": "img/tl-wn725n.jpg?v=61e5ac9e"
+  },
+  {
+   "id": "ARCHER T3U NANO",
+   "categoria": "Electrónica",
+   "marca": "TP-LINK",
+   "nombre": "Receptor inalámbrico WIFI doble banda",
+   "precio": 47000,
+   "descripcion": "Receptor inalámbrico WIFI 2.GHZ 400Mbps - 5G-hz 867Mpbs",
+   "imagen": ""
   }
  ]
 };
