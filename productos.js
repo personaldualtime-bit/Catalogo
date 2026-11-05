@@ -538,7 +538,7 @@ window.CATALOGO = {
    "nombre": "Receptor inalámbrico WIFI doble banda",
    "precio": 47000,
    "descripcion": "Receptor inalámbrico WIFI 2.GHZ 400Mbps - 5G-hz 867Mpbs",
-   "imagen": ""
+   "imagen": "img/archer-t3u-nano.jpg?v=46710c99"
   }
  ]
 };
