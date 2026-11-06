@@ -575,6 +575,15 @@ window.CATALOGO = {
    "precio": 65000,
    "descripcion": "Estabilizador de tensión - Protector de voltaje 900VA/450W 4 tomacorrientes",
    "imagen": ""
+  },
+  {
+   "id": "FVP-1202B-A",
+   "categoria": "Electrónica",
+   "marca": "FORZA",
+   "nombre": "Estabilizador de tensión individual",
+   "precio": 32000,
+   "descripcion": "Estabilizador de tensión - Protector de voltaje individual para electrodomésticos 900JOULES Máx.",
+   "imagen": "img/fvp-1202b-a.jpg?v=165133f5"
   }
  ]
 };
