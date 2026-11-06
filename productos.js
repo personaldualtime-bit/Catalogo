@@ -6,7 +6,7 @@ window.CATALOGO = {
    "marca": "GBR",
    "nombre": "Cabezal móvil LED 30 W",
    "precio": 410000,
-   "descripcion": "DMX ,*Rueda de colores y figuras\n*7 colores\n*7 gobos\n*Efecto de flash con velocidad\n*Paneo: 540 Inclinación (tilt): 270\n*Display Digital multi función\n*Medidas 30 altura, BASE 15 x 14 cm\n*Peso 3.5 kg",
+   "descripcion": "DMX - Rueda de colores y figuras - 7 Colores - 7 Globos - Efecto de flash con velocidad - Paneo: 540 Inclinación (tilt): 270 - Display digital multi función",
    "imagen": "img/moving-led-500.jpg?v=253352dc"
   },
   {
