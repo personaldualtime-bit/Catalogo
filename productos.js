@@ -620,6 +620,15 @@ window.CATALOGO = {
    "precio": 50000,
    "descripcion": "Router doble banda 2.4GHz 433Mbps/5GHz 300Mbps - Extensor de rango - Punto de acceso",
    "imagen": "img/mr20.jpg?v=bbc6fff8"
+  },
+  {
+   "id": "TL-WR850N",
+   "categoria": "Electrónica",
+   "marca": "TP-LINK",
+   "nombre": "Router Inalámbrico 300Mbps - Punto de acceso",
+   "precio": 46000,
+   "descripcion": "Router Inalámbrico 300Mbps - Punto de acceso - IPTV",
+   "imagen": ""
   }
  ]
 };
