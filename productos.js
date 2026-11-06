@@ -548,6 +548,33 @@ window.CATALOGO = {
    "precio": 35000,
    "descripcion": "Receptor inalámbrico de WiFi doble banda 2.4GHZ 200Mbps - 5GHZ 433 Mbps y Bluetooth 4.2",
    "imagen": "img/archer-t2ub-nano.jpg?v=f4d441af"
+  },
+  {
+   "id": "FVR-1202A",
+   "categoria": "Electrónica",
+   "marca": "FORZA",
+   "nombre": "Estabilizador de tensión 600W",
+   "precio": 80000,
+   "descripcion": "Estabilizador de tensión - Protector de voltaje 1200VA/600W 6 tomacorrientes",
+   "imagen": "img/fvr-1202a.jpg?v=6e1c0f5d"
+  },
+  {
+   "id": "FVR-1202USB-A",
+   "categoria": "Electrónica",
+   "marca": "FORZA",
+   "nombre": "Estabilizador de tensión 600W con entradas USB",
+   "precio": 98000,
+   "descripcion": "Estabilizador de tensión - Protector de voltaje 1200VA/600W - 6 tomacorrientes y 2 entradas USB 2.4A",
+   "imagen": "img/fvr-1202usb-a.jpg?v=9357dbbf"
+  },
+  {
+   "id": "FVR-902A",
+   "categoria": "Electrónica",
+   "marca": "FORZA",
+   "nombre": "Estabilizador de tensión 450W",
+   "precio": 65000,
+   "descripcion": "Estabilizador de tensión - Protector de voltaje 900VA/450W 4 tomacorrientes",
+   "imagen": ""
   }
  ]
 };
