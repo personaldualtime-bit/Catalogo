@@ -529,7 +529,7 @@ window.CATALOGO = {
    "nombre": "Receptor inalámbrico WiFi 2.4GHZ 150Mbps",
    "precio": 22000,
    "descripcion": "Receptor inalámbrico WiFi 2.GHZ 150Mbps",
-   "imagen": "img/tl-wn725n.jpg?v=61e5ac9e"
+   "imagen": "img/tl-wn725n.jpg?v=ded430ee"
   },
   {
    "id": "ARCHER T3U NANO",
