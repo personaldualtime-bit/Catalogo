@@ -24,7 +24,7 @@ window.CATALOGO = {
    "marca": "",
    "nombre": "Cámara sumergible",
    "precio": 55000,
-   "descripcion": "Cámara con estuche sumergible \nvideo = 1280x720px 30fps\nbateria = 900mAh\ndimension (LxWxH) = 59,3x24,6x41,1mm",
+   "descripcion": "Cámara con estuche sumergible - Video = 1280x720px 30fps - Batería = 900mAh- Dimensión (LxWxH) = 59,3x24,6x41,1mm",
    "imagen": "img/d600-waterproof-camara.jpg?v=8e246b87"
   },
   {
