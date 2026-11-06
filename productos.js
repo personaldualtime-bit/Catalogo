@@ -610,7 +610,7 @@ window.CATALOGO = {
    "nombre": "Router Inalámbrico 300Mbps - 4 Modos",
    "precio": 32000,
    "descripcion": "Router Inalámbrico 300Mbps - Multimodo: WISIP, router, extensor de rango y punto de acceso",
-   "imagen": ""
+   "imagen": "img/mw302r.jpg?v=02cfef98"
   }
  ]
 };
