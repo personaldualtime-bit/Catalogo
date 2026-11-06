@@ -611,6 +611,15 @@ window.CATALOGO = {
    "precio": 32000,
    "descripcion": "Router Inalámbrico 300Mbps - Multimodo: WISIP, router, extensor de rango y punto de acceso",
    "imagen": "img/mw302r.jpg?v=02cfef98"
+  },
+  {
+   "id": "MR20",
+   "categoria": "Electrónica",
+   "marca": "MERCUSYS",
+   "nombre": "Router doble banda multifunción AC750",
+   "precio": 50000,
+   "descripcion": "Router doble banda 2.4GHz 433Mbps/5GHz 300Mbps - Extensor de rango - Punto de acceso",
+   "imagen": "img/mr20.jpg?v=bbc6fff8"
   }
  ]
 };
