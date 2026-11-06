@@ -629,6 +629,15 @@ window.CATALOGO = {
    "precio": 46000,
    "descripcion": "Router Inalámbrico 300Mbps - Punto de acceso - IPTV",
    "imagen": "img/tl-wr850n.jpg?v=2daef958"
+  },
+  {
+   "id": "ARCHER C64",
+   "categoria": "Electrónica",
+   "marca": "TP-LINK",
+   "nombre": "Router doble banda 867Mbps 5GHz - 400Mbps 2.4GHz",
+   "precio": 87000,
+   "descripcion": "Router doble banda 4 antenas AC1200 867Mbps 5GHz - 400Mbps 2.4GHz",
+   "imagen": "img/archer-c64.jpg?v=00223d71"
   }
  ]
 };
