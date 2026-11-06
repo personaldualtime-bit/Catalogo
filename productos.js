@@ -593,6 +593,24 @@ window.CATALOGO = {
    "precio": 20000,
    "descripcion": "Balanza de precisión hasta 500 gramos",
    "imagen": "img/pocketscale.jpg?v=9272ceab"
+  },
+  {
+   "id": "MW300UH",
+   "categoria": "Electrónica",
+   "marca": "MERCUSYS",
+   "nombre": "Receptor WiFi de dos antenas 300Mbps",
+   "precio": 28000,
+   "descripcion": "Receptor WiFi de dos antenas 300 Mbps 5dBi",
+   "imagen": "img/mw300uh.jpg?v=49f55f96"
+  },
+  {
+   "id": "MW302R",
+   "categoria": "Electrónica",
+   "marca": "MERCUSYS",
+   "nombre": "Router Inalámbrico 300Mbps - 4 Modos",
+   "precio": 32000,
+   "descripcion": "Router Inalámbrico 300Mbps - Multimodo: WISIP, router, extensor de rango y punto de acceso",
+   "imagen": ""
   }
  ]
 };
