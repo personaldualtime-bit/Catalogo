@@ -628,7 +628,7 @@ window.CATALOGO = {
    "nombre": "Router Inalámbrico 300Mbps - Punto de acceso",
    "precio": 46000,
    "descripcion": "Router Inalámbrico 300Mbps - Punto de acceso - IPTV",
-   "imagen": ""
+   "imagen": "img/tl-wr850n.jpg?v=2daef958"
   }
  ]
 };
