@@ -511,7 +511,7 @@ window.CATALOGO = {
    "nombre": "Disco Estado Sólido 500GB",
    "precio": 360000,
    "descripcion": "Disco Estado Sólido 500GB  PCIe 4.0 NVMe M.2",
-   "imagen": ""
+   "imagen": "img/snv3s-500g.jpg?v=3072832a"
   },
   {
    "id": "WDS500G5G0A",
@@ -520,7 +520,7 @@ window.CATALOGO = {
    "nombre": "Disco Estado Sólido 500GB 2.5\"",
    "precio": 285000,
    "descripcion": "Disco Estado Sólido 500GB 2.5\" SATA SSD",
-   "imagen": ""
+   "imagen": "img/wds500g5g0a.jpg?v=a14d3352"
   },
   {
    "id": "TL-WN725N",
