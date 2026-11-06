@@ -220,9 +220,9 @@ window.CATALOGO = {
    "id": "RE200",
    "categoria": "Electrónica",
    "marca": "TP-LINK",
-   "nombre": "Repetidor extensor de wifi",
+   "nombre": "Repetidor extensor de WiFi",
    "precio": 62000,
-   "descripcion": "Repetidor extensor de wifi doble banda - 300 Mbps 2.4GHz - 433 Mbps 5GHz",
+   "descripcion": "Repetidor extensor de WiFi doble banda - 300 Mbps 2.4GHz - 433 Mbps 5GHz",
    "imagen": "img/re200.jpg?v=3a1ead02"
   },
   {
@@ -319,9 +319,9 @@ window.CATALOGO = {
    "id": "MW300RE",
    "categoria": "Electrónica",
    "marca": "MERCUSYS",
-   "nombre": "Repetidor extensor de wifi",
+   "nombre": "Repetidor extensor de WiFi",
    "precio": 38000,
-   "descripcion": "Repetidor extensor de wifi 300 Mbps 2.4GHz",
+   "descripcion": "Repetidor extensor de WiFi 300 Mbps 2.4GHz",
    "imagen": "img/mw300re.jpg?v=df1f25ed"
   },
   {
