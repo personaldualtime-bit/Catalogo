@@ -574,7 +574,7 @@ window.CATALOGO = {
    "nombre": "Estabilizador de tensión 450W",
    "precio": 65000,
    "descripcion": "Estabilizador de tensión - Protector de voltaje 900VA/450W 4 tomacorrientes",
-   "imagen": ""
+   "imagen": "img/fvr-902a.jpg?v=287c3fda"
   },
   {
    "id": "FVP-1202B-A",
@@ -584,6 +584,15 @@ window.CATALOGO = {
    "precio": 32000,
    "descripcion": "Estabilizador de tensión - Protector de voltaje individual para electrodomésticos 900JOULES Máx.",
    "imagen": "img/fvp-1202b-a.jpg?v=165133f5"
+  },
+  {
+   "id": "POCKETSCALE",
+   "categoria": "Electrónica",
+   "marca": "",
+   "nombre": "Balanza de precisión",
+   "precio": 20000,
+   "descripcion": "Balanza de precisión hasta 500 gramos",
+   "imagen": "img/pocketscale.jpg?v=9272ceab"
   }
  ]
 };
