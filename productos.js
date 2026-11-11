@@ -727,7 +727,7 @@ window.CATALOGO = {
    "nombre": "Auriculares inalámbricos BT",
    "precio": 195000,
    "descripcion": "Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
-   "imagen": ""
+   "imagen": "img/wavebuds2.jpg?v=228514be"
   },
   {
    "id": "VIBEBUDS",
