@@ -674,6 +674,78 @@ window.CATALOGO = {
    "precio": 27000,
    "descripcion": "Mouse con cable USB - 9 Botones - 8000DPI - Sensor de juego estable",
    "imagen": ""
+  },
+  {
+   "id": "TUNE110",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares con cable ficha 3.5mm",
+   "precio": 28000,
+   "descripcion": "Auriculares con cable ficha 3.5mm - Con micrófono, manos libres para llamadas",
+   "imagen": "img/tune110.jpg?v=e2eed608"
+  },
+  {
+   "id": "TUNE520BT",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 140000,
+   "descripcion": "Auriculares inalámbricos BT - 57 hs de batería - Conexión multipunto",
+   "imagen": "img/tune520bt.jpg?v=b3fc0621"
+  },
+  {
+   "id": "TUNE720BT",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 199000,
+   "descripcion": "Auriculares inalámbricos BT - 76 hs de batería - Conexión multipunto - Jack 3.5mm - Bluetooth v5.3",
+   "imagen": "img/tune720bt.jpg?v=c7185122"
+  },
+  {
+   "id": "TUNE730BT",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 225000,
+   "descripcion": "Auriculares inalámbricos BT - 76 hs de batería - Conexión multipunto - Bluetooth v6.0",
+   "imagen": "img/tune730bt.jpg?v=63b328f2"
+  },
+  {
+   "id": "WAVEBEAM2",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 195000,
+   "descripcion": "Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
+   "imagen": "img/wavebeam2.jpg?v=b2b654dc"
+  },
+  {
+   "id": "WAVEBUDS2",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 195000,
+   "descripcion": "Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
+   "imagen": ""
+  },
+  {
+   "id": "VIBEBUDS",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 152000,
+   "descripcion": "Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
+   "imagen": "img/vibebuds.jpg?v=f05c6f91"
+  },
+  {
+   "id": "VIBEFLEX",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Auriculares inalámbricos BT",
+   "precio": 152000,
+   "descripcion": "Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
+   "imagen": "img/vibebuds.jpg?v=f05c6f91"
   }
  ]
 };
