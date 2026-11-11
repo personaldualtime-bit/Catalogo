@@ -638,6 +638,15 @@ window.CATALOGO = {
    "precio": 87000,
    "descripcion": "Router doble banda 4 antenas AC1200 867Mbps 5GHz - 400Mbps 2.4GHz",
    "imagen": "img/archer-c64.jpg?v=00223d71"
+  },
+  {
+   "id": "DRON-1430",
+   "categoria": "Electrónica",
+   "marca": "WAGGS",
+   "nombre": "Drone transmision vivo ,",
+   "precio": 79000,
+   "descripcion": "",
+   "imagen": ""
   }
  ]
 };
