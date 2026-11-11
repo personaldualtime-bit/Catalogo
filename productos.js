@@ -643,10 +643,19 @@ window.CATALOGO = {
    "id": "DRON-1430",
    "categoria": "Electrónica",
    "marca": "WAGGS",
-   "nombre": "Drone transmision vivo ,",
+   "nombre": "Drone 360º",
    "precio": 79000,
-   "descripcion": "",
+   "descripcion": "Drone para transmisión en vivo - Retorno inteligente - Baterías extras - Luces nocturnas - Control por App - Giro 360º - Velocidad ajustable",
    "imagen": "img/dron-1430.jpg?v=0fa9e520"
+  },
+  {
+   "id": "FACECAM GENIUS",
+   "categoria": "Electrónica",
+   "marca": "GENIUS",
+   "nombre": "Webcam Full HD 1080p",
+   "precio": 85000,
+   "descripcion": "Webcam FaceCam Light Full HD 1080p - USB A y C",
+   "imagen": "img/facecam-genius.jpg?v=d8ee191a"
   }
  ]
 };
