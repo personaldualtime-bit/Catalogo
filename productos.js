@@ -656,6 +656,24 @@ window.CATALOGO = {
    "precio": 85000,
    "descripcion": "Webcam FaceCam Light Full HD 1080p - USB A y C",
    "imagen": "img/facecam-genius.jpg?v=d8ee191a"
+  },
+  {
+   "id": "RAP-MOU-WIRELESS-LED",
+   "categoria": "Electrónica",
+   "marca": "RAPTOR",
+   "nombre": "Mouse inalámbrico 12800 DPI",
+   "precio": 42000,
+   "descripcion": "Mouse inalámbrico ultra liviano 12800DPI - Bluetooth + 2.4G Dongle + Cable",
+   "imagen": "img/rap-mou-wireless-led.jpg?v=fa4521f0"
+  },
+  {
+   "id": "RAP-MOU-LED-9BOT",
+   "categoria": "Electrónica",
+   "marca": "RAPTOR",
+   "nombre": "Mouse con cable USB - 9 Botones - 8000DPI",
+   "precio": 27000,
+   "descripcion": "Mouse con cable USB - 9 Botones - 8000DPI - Sensor de juego estable",
+   "imagen": ""
   }
  ]
 };
