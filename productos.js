@@ -646,7 +646,7 @@ window.CATALOGO = {
    "nombre": "Drone transmision vivo ,",
    "precio": 79000,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/dron-1430.jpg?v=0fa9e520"
   }
  ]
 };
