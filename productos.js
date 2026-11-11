@@ -745,7 +745,7 @@ window.CATALOGO = {
    "nombre": "Auriculares inalámbricos BT",
    "precio": 152000,
    "descripcion": "Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
-   "imagen": "img/vibebuds.jpg?v=f05c6f91"
+   "imagen": "img/vibeflex.jpg?v=8ceb3b44"
   }
  ]
 };
