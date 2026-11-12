@@ -673,7 +673,7 @@ window.CATALOGO = {
    "nombre": "Mouse con cable USB - 9 Botones - 8000DPI",
    "precio": 27000,
    "descripcion": "Mouse con cable USB - 9 Botones - 8000DPI - Sensor de juego estable",
-   "imagen": ""
+   "imagen": "img/rap-mou-led-9bot.jpg?v=eebcb7ec"
   },
   {
    "id": "TUNE110",
