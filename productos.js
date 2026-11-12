@@ -791,6 +791,24 @@ window.CATALOGO = {
    "precio": 335000,
    "descripcion": "GRIP - Parlante Bluetooth v5.4 - 14hs de batería - IP68",
    "imagen": "img/grip.jpg?v=57a9aab0"
+  },
+  {
+   "id": "FLIP6",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Parlante Bluetooth",
+   "precio": 425000,
+   "descripcion": "FLIP 6 - Parlante Bluetooth v5.1 - 12hs de batería - IP67",
+   "imagen": "img/flip6.jpg?v=122ae9d1"
+  },
+  {
+   "id": "FLIP7",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Parlante Bluetooth",
+   "precio": 440000,
+   "descripcion": "FLIP 7 - Parlante Bluetooth v5.4 - 16hs de batería - IP68",
+   "imagen": "img/flip7.jpg?v=fb4f92dc"
   }
  ]
 };
