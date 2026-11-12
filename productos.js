@@ -746,6 +746,33 @@ window.CATALOGO = {
    "precio": 152000,
    "descripcion": "Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
    "imagen": "img/vibeflex.jpg?v=8ceb3b44"
+  },
+  {
+   "id": "GOESSENTIAL",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Parlante Bluetooth",
+   "precio": 99000,
+   "descripcion": "Parlante Bluetooth 5hs de batería - IPX7",
+   "imagen": "img/goessential.jpg?v=250d2e41"
+  },
+  {
+   "id": "GO2",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Parlante Bluetooth",
+   "precio": 100000,
+   "descripcion": "Parlante Bluetooth 5hs de batería - IPX7",
+   "imagen": "img/go2.jpg?v=56f3c041"
+  },
+  {
+   "id": "GO4",
+   "categoria": "Electrónica",
+   "marca": "JBL",
+   "nombre": "Parlante Bluetooth",
+   "precio": 135000,
+   "descripcion": "Parlante Bluetooth v5.3 - 7hs de batería - IP67",
+   "imagen": "img/go4.jpg?v=16448bbb"
   }
  ]
 };
