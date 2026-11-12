@@ -809,6 +809,15 @@ window.CATALOGO = {
    "precio": 440000,
    "descripcion": "FLIP 7 Parlante Bluetooth v5.4 - 16hs de batería - IP68",
    "imagen": "img/flip7.jpg?v=fb4f92dc"
+  },
+  {
+   "id": "UHF-600 PRO",
+   "categoria": "Electrónica",
+   "marca": "SKP",
+   "nombre": "Sistema de dos micrófonos inalámbricos",
+   "precio": 480000,
+   "descripcion": "UHF-600 PRO Sistema de dos micrófonos inalámbricos",
+   "imagen": ""
   }
  ]
 };
