@@ -681,7 +681,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares con cable ficha 3.5mm",
    "precio": 28000,
-   "descripcion": "TUNE 110 - Auriculares con cable ficha 3.5mm - Con micrófono, manos libres para llamadas",
+   "descripcion": "TUNE 110 Auriculares con cable ficha 3.5mm - Con micrófono, manos libres para llamadas",
    "imagen": "img/tune110.jpg?v=e2eed608"
   },
   {
@@ -690,7 +690,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 140000,
-   "descripcion": "TUNE 520BT - Auriculares inalámbricos BT - 57 hs de batería - Conexión multipunto",
+   "descripcion": "TUNE 520BT Auriculares inalámbricos BT - 57 hs de batería - Conexión multipunto",
    "imagen": "img/tune520bt.jpg?v=b3fc0621"
   },
   {
@@ -699,7 +699,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 199000,
-   "descripcion": "TUNE 720BT - Auriculares inalámbricos BT - 76 hs de batería - Conexión multipunto - Jack 3.5mm - Bluetooth v5.3",
+   "descripcion": "TUNE 720BT Auriculares inalámbricos BT - 76 hs de batería - Conexión multipunto - Jack 3.5mm - Bluetooth v5.3",
    "imagen": "img/tune720bt.jpg?v=c7185122"
   },
   {
@@ -708,7 +708,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 225000,
-   "descripcion": "TUNE 730BT -Auriculares inalámbricos BT - 76 hs de batería - Conexión multipunto - Bluetooth v6.0",
+   "descripcion": "TUNE 730BT Auriculares inalámbricos BT - 76 hs de batería - Conexión multipunto - Bluetooth v6.0",
    "imagen": "img/tune730bt.jpg?v=63b328f2"
   },
   {
@@ -717,7 +717,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 195000,
-   "descripcion": "WAVE BEAM 2 - Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
+   "descripcion": "WAVE BEAM 2 Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
    "imagen": "img/wavebeam2.jpg?v=b2b654dc"
   },
   {
@@ -726,7 +726,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 195000,
-   "descripcion": "WAVE BUDS 2 - Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
+   "descripcion": "WAVE BUDS 2 Auriculares inalámbricos BT - 40 hs de batería - Cancelación de ruido incorporada - Perfect fit",
    "imagen": "img/wavebuds2.jpg?v=228514be"
   },
   {
@@ -735,7 +735,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 152000,
-   "descripcion": "VIBE BUDS - Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
+   "descripcion": "VIBE BUDS Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
    "imagen": "img/vibebuds.jpg?v=f05c6f91"
   },
   {
@@ -744,7 +744,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Auriculares inalámbricos BT",
    "precio": 152000,
-   "descripcion": "VIBE FLEX - Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
+   "descripcion": "VIBE FLEX Auriculares inalámbricos BT - 32 hs de batería - Manos libres para llamadas - Perfect fit",
    "imagen": "img/vibeflex.jpg?v=8ceb3b44"
   },
   {
@@ -753,7 +753,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 99000,
-   "descripcion": "GO ESSENTIAL - Parlante Bluetooth 5hs de batería - IPX7",
+   "descripcion": "GO ESSENTIAL Parlante Bluetooth 5hs de batería - IPX7",
    "imagen": "img/goessential.jpg?v=250d2e41"
   },
   {
@@ -762,7 +762,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 100000,
-   "descripcion": "GO 2 - Parlante Bluetooth 5hs de batería - IPX7",
+   "descripcion": "GO 2 Parlante Bluetooth 5hs de batería - IPX7",
    "imagen": "img/go2.jpg?v=56f3c041"
   },
   {
@@ -771,7 +771,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 135000,
-   "descripcion": "GO 4 - Parlante Bluetooth v5.3 - 7hs de batería - IP67",
+   "descripcion": "GO 4 Parlante Bluetooth v5.3 - 7hs de batería - IP67",
    "imagen": "img/go4.jpg?v=16448bbb"
   },
   {
@@ -780,7 +780,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 150000,
-   "descripcion": "GO 5 - Parlante Bluetooth v6.0 - 10hs de batería - IP68",
+   "descripcion": "GO 5 Parlante Bluetooth v6.0 - 10hs de batería - IP68",
    "imagen": "img/go5.jpg?v=a7aca462"
   },
   {
@@ -789,7 +789,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 335000,
-   "descripcion": "GRIP - Parlante Bluetooth v5.4 - 14hs de batería - IP68",
+   "descripcion": "GRIP Parlante Bluetooth v5.4 - 14hs de batería - IP68",
    "imagen": "img/grip.jpg?v=57a9aab0"
   },
   {
@@ -798,7 +798,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 425000,
-   "descripcion": "FLIP 6 - Parlante Bluetooth v5.1 - 12hs de batería - IP67",
+   "descripcion": "FLIP 6 Parlante Bluetooth v5.1 - 12hs de batería - IP67",
    "imagen": "img/flip6.jpg?v=122ae9d1"
   },
   {
@@ -807,7 +807,7 @@ window.CATALOGO = {
    "marca": "JBL",
    "nombre": "Parlante Bluetooth",
    "precio": 440000,
-   "descripcion": "FLIP 7 - Parlante Bluetooth v5.4 - 16hs de batería - IP68",
+   "descripcion": "FLIP 7 Parlante Bluetooth v5.4 - 16hs de batería - IP68",
    "imagen": "img/flip7.jpg?v=fb4f92dc"
   }
  ]
