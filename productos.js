@@ -853,7 +853,7 @@ window.CATALOGO = {
    "nombre": "ELECTROACUSTICA GRACIA 345 EQ FISHMAN 1/2 CAJA",
    "precio": 762856.6605,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/18.jpg?v=5a6df26e"
   },
   {
    "id": "19",
