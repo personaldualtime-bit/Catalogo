@@ -816,7 +816,502 @@ window.CATALOGO = {
    "marca": "SKP",
    "nombre": "Sistema de dos micrófonos inalámbricos",
    "precio": 480000,
-   "descripcion": "UHF-600 PRO Sistema de dos micrófonos inalámbricos",
+   "descripcion": "UHF-600 PRO Sistema de dos micrófonos inalámbricos - Transmisión digital - 2x300 Canales",
+   "imagen": "img/uhf-600-pro.jpg?v=39dda4eb"
+  },
+  {
+   "id": "UNK-330",
+   "categoria": "Electrónica",
+   "marca": "NOVIK NEO",
+   "nombre": "Sistema de dos micrófonos inalámbricos",
+   "precio": 300000,
+   "descripcion": "UNK-330 Sistema de dos micrófonos inalámbricos - Transmisión digital",
+   "imagen": "img/unk-330.jpg?v=d2d6d468"
+  },
+  {
+   "id": "LND-SW",
+   "categoria": "Electrónica",
+   "marca": "LEONARD",
+   "nombre": "Sistema inalámbrico de guitarra",
+   "precio": 170000,
+   "descripcion": "Sistema inalámbrico de guitarra - Recargable - Giratorio - Con interruptor de silencio automático",
+   "imagen": "img/lnd-sw.jpg?v=d60d7bbb"
+  },
+  {
+   "id": "172",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA M10 PRENER 5 BANDAS C/CANON-PLUG",
+   "precio": 623320368,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "18",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "ELECTROACUSTICA GRACIA 345 EQ FISHMAN 1/2 CAJA",
+   "precio": 762856.6605,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "19",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "ELECTROACUSTICA GRACIA JUMBO PG T.M 2019 CON FISHMAN  BLEND 301 Y EBANO",
+   "precio": 1217451725,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "22",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "ELECTROACUSTICA MEDIA CAJA 340 EQ PRENER MARCA GRACIA",
+   "precio": 733276.6496,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "23",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "ELECTROACUSTICA GRACIA 340 EQ FISHMAN",
+   "precio": 717999.1896,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "27",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUITARRA CRIOLLA EBANO GRACIA MODELO D  - NIVEL CONCIERTO - MACIZA - CUERDAS SAVAREZ",
+   "precio": 839334.5895,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "280",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA CALMA GUIT.CLASICA",
+   "precio": 235182255,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "32",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "Guit.CLASICA FONSECA EQ ARTEC 38KEC",
+   "precio": 688683.6,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "33",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "GUIT FONSECA EQ ARTEC 25EC",
+   "precio": 579827.16,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "333",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "LA ALPUJARRA 300 EQ FISHMAN 1/2 CAJA TAPA CIEGA",
+   "precio": 1881661.32,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "34",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "Guit. AC FONSECA c/corte-EQ ARTEC M/CAJA 41KEC",
+   "precio": 905285.7,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "35",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "GUIT FONSECA EQ ARTEC 65 EC",
+   "precio": 899731.8,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "36",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "FONSECA EQ ARTEC 31 EC",
+   "precio": 699791.4,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "37",
+   "categoria": "Otros",
+   "marca": "ALPUJARRA",
+   "nombre": "GUIT ALPUJARRA MOD 70",
+   "precio": 737780076,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "39",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT. CRIOLLA GRACIA F - MACIZA - NIVEL CONCIERTO",
+   "precio": 1220869733,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "40",
+   "categoria": "Otros",
+   "marca": "ALPUJARRA",
+   "nombre": "GUIT. ALPUJARRA 90",
+   "precio": 1463563728,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "43",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT.CRIOLLA GRACIA M6 DE ESTUDIO CON CORTE",
+   "precio": 404970.5077,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "44",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT.CRIOLLA GRACIA M10 MEDIO CONCIERTO CON CORTE",
+   "precio": 494543.0325,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "45",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT. CRIOLLA GRACIA M1",
+   "precio": 255206.3393,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "46",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT. CRIOLLA GRACIA M3 DE ESTUDIO SUPERIOR",
+   "precio": 370426617,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "47",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT. CRIOLLA GRACIA M5",
+   "precio": 283481.0385,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "48",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT. CRIOLLA GRACIA NIÑO",
+   "precio": 260409.4845,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "49",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUIT CRIOLLA GRACIA M5 COLOR",
+   "precio": 283481.0385,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "50",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA GUIT.CLASICA CIEGA CORTE CONCIERTO EQ FISHM",
+   "precio": 1062534396,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "55",
+   "categoria": "Otros",
+   "marca": "ALPUJARRA",
+   "nombre": "ALPUJARRA GUIT.CLAS. 70PSY FISHMAN",
+   "precio": 1118066717,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "57",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "GUIT. CRIOLLA 15M FONSECA",
+   "precio": 342120.24,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "585",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUITARRA GRACIA PAISANA",
+   "precio": 636086.11,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "59",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "GUIT. CRIOLLA FONSECA 25",
+   "precio": 351006.48,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "601",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA SUREÑA EQFISHMAN",
+   "precio": 685655.9743,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "602",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA CAMPERO EQFISHMAN C/FUNDA",
+   "precio": 649188474,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "61",
+   "categoria": "Otros",
+   "marca": "ALPUJARRA",
+   "nombre": "ALPUJARRA 85KPSY ELECTROCRIOLLA EQ PRESYS T/pino abeto",
+   "precio": 2102314.5,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "62",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "Guitarra GRACIA M6 EQ FISHMAN con corte",
+   "precio": 529588.2958,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "63",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "Guitarra FONSECA MOD 65 EC EQ ARTE ETN4",
+   "precio": 899731.8,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "67",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "FONSECA GUIT.CLAS.EQ4B |39KEC",
+   "precio": 737557.92,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "670",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA MOD.PAISANA EQFISHMAN C/FUNDA",
+   "precio": 715969.1,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "68",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "GUIT. CRIOLLA FONSECA MOD25",
+   "precio": 351006.48,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "69",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA M2 DE INICIO",
+   "precio": 342868.9275,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "70",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA GUIT.MEDIA CAJA 340 C/FISHMAN",
+   "precio": 705177.7755,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "71",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA GUIT. MININIÑO",
+   "precio": 265775.4981,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "72",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA GUIT.CLAS.C/CRTE EQ M10 FISHMAN|M.CONCIERTO",
+   "precio": 622718.3325,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "73",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA GUIT.CLAS.M9 EQPRENER |MEDIO CONCIERTO",
+   "precio": 565874529,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "74",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "FONSECA GUIT.CLAS.C/CORTE EQ4B 40KEC",
+   "precio": 968600.16,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "75",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA GUIT.CLAS.M9 |MEDIO CONCIERTO",
+   "precio": 439990848,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "76",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GRACIA M6 GUIT.CLAS.C/CORTE EQ PRENER |ESTUDIO",
+   "precio": 460892051,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "77",
+   "categoria": "Otros",
+   "marca": "GRACIA",
+   "nombre": "GUITARRA CLÁSICA GRACIA M7",
+   "precio": 439369392,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "78",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "FONSECA GUIT.CLASICA MOD65M",
+   "precio": 644252.4,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "80",
+   "categoria": "Otros",
+   "marca": "FONSECA",
+   "nombre": "FONSECA GUIT.CLASICA MOD50M",
+   "precio": 635366.16,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "82",
+   "categoria": "Otros",
+   "marca": "",
+   "nombre": "GRACIA CHILL CAOBA FISHMAN",
+   "precio": 666121208,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "83",
+   "categoria": "Otros",
+   "marca": "",
+   "nombre": "ALPUJARRA MOD83KPSY EQFISHMAN PRESYS C/CORTE",
+   "precio": 1646175.96,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "88",
+   "categoria": "Otros",
+   "marca": "",
+   "nombre": "FONSECA ELECTRO CRIOLLA  EQ ARTEC MOD.50 EC",
+   "precio": 644068.9514,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "F15",
+   "categoria": "Otros",
+   "marca": "",
+   "nombre": "FONSECA MEDIANA Tapa imita.pino. Aros y fondo abed",
+   "precio": 226666.9774,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "UKEQGRACIA",
+   "categoria": "Otros",
+   "marca": "",
+   "nombre": "GRACIA UKELELE SOPRANO EQ",
+   "precio": 296523.7398,
+   "descripcion": "",
+   "imagen": ""
+  },
+  {
+   "id": "UKERBGRACIA",
+   "categoria": "Otros",
+   "marca": "",
+   "nombre": "GRACIA UKELELE SOPRANO RIVER/BOCA",
+   "precio": 242009.6267,
+   "descripcion": "",
    "imagen": ""
   }
  ]
