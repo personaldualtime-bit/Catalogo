@@ -844,7 +844,7 @@ window.CATALOGO = {
    "nombre": "GRACIA M10 PRENER 5 BANDAS C/CANON-PLUG",
    "precio": 623320368,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/172.jpg?v=8e04bee2"
   },
   {
    "id": "18",
