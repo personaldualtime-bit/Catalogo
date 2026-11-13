@@ -871,7 +871,7 @@ window.CATALOGO = {
    "nombre": "ELECTROACUSTICA MEDIA CAJA 340 EQ PRENER MARCA GRACIA",
    "precio": 733276.6496,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/22.jpg?v=b94810ed"
   },
   {
    "id": "23",
