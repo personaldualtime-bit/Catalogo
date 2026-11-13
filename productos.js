@@ -862,7 +862,7 @@ window.CATALOGO = {
    "nombre": "ELECTROACUSTICA GRACIA JUMBO PG T.M 2019 CON FISHMAN  BLEND 301 Y EBANO",
    "precio": 1217451725,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/19.jpg?v=f4c0cce1"
   },
   {
    "id": "22",
@@ -871,7 +871,7 @@ window.CATALOGO = {
    "nombre": "ELECTROACUSTICA MEDIA CAJA 340 EQ PRENER MARCA GRACIA",
    "precio": 733276.6496,
    "descripcion": "",
-   "imagen": "img/22.jpg?v=f4c0cce1"
+   "imagen": ""
   },
   {
    "id": "23",
