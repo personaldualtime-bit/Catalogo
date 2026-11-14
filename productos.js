@@ -839,43 +839,43 @@ window.CATALOGO = {
   },
   {
    "id": "172",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA M10 PRENER 5 BANDAS C/CANON-PLUG",
-   "precio": 623320368,
-   "descripcion": "",
+   "nombre": "GRACIA \"M10\" EQ PRENER",
+   "precio": 625000,
+   "descripcion": "Guitarra clásica/criolla con corte y EQ Prener 5 bandas canon/plug",
    "imagen": "img/172.jpg?v=8e04bee2"
   },
   {
    "id": "18",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "ELECTROACUSTICA GRACIA 345 EQ FISHMAN 1/2 CAJA",
-   "precio": 762856.6605,
-   "descripcion": "",
+   "nombre": "GRACIA \"345\" EQ FISHMAN",
+   "precio": 765000,
+   "descripcion": "Guitarra electroacústica media caja con corte y EQ Fishman 5 bandas",
    "imagen": "img/18.jpg?v=5a6df26e"
   },
   {
    "id": "19",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "ELECTROACUSTICA GRACIA JUMBO PG T.M 2019 CON FISHMAN  BLEND 301 Y EBANO",
-   "precio": 1217451725,
-   "descripcion": "",
+   "nombre": "GRACIA \"JUMBO\" EQ FISHMAN",
+   "precio": 1220000,
+   "descripcion": "Guitarra electroacústica con corte y EQ Fishman \"Blend 301\" de 3 bandas",
    "imagen": "img/19.jpg?v=f4c0cce1"
   },
   {
    "id": "22",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "ELECTROACUSTICA MEDIA CAJA 340 EQ PRENER MARCA GRACIA",
-   "precio": 733276.6496,
-   "descripcion": "",
+   "nombre": "GRACIA 340 EQ PRENER",
+   "precio": 735000,
+   "descripcion": "Guitarra electroacústica con corte y EQ Prener de 4 bandas",
    "imagen": "img/22.jpg?v=b94810ed"
   },
   {
    "id": "23",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "ELECTROACUSTICA GRACIA 340 EQ FISHMAN",
    "precio": 717999.1896,
@@ -884,7 +884,7 @@ window.CATALOGO = {
   },
   {
    "id": "27",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUITARRA CRIOLLA EBANO GRACIA MODELO D  - NIVEL CONCIERTO - MACIZA - CUERDAS SAVAREZ",
    "precio": 839334.5895,
@@ -893,7 +893,7 @@ window.CATALOGO = {
   },
   {
    "id": "280",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA CALMA GUIT.CLASICA",
    "precio": 235182255,
@@ -902,7 +902,7 @@ window.CATALOGO = {
   },
   {
    "id": "32",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "Guit.CLASICA FONSECA EQ ARTEC 38KEC",
    "precio": 688683.6,
@@ -911,7 +911,7 @@ window.CATALOGO = {
   },
   {
    "id": "33",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "GUIT FONSECA EQ ARTEC 25EC",
    "precio": 579827.16,
@@ -920,7 +920,7 @@ window.CATALOGO = {
   },
   {
    "id": "333",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "LA ALPUJARRA 300 EQ FISHMAN 1/2 CAJA TAPA CIEGA",
    "precio": 1881661.32,
@@ -929,7 +929,7 @@ window.CATALOGO = {
   },
   {
    "id": "34",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "Guit. AC FONSECA c/corte-EQ ARTEC M/CAJA 41KEC",
    "precio": 905285.7,
@@ -938,7 +938,7 @@ window.CATALOGO = {
   },
   {
    "id": "35",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "GUIT FONSECA EQ ARTEC 65 EC",
    "precio": 899731.8,
@@ -947,7 +947,7 @@ window.CATALOGO = {
   },
   {
    "id": "36",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "FONSECA EQ ARTEC 31 EC",
    "precio": 699791.4,
@@ -956,7 +956,7 @@ window.CATALOGO = {
   },
   {
    "id": "37",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "ALPUJARRA",
    "nombre": "GUIT ALPUJARRA MOD 70",
    "precio": 737780076,
@@ -965,7 +965,7 @@ window.CATALOGO = {
   },
   {
    "id": "39",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT. CRIOLLA GRACIA F - MACIZA - NIVEL CONCIERTO",
    "precio": 1220869733,
@@ -974,7 +974,7 @@ window.CATALOGO = {
   },
   {
    "id": "40",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "ALPUJARRA",
    "nombre": "GUIT. ALPUJARRA 90",
    "precio": 1463563728,
@@ -983,7 +983,7 @@ window.CATALOGO = {
   },
   {
    "id": "43",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT.CRIOLLA GRACIA M6 DE ESTUDIO CON CORTE",
    "precio": 404970.5077,
@@ -992,7 +992,7 @@ window.CATALOGO = {
   },
   {
    "id": "44",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT.CRIOLLA GRACIA M10 MEDIO CONCIERTO CON CORTE",
    "precio": 494543.0325,
@@ -1001,7 +1001,7 @@ window.CATALOGO = {
   },
   {
    "id": "45",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT. CRIOLLA GRACIA M1",
    "precio": 255206.3393,
@@ -1010,7 +1010,7 @@ window.CATALOGO = {
   },
   {
    "id": "46",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT. CRIOLLA GRACIA M3 DE ESTUDIO SUPERIOR",
    "precio": 370426617,
@@ -1019,7 +1019,7 @@ window.CATALOGO = {
   },
   {
    "id": "47",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT. CRIOLLA GRACIA M5",
    "precio": 283481.0385,
@@ -1028,7 +1028,7 @@ window.CATALOGO = {
   },
   {
    "id": "48",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT. CRIOLLA GRACIA NIÑO",
    "precio": 260409.4845,
@@ -1037,7 +1037,7 @@ window.CATALOGO = {
   },
   {
    "id": "49",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUIT CRIOLLA GRACIA M5 COLOR",
    "precio": 283481.0385,
@@ -1046,7 +1046,7 @@ window.CATALOGO = {
   },
   {
    "id": "50",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA GUIT.CLASICA CIEGA CORTE CONCIERTO EQ FISHM",
    "precio": 1062534396,
@@ -1055,7 +1055,7 @@ window.CATALOGO = {
   },
   {
    "id": "55",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "ALPUJARRA",
    "nombre": "ALPUJARRA GUIT.CLAS. 70PSY FISHMAN",
    "precio": 1118066717,
@@ -1064,7 +1064,7 @@ window.CATALOGO = {
   },
   {
    "id": "57",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "GUIT. CRIOLLA 15M FONSECA",
    "precio": 342120.24,
@@ -1073,7 +1073,7 @@ window.CATALOGO = {
   },
   {
    "id": "585",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUITARRA GRACIA PAISANA",
    "precio": 636086.11,
@@ -1082,7 +1082,7 @@ window.CATALOGO = {
   },
   {
    "id": "59",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "GUIT. CRIOLLA FONSECA 25",
    "precio": 351006.48,
@@ -1091,7 +1091,7 @@ window.CATALOGO = {
   },
   {
    "id": "601",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA SUREÑA EQFISHMAN",
    "precio": 685655.9743,
@@ -1100,7 +1100,7 @@ window.CATALOGO = {
   },
   {
    "id": "602",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA CAMPERO EQFISHMAN C/FUNDA",
    "precio": 649188474,
@@ -1109,7 +1109,7 @@ window.CATALOGO = {
   },
   {
    "id": "61",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "ALPUJARRA",
    "nombre": "ALPUJARRA 85KPSY ELECTROCRIOLLA EQ PRESYS T/pino abeto",
    "precio": 2102314.5,
@@ -1118,7 +1118,7 @@ window.CATALOGO = {
   },
   {
    "id": "62",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "Guitarra GRACIA M6 EQ FISHMAN con corte",
    "precio": 529588.2958,
@@ -1127,7 +1127,7 @@ window.CATALOGO = {
   },
   {
    "id": "63",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "Guitarra FONSECA MOD 65 EC EQ ARTE ETN4",
    "precio": 899731.8,
@@ -1136,7 +1136,7 @@ window.CATALOGO = {
   },
   {
    "id": "67",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "FONSECA GUIT.CLAS.EQ4B |39KEC",
    "precio": 737557.92,
@@ -1145,7 +1145,7 @@ window.CATALOGO = {
   },
   {
    "id": "670",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA MOD.PAISANA EQFISHMAN C/FUNDA",
    "precio": 715969.1,
@@ -1154,7 +1154,7 @@ window.CATALOGO = {
   },
   {
    "id": "68",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "GUIT. CRIOLLA FONSECA MOD25",
    "precio": 351006.48,
@@ -1163,7 +1163,7 @@ window.CATALOGO = {
   },
   {
    "id": "69",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA M2 DE INICIO",
    "precio": 342868.9275,
@@ -1172,7 +1172,7 @@ window.CATALOGO = {
   },
   {
    "id": "70",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA GUIT.MEDIA CAJA 340 C/FISHMAN",
    "precio": 705177.7755,
@@ -1181,7 +1181,7 @@ window.CATALOGO = {
   },
   {
    "id": "71",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA GUIT. MININIÑO",
    "precio": 265775.4981,
@@ -1190,7 +1190,7 @@ window.CATALOGO = {
   },
   {
    "id": "72",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA GUIT.CLAS.C/CRTE EQ M10 FISHMAN|M.CONCIERTO",
    "precio": 622718.3325,
@@ -1199,7 +1199,7 @@ window.CATALOGO = {
   },
   {
    "id": "73",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA GUIT.CLAS.M9 EQPRENER |MEDIO CONCIERTO",
    "precio": 565874529,
@@ -1208,7 +1208,7 @@ window.CATALOGO = {
   },
   {
    "id": "74",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "FONSECA GUIT.CLAS.C/CORTE EQ4B 40KEC",
    "precio": 968600.16,
@@ -1217,7 +1217,7 @@ window.CATALOGO = {
   },
   {
    "id": "75",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA GUIT.CLAS.M9 |MEDIO CONCIERTO",
    "precio": 439990848,
@@ -1226,7 +1226,7 @@ window.CATALOGO = {
   },
   {
    "id": "76",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GRACIA M6 GUIT.CLAS.C/CORTE EQ PRENER |ESTUDIO",
    "precio": 460892051,
@@ -1235,7 +1235,7 @@ window.CATALOGO = {
   },
   {
    "id": "77",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "GRACIA",
    "nombre": "GUITARRA CLÁSICA GRACIA M7",
    "precio": 439369392,
@@ -1244,7 +1244,7 @@ window.CATALOGO = {
   },
   {
    "id": "78",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "FONSECA GUIT.CLASICA MOD65M",
    "precio": 644252.4,
@@ -1253,7 +1253,7 @@ window.CATALOGO = {
   },
   {
    "id": "80",
-   "categoria": "Otros",
+   "categoria": "Guitarras",
    "marca": "FONSECA",
    "nombre": "FONSECA GUIT.CLASICA MOD50M",
    "precio": 635366.16,
@@ -1262,8 +1262,8 @@ window.CATALOGO = {
   },
   {
    "id": "82",
-   "categoria": "Otros",
-   "marca": "",
+   "categoria": "Guitarras",
+   "marca": "GRACIA",
    "nombre": "GRACIA CHILL CAOBA FISHMAN",
    "precio": 666121208,
    "descripcion": "",
@@ -1271,8 +1271,8 @@ window.CATALOGO = {
   },
   {
    "id": "83",
-   "categoria": "Otros",
-   "marca": "",
+   "categoria": "Guitarras",
+   "marca": "ALPUJARRA",
    "nombre": "ALPUJARRA MOD83KPSY EQFISHMAN PRESYS C/CORTE",
    "precio": 1646175.96,
    "descripcion": "",
@@ -1280,8 +1280,8 @@ window.CATALOGO = {
   },
   {
    "id": "88",
-   "categoria": "Otros",
-   "marca": "",
+   "categoria": "Guitarras",
+   "marca": "FONSECA",
    "nombre": "FONSECA ELECTRO CRIOLLA  EQ ARTEC MOD.50 EC",
    "precio": 644068.9514,
    "descripcion": "",
@@ -1289,8 +1289,8 @@ window.CATALOGO = {
   },
   {
    "id": "F15",
-   "categoria": "Otros",
-   "marca": "",
+   "categoria": "Guitarras",
+   "marca": "FONSECA",
    "nombre": "FONSECA MEDIANA Tapa imita.pino. Aros y fondo abed",
    "precio": 226666.9774,
    "descripcion": "",
@@ -1298,8 +1298,8 @@ window.CATALOGO = {
   },
   {
    "id": "UKEQGRACIA",
-   "categoria": "Otros",
-   "marca": "",
+   "categoria": "Guitarras",
+   "marca": "GRACIA",
    "nombre": "GRACIA UKELELE SOPRANO EQ",
    "precio": 296523.7398,
    "descripcion": "",
@@ -1307,12 +1307,39 @@ window.CATALOGO = {
   },
   {
    "id": "UKERBGRACIA",
-   "categoria": "Otros",
-   "marca": "",
+   "categoria": "Guitarras",
+   "marca": "GRACIA",
    "nombre": "GRACIA UKELELE SOPRANO RIVER/BOCA",
    "precio": 242009.6267,
    "descripcion": "",
    "imagen": ""
+  },
+  {
+   "id": "N-537",
+   "categoria": "Electrónica",
+   "marca": "GFAST",
+   "nombre": "Notebook. Pantalla de 15.6\" FHD",
+   "precio": 971500,
+   "descripcion": "Notebook. Pantalla de 15.6\" FHD (1920 X 1080), IPS. Tasa de refresco 60 Hz. Procesador AMD Ryzen 5 3500U (velocidad 2.1 Ghz hasta 3.7 Ghz). Capacidad 240 Gb SSD M.2. Memoria 8GB SO-DIMM DDR4 (ampliable). Placa de video: AMD Radeon RX Vega 8 graphics. Conexiones: Wi Fi. Bluetooth. 3 Entradas USB 3.0. 1 Entrada USB-C. 1 Entrada HDMI. Audio 1 x MIC / Auricular 3.5 mm. Lector de tarjetas: Micro SD. 1 Puerto Kensington Lock. Microfono incorporado. Sistema operativo Windows 11. Cámara frontal 1 MP. Bateria 5000 mAh. Teclado con pad numérico + tecla Copilot. Apertura de pantalla 180°. Incluye: cargador.",
+   "imagen": "img/n-537.jpg?v=2a5ea5a6"
+  },
+  {
+   "id": "DSH260211-AUDIFONO",
+   "categoria": "Electrónica",
+   "marca": "GENERICO",
+   "nombre": "AUDIFONO 6 NIVELES VOLUMEN - AMPLIFICA 40db",
+   "precio": 39000,
+   "descripcion": "",
+   "imagen": "img/dsh260211-audifono.jpg?v=f3ada591"
+  },
+  {
+   "id": "GALAXYA17-6-128",
+   "categoria": "Electrónica",
+   "marca": "SAMSUNG",
+   "nombre": "GALAXY A17 - RAM6GB- 128GB",
+   "precio": 504000,
+   "descripcion": "",
+   "imagen": "img/galaxya17-6-128.jpg?v=f3ee7bc3"
   }
  ]
 };
