@@ -969,98 +969,89 @@ window.CATALOGO = {
    "marca": "LA ALPUJARRA",
    "nombre": "LA ALPUJARRA \"90\"",
    "precio": 1465000,
-   "descripcion": "Guitarra clásica/criolla con corte - Tapa ciega - Media caja - EQ Fishman",
-   "imagen": ""
+   "descripcion": "Guitarra clásica/criolla",
+   "imagen": "img/40.jpg?v=04340ec9"
   },
   {
    "id": "43",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT.CRIOLLA GRACIA M6 DE ESTUDIO CON CORTE",
-   "precio": 404970.5077,
-   "descripcion": "",
+   "nombre": "GRACIA \"M6\"",
+   "precio": 405000,
+   "descripcion": "Guitarra clásica/criolla de estudio con corte",
    "imagen": ""
   },
   {
    "id": "44",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT.CRIOLLA GRACIA M10 MEDIO CONCIERTO CON CORTE",
-   "precio": 494543.0325,
-   "descripcion": "",
-   "imagen": ""
-  },
-  {
-   "id": "45",
-   "categoria": "Guitarras",
-   "marca": "GRACIA",
-   "nombre": "GUIT. CRIOLLA GRACIA M1",
-   "precio": 255206.3393,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"M10\"",
+   "precio": 495000,
+   "descripcion": "Guitarra clásica/criolla semi concierto con corte",
+   "imagen": "img/44.jpg?v=221a18fc"
   },
   {
    "id": "46",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT. CRIOLLA GRACIA M3 DE ESTUDIO SUPERIOR",
-   "precio": 370426617,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"M3\"",
+   "precio": 370000,
+   "descripcion": "Guitarra clásica/criolla de estudio",
+   "imagen": "img/46.jpg?v=bc959da0"
   },
   {
    "id": "47",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT. CRIOLLA GRACIA M5",
-   "precio": 283481.0385,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"M5\"",
+   "precio": 285000,
+   "descripcion": "Guitarra clásica/criolla de estudio",
+   "imagen": "img/47.jpg?v=5fef358b"
   },
   {
    "id": "48",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT. CRIOLLA GRACIA NIÑO",
-   "precio": 260409.4845,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"NIÑO\"",
+   "precio": 260000,
+   "descripcion": "Guitarra clásica/criolla para tamaño infantil",
+   "imagen": "img/48.jpg?v=0d44cdf7"
   },
   {
    "id": "49",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT CRIOLLA GRACIA M5 COLOR",
-   "precio": 283481.0385,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"M5 COLOR\"",
+   "precio": 285000,
+   "descripcion": "Guitarra clásica/criolla de estudio color azul o rosado",
+   "imagen": "img/49.jpg?v=5c20a3d1"
   },
   {
    "id": "50",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA GUIT.CLASICA CIEGA CORTE CONCIERTO EQ FISHM",
-   "precio": 1062534396,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"GOLD\"",
+   "precio": 1065000,
+   "descripcion": "Guitarra clásica/criolla de estudio con corte - Tapa ciega - Media caja - EQ Fishman",
+   "imagen": "img/50.jpg?v=43500f6e"
   },
   {
    "id": "55",
    "categoria": "Guitarras",
-   "marca": "ALPUJARRA",
-   "nombre": "ALPUJARRA GUIT.CLAS. 70PSY FISHMAN",
-   "precio": 1118066717,
-   "descripcion": "",
-   "imagen": ""
+   "marca": "LA ALPUJARRA",
+   "nombre": "ALPUJARRA \"70\" EQ",
+   "precio": 1120000,
+   "descripcion": "Guitarra clásica/criolla de estudio - EQ Fishman",
+   "imagen": "img/55.jpg?v=0c4869df"
   },
   {
    "id": "57",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "GUIT. CRIOLLA 15M FONSECA",
-   "precio": 342120.24,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"15M\"",
+   "precio": 345000,
+   "descripcion": "Guitarra clásica/criolla tamaño infantil",
+   "imagen": "img/57.jpg?v=0ec51822"
   },
   {
    "id": "585",
@@ -1069,7 +1060,7 @@ window.CATALOGO = {
    "nombre": "GUITARRA GRACIA PAISANA",
    "precio": 636086.11,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/585.jpg?v=7cffd74f"
   },
   {
    "id": "59",
@@ -1078,7 +1069,7 @@ window.CATALOGO = {
    "nombre": "GUIT. CRIOLLA FONSECA 25",
    "precio": 351006.48,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/59.jpg?v=fb20d7bd"
   },
   {
    "id": "601",
