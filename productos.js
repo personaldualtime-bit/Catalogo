@@ -841,7 +841,7 @@ window.CATALOGO = {
    "id": "172",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA \"M10\" EQ PRENER",
+   "nombre": "GRACIA \"M10\"",
    "precio": 625000,
    "descripcion": "Guitarra clásica/criolla con corte y EQ Prener 5 bandas canon/plug",
    "imagen": "img/172.jpg?v=8e04bee2"
@@ -850,7 +850,7 @@ window.CATALOGO = {
    "id": "18",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA \"345\" EQ FISHMAN",
+   "nombre": "GRACIA \"345\"",
    "precio": 765000,
    "descripcion": "Guitarra electroacústica media caja con corte y EQ Fishman 5 bandas",
    "imagen": "img/18.jpg?v=5a6df26e"
@@ -859,7 +859,7 @@ window.CATALOGO = {
    "id": "19",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA \"JUMBO\" EQ FISHMAN",
+   "nombre": "GRACIA \"JUMBO\"",
    "precio": 1220000,
    "descripcion": "Guitarra electroacústica con corte y EQ Fishman \"Blend 301\" de 3 bandas",
    "imagen": "img/19.jpg?v=f4c0cce1"
@@ -868,117 +868,108 @@ window.CATALOGO = {
    "id": "22",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA 340 EQ PRENER",
+   "nombre": "GRACIA 340 EQ",
    "precio": 735000,
-   "descripcion": "Guitarra electroacústica con corte y EQ Prener de 4 bandas",
+   "descripcion": "Guitarra electroacústica con corte y EQ Prener o Fishman",
    "imagen": "img/22.jpg?v=b94810ed"
-  },
-  {
-   "id": "23",
-   "categoria": "Guitarras",
-   "marca": "GRACIA",
-   "nombre": "ELECTROACUSTICA GRACIA 340 EQ FISHMAN",
-   "precio": 717999.1896,
-   "descripcion": "",
-   "imagen": ""
   },
   {
    "id": "27",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUITARRA CRIOLLA EBANO GRACIA MODELO D  - NIVEL CONCIERTO - MACIZA - CUERDAS SAVAREZ",
-   "precio": 839334.5895,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"D\"",
+   "precio": 840000,
+   "descripcion": "Guitarra clásica/criolla nivel concierto - Ébano - Madera maciza - Cuerdas Savarez",
+   "imagen": "img/27.jpg?v=ab27e477"
   },
   {
    "id": "280",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA CALMA GUIT.CLASICA",
-   "precio": 235182255,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"CALMA\"",
+   "precio": 236000,
+   "descripcion": "Guitarra clásica/criolla 4/4 ideal para estudiantes o principiantes",
+   "imagen": "img/280.jpg?v=896b3f34"
   },
   {
    "id": "32",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "Guit.CLASICA FONSECA EQ ARTEC 38KEC",
-   "precio": 688683.6,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"38\"",
+   "precio": 690000,
+   "descripcion": "Guitarra clásica/criolla con corte y EQ Artec",
+   "imagen": "img/32.jpg?v=36148401"
   },
   {
    "id": "33",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "GUIT FONSECA EQ ARTEC 25EC",
-   "precio": 579827.16,
-   "descripcion": "",
+   "nombre": "FONSECA \"25\"",
+   "precio": 580000,
+   "descripcion": "Guitarra clásica/criolla con EQ Artec",
    "imagen": ""
   },
   {
    "id": "333",
    "categoria": "Guitarras",
-   "marca": "FONSECA",
-   "nombre": "LA ALPUJARRA 300 EQ FISHMAN 1/2 CAJA TAPA CIEGA",
-   "precio": 1881661.32,
-   "descripcion": "",
-   "imagen": ""
+   "marca": "LA ALPUJARRA",
+   "nombre": "LA ALPUJARRA \"300\"",
+   "precio": 1890000,
+   "descripcion": "Guitarra clásica/criolla con corte - Tapa ciega - Media caja - EQ Fishman",
+   "imagen": "img/333.jpg?v=d6dd2693"
   },
   {
    "id": "34",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "Guit. AC FONSECA c/corte-EQ ARTEC M/CAJA 41KEC",
-   "precio": 905285.7,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"41 KEC\"",
+   "precio": 910000,
+   "descripcion": "Guitarra clásica/criolla con corte y EQ Artec",
+   "imagen": "img/34.jpg?v=e803d469"
   },
   {
    "id": "35",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "GUIT FONSECA EQ ARTEC 65 EC",
-   "precio": 899731.8,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"65\"",
+   "precio": 900000,
+   "descripcion": "Guitarra clásica/criolla de estudio con EQ Artec",
+   "imagen": "img/35.jpg?v=b372d46d"
   },
   {
    "id": "36",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA EQ ARTEC 31 EC",
-   "precio": 699791.4,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"31\"",
+   "precio": 700000,
+   "descripcion": "Guitarra clásica/criolla de estudio con EQ Artec",
+   "imagen": "img/36.jpg?v=e7f66777"
   },
   {
    "id": "37",
    "categoria": "Guitarras",
-   "marca": "ALPUJARRA",
-   "nombre": "GUIT ALPUJARRA MOD 70",
-   "precio": 737780076,
-   "descripcion": "",
-   "imagen": ""
+   "marca": "LA ALPUJARRA",
+   "nombre": "LA ALPUJARRA \"70\"",
+   "precio": 740000,
+   "descripcion": "Guitarra clásica/criolla con EQ Fishman",
+   "imagen": "img/37.jpg?v=f9f90f6e"
   },
   {
    "id": "39",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUIT. CRIOLLA GRACIA F - MACIZA - NIVEL CONCIERTO",
-   "precio": 1220869733,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"F\"",
+   "precio": 1225000,
+   "descripcion": "Guitarra clásica/criolla nivel concierto - Ébano - Madera maciza - Cuerdas Savarez",
+   "imagen": "img/39.jpg?v=dda6dbc0"
   },
   {
    "id": "40",
    "categoria": "Guitarras",
-   "marca": "ALPUJARRA",
-   "nombre": "GUIT. ALPUJARRA 90",
-   "precio": 1463563728,
-   "descripcion": "",
+   "marca": "LA ALPUJARRA",
+   "nombre": "LA ALPUJARRA \"90\"",
+   "precio": 1465000,
+   "descripcion": "Guitarra clásica/criolla con corte - Tapa ciega - Media caja - EQ Fishman",
    "imagen": ""
   },
   {
