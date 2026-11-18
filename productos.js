@@ -907,7 +907,7 @@ window.CATALOGO = {
    "nombre": "FONSECA \"25\"",
    "precio": 580000,
    "descripcion": "Guitarra clásica/criolla con EQ Artec",
-   "imagen": ""
+   "imagen": "img/33.jpg?v=533c21b1"
   },
   {
    "id": "333",
@@ -979,7 +979,7 @@ window.CATALOGO = {
    "nombre": "GRACIA \"M6\"",
    "precio": 405000,
    "descripcion": "Guitarra clásica/criolla de estudio con corte",
-   "imagen": ""
+   "imagen": "img/43.jpg?v=1cd28a83"
   },
   {
    "id": "44",
@@ -1078,7 +1078,7 @@ window.CATALOGO = {
    "nombre": "GRACIA \"SUREÑA\" EQ",
    "precio": 686000,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/601.jpg?v=47cdfd9b"
   },
   {
    "id": "602",
