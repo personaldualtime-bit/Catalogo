@@ -1186,7 +1186,7 @@ window.CATALOGO = {
    "nombre": "GRACIA GUIT.CLAS.M9 EQPRENER |MEDIO CONCIERTO",
    "precio": 565874529,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/73.jpg?v=5e684c9d"
   },
   {
    "id": "74",
