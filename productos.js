@@ -829,6 +829,15 @@ window.CATALOGO = {
    "imagen": "img/unk-330.jpg?v=d2d6d468"
   },
   {
+   "id": "UNK-660",
+   "categoria": "Electrónica",
+   "marca": "NOVIK NEO",
+   "nombre": "Sistema de dos micrófonos inalámbricos",
+   "precio": 375000,
+   "descripcion": "UNK-660 Sistema de dos micrófonos inalámbricos - Transmisión digital con 300 canales de frecuencia",
+   "imagen": "img/unk-660.jpg?v=117db009"
+  },
+  {
    "id": "LND-SW",
    "categoria": "Electrónica",
    "marca": "LEONARD",
@@ -1084,10 +1093,10 @@ window.CATALOGO = {
    "id": "602",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA CAMPERO EQFISHMAN C/FUNDA",
-   "precio": 649188474,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"CAMPERO\" EQ",
+   "precio": 686000,
+   "descripcion": "Guitarra clásica/criolla caja 3/4 con EQ Fishman",
+   "imagen": "img/602.jpg?v=7dce3033"
   },
   {
    "id": "61",
