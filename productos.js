@@ -1204,7 +1204,7 @@ window.CATALOGO = {
    "nombre": "GRACIA GUIT.CLAS.M9 |MEDIO CONCIERTO",
    "precio": 439990848,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/75.jpg?v=d5ac27e5"
   },
   {
    "id": "76",
