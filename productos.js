@@ -1132,7 +1132,7 @@ window.CATALOGO = {
    "nombre": "GRACIA \"PAISANA\" EQ",
    "precio": 686000,
    "descripcion": "Guitarra clásica/criolla con EQ Fishman",
-   "imagen": ""
+   "imagen": "img/670.jpg?v=36fe5fab"
   },
   {
    "id": "68",
