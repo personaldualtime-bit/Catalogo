@@ -997,7 +997,7 @@ window.CATALOGO = {
    "nombre": "GRACIA \"M10\"",
    "precio": 495000,
    "descripcion": "Guitarra clásica/criolla semi concierto con corte",
-   "imagen": "img/44.jpg?v=221a18fc"
+   "imagen": "img/44.jpg?v=ef5e3250"
   },
   {
    "id": "46",
