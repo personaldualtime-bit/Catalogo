@@ -940,7 +940,7 @@ window.CATALOGO = {
    "id": "35",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA \"65\"",
+   "nombre": "FONSECA \"65\" EQ",
    "precio": 900000,
    "descripcion": "Guitarra clásica/criolla de estudio con EQ Artec",
    "imagen": "img/35.jpg?v=b372d46d"
@@ -1212,26 +1212,26 @@ window.CATALOGO = {
    "marca": "GRACIA",
    "nombre": "GRACIA \"M7\"",
    "precio": 440000,
-   "descripcion": "Guitarra clásica/criolla",
+   "descripcion": "Guitarra clásica/criolla semi concierto",
    "imagen": "img/77.jpg?v=90756699"
   },
   {
    "id": "78",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA GUIT.CLASICA MOD65M",
-   "precio": 644252.4,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"65\"",
+   "precio": 645000,
+   "descripcion": "Guitarra clásica/criolla semi concierto",
+   "imagen": "img/78.jpg?v=6296f0b4"
   },
   {
    "id": "80",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA GUIT.CLASICA MOD50M",
-   "precio": 635366.16,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "FONSECA \"50\"",
+   "precio": 640000,
+   "descripcion": "Guitarra clásica/criolla semi concierto",
+   "imagen": "img/80.jpg?v=cabf925d"
   },
   {
    "id": "82",
