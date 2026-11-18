@@ -1162,67 +1162,58 @@ window.CATALOGO = {
    "imagen": "img/70.jpg?v=7469b835"
   },
   {
-   "id": "71",
-   "categoria": "Guitarras",
-   "marca": "GRACIA",
-   "nombre": "GRACIA GUIT. MININIÑO",
-   "precio": 265775.4981,
-   "descripcion": "",
-   "imagen": ""
-  },
-  {
    "id": "72",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA GUIT.CLAS.C/CRTE EQ M10 FISHMAN|M.CONCIERTO",
-   "precio": 622718.3325,
-   "descripcion": "",
+   "nombre": "GRACIA \"M10\" EQ",
+   "precio": 635000,
+   "descripcion": "Guitarra clásica/criolla con corte y EQ Fishman",
    "imagen": "img/72.jpg?v=204334a9"
   },
   {
    "id": "73",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA GUIT.CLAS.M9 EQPRENER |MEDIO CONCIERTO",
-   "precio": 565874529,
-   "descripcion": "",
+   "nombre": "GRACIA \"M9\" EQ",
+   "precio": 570000,
+   "descripcion": "Guitarra clásica/criolla EQ Prener",
    "imagen": "img/73.jpg?v=5e684c9d"
   },
   {
    "id": "74",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA GUIT.CLAS.C/CORTE EQ4B 40KEC",
-   "precio": 968600.16,
-   "descripcion": "",
+   "nombre": "FONSECA \"40\" EQ",
+   "precio": 970000,
+   "descripcion": "Guitarra clásica/criolla con corte y EQ Artec",
    "imagen": "img/74.jpg?v=29c6aa92"
   },
   {
    "id": "75",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA GUIT.CLAS.M9 |MEDIO CONCIERTO",
-   "precio": 439990848,
-   "descripcion": "",
+   "nombre": "GRACIA \"M9\"",
+   "precio": 440000,
+   "descripcion": "Guitarra clásica/criolla semi concierto",
    "imagen": "img/75.jpg?v=d5ac27e5"
   },
   {
    "id": "76",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA M6 GUIT.CLAS.C/CORTE EQ PRENER |ESTUDIO",
-   "precio": 460892051,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"M6\" EQ",
+   "precio": 465000,
+   "descripcion": "Guitarra clásica/criolla con corte y EQ Prener",
+   "imagen": "img/76.jpg?v=db53420a"
   },
   {
    "id": "77",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUITARRA CLÁSICA GRACIA M7",
-   "precio": 439369392,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"M7\"",
+   "precio": 440000,
+   "descripcion": "Guitarra clásica/criolla",
+   "imagen": "img/77.jpg?v=90756699"
   },
   {
    "id": "78",
