@@ -1177,7 +1177,7 @@ window.CATALOGO = {
    "nombre": "GRACIA GUIT.CLAS.C/CRTE EQ M10 FISHMAN|M.CONCIERTO",
    "precio": 622718.3325,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/72.jpg?v=204334a9"
   },
   {
    "id": "73",
