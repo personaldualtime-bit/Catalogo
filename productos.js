@@ -1150,7 +1150,7 @@ window.CATALOGO = {
    "nombre": "GRACIA M2 DE INICIO",
    "precio": 342868.9275,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/69.jpg?v=880e982f"
   },
   {
    "id": "70",
