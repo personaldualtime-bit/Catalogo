@@ -1114,7 +1114,7 @@ window.CATALOGO = {
    "nombre": "Guitarra GRACIA M6 EQ FISHMAN con corte",
    "precio": 529588.2958,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/62.jpg?v=4e67bc09"
   },
   {
    "id": "63",
