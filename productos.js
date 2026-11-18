@@ -1237,19 +1237,19 @@ window.CATALOGO = {
    "id": "82",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA CHILL CAOBA FISHMAN",
-   "precio": 666121208,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"CHILL CAOBA\"",
+   "precio": 670000,
+   "descripcion": "Guitarra clásica/criolla viajera caja 3/4 EQ Fishman",
+   "imagen": "img/82.jpg?v=8685c900"
   },
   {
    "id": "83",
    "categoria": "Guitarras",
-   "marca": "ALPUJARRA",
-   "nombre": "ALPUJARRA MOD83KPSY EQFISHMAN PRESYS C/CORTE",
-   "precio": 1646175.96,
-   "descripcion": "",
-   "imagen": ""
+   "marca": "LA ALPUJARRA",
+   "nombre": "LA ALPUJARRA \"83\" EQ",
+   "precio": 1650000,
+   "descripcion": "Guitarra clásica/criolla con corte - EQ Fishman",
+   "imagen": "img/83.jpg?v=42a6e0dd"
   },
   {
    "id": "88",
