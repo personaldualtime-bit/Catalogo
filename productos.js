@@ -879,7 +879,7 @@ window.CATALOGO = {
    "marca": "GRACIA",
    "nombre": "GRACIA \"D\"",
    "precio": 840000,
-   "descripcion": "Guitarra clásica/criolla nivel concierto - Ébano - Madera maciza - Cuerdas Savarez",
+   "descripcion": "Guitarra clásica/criolla nivel concierto - Madera maciza - Cuerdas Savarez",
    "imagen": "img/27.jpg?v=ab27e477"
   },
   {
@@ -904,7 +904,7 @@ window.CATALOGO = {
    "id": "33",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA \"25\"",
+   "nombre": "FONSECA \"25\" EQ",
    "precio": 580000,
    "descripcion": "Guitarra clásica/criolla con EQ Artec",
    "imagen": "img/33.jpg?v=533c21b1"
@@ -951,7 +951,7 @@ window.CATALOGO = {
    "marca": "LA ALPUJARRA",
    "nombre": "LA ALPUJARRA \"70\"",
    "precio": 740000,
-   "descripcion": "Guitarra clásica/criolla con EQ Fishman",
+   "descripcion": "Guitarra clásica/criolla",
    "imagen": "img/37.jpg?v=f9f90f6e"
   },
   {
@@ -960,7 +960,7 @@ window.CATALOGO = {
    "marca": "GRACIA",
    "nombre": "GRACIA \"F\"",
    "precio": 1225000,
-   "descripcion": "Guitarra clásica/criolla nivel concierto - Ébano - Madera maciza - Cuerdas Savarez",
+   "descripcion": "Guitarra clásica/criolla nivel concierto - Madera maciza - Cuerdas Savarez",
    "imagen": "img/39.jpg?v=dda6dbc0"
   },
   {
@@ -1059,7 +1059,7 @@ window.CATALOGO = {
    "marca": "GRACIA",
    "nombre": "GUITARRA \"PAISANA\"",
    "precio": 640000,
-   "descripcion": "Guitarra clásica/criolla corte tradicional",
+   "descripcion": "Guitarra clásica/criolla",
    "imagen": "img/585.jpg?v=7cffd74f"
   },
   {
@@ -1068,7 +1068,7 @@ window.CATALOGO = {
    "marca": "FONSECA",
    "nombre": "FONSECA \"25\"",
    "precio": 355000,
-   "descripcion": "Guitarra clásica/criolla corte tradicional",
+   "descripcion": "Guitarra clásica/criolla",
    "imagen": "img/59.jpg?v=fb20d7bd"
   },
   {
@@ -1077,7 +1077,7 @@ window.CATALOGO = {
    "marca": "GRACIA",
    "nombre": "GRACIA \"SUREÑA\" EQ",
    "precio": 686000,
-   "descripcion": "",
+   "descripcion": "Guitarra clásica/criolla con EQ Fishman",
    "imagen": "img/601.jpg?v=47cdfd9b"
   },
   {
