@@ -1105,7 +1105,7 @@ window.CATALOGO = {
    "nombre": "ALPUJARRA 85KPSY ELECTROCRIOLLA EQ PRESYS T/pino abeto",
    "precio": 2102314.5,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/61.jpg?v=55562c02"
   },
   {
    "id": "62",
