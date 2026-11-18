@@ -1141,7 +1141,7 @@ window.CATALOGO = {
    "nombre": "GUIT. CRIOLLA FONSECA MOD25",
    "precio": 351006.48,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/68.jpg?v=fb20d7bd"
   },
   {
    "id": "69",
