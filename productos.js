@@ -1195,7 +1195,7 @@ window.CATALOGO = {
    "nombre": "FONSECA GUIT.CLAS.C/CORTE EQ4B 40KEC",
    "precio": 968600.16,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/74.jpg?v=29c6aa92"
   },
   {
    "id": "75",
