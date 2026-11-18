@@ -1101,46 +1101,37 @@ window.CATALOGO = {
   {
    "id": "61",
    "categoria": "Guitarras",
-   "marca": "ALPUJARRA",
-   "nombre": "ALPUJARRA 85KPSY ELECTROCRIOLLA EQ PRESYS T/pino abeto",
-   "precio": 2102314.5,
-   "descripcion": "",
+   "marca": "LA ALPUJARRA",
+   "nombre": "LA ALPUJARRA \"85\" EQ",
+   "precio": 2105000,
+   "descripcion": "Guitarra clásica/criolla con corte - EQ Fishman",
    "imagen": "img/61.jpg?v=55562c02"
   },
   {
    "id": "62",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "Guitarra GRACIA M6 EQ FISHMAN con corte",
-   "precio": 529588.2958,
-   "descripcion": "",
+   "nombre": "GRACIA \"M6\" EQ",
+   "precio": 530000,
+   "descripcion": "Guitarra clásica/criolla con corte - EQ Fishman",
    "imagen": "img/62.jpg?v=4e67bc09"
-  },
-  {
-   "id": "63",
-   "categoria": "Guitarras",
-   "marca": "FONSECA",
-   "nombre": "Guitarra FONSECA MOD 65 EC EQ ARTE ETN4",
-   "precio": 899731.8,
-   "descripcion": "",
-   "imagen": ""
   },
   {
    "id": "67",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA GUIT.CLAS.EQ4B |39KEC",
-   "precio": 737557.92,
-   "descripcion": "",
+   "nombre": "FONSECA \"39\"",
+   "precio": 740000,
+   "descripcion": "Guitarra clásica/criolla con corte - EQ Artec",
    "imagen": "img/67.jpg?v=d839404d"
   },
   {
    "id": "670",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA MOD.PAISANA EQFISHMAN C/FUNDA",
-   "precio": 715969.1,
-   "descripcion": "",
+   "nombre": "GRACIA \"PAISANA\" EQ",
+   "precio": 686000,
+   "descripcion": "Guitarra clásica/criolla con EQ Fishman",
    "imagen": ""
   },
   {
