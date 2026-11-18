@@ -877,9 +877,9 @@ window.CATALOGO = {
    "id": "22",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA 340 EQ",
+   "nombre": "GRACIA \"340\" EQ",
    "precio": 735000,
-   "descripcion": "Guitarra electroacústica con corte y EQ Prener o Fishman",
+   "descripcion": "Guitarra electroacústica con corte y EQ Prener",
    "imagen": "img/22.jpg?v=b94810ed"
   },
   {
@@ -904,7 +904,7 @@ window.CATALOGO = {
    "id": "32",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA \"38\"",
+   "nombre": "FONSECA \"38\" EQ",
    "precio": 690000,
    "descripcion": "Guitarra clásica/criolla con corte y EQ Artec",
    "imagen": "img/32.jpg?v=36148401"
@@ -1138,28 +1138,28 @@ window.CATALOGO = {
    "id": "68",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "GUIT. CRIOLLA FONSECA MOD25",
-   "precio": 351006.48,
-   "descripcion": "",
+   "nombre": "FONSECA \"25\"",
+   "precio": 352000,
+   "descripcion": "Guitarra clásica/criolla de estudio",
    "imagen": "img/68.jpg?v=fb20d7bd"
   },
   {
    "id": "69",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA M2 DE INICIO",
-   "precio": 342868.9275,
-   "descripcion": "",
+   "nombre": "GRACIA \"M2\"",
+   "precio": 345000,
+   "descripcion": "Guitarra clásica/criolla de estudio",
    "imagen": "img/69.jpg?v=880e982f"
   },
   {
    "id": "70",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA GUIT.MEDIA CAJA 340 C/FISHMAN",
-   "precio": 705177.7755,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "GRACIA \"340\" EQ",
+   "precio": 750000,
+   "descripcion": "Guitarra electroacústica con corte y EQ Fishman",
+   "imagen": "img/70.jpg?v=7469b835"
   },
   {
    "id": "71",
