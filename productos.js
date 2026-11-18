@@ -1132,7 +1132,7 @@ window.CATALOGO = {
    "nombre": "FONSECA GUIT.CLAS.EQ4B |39KEC",
    "precio": 737557.92,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/67.jpg?v=d839404d"
   },
   {
    "id": "670",
