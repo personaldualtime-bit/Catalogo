@@ -931,7 +931,7 @@ window.CATALOGO = {
    "id": "34",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA \"41 KEC\"",
+   "nombre": "FONSECA \"41\" EQ",
    "precio": 910000,
    "descripcion": "Guitarra clásica/criolla con corte y EQ Artec",
    "imagen": "img/34.jpg?v=e803d469"
@@ -1066,19 +1066,10 @@ window.CATALOGO = {
    "id": "585",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GUITARRA \"PAISANA\"",
+   "nombre": "GRACIA \"PAISANA\"",
    "precio": 640000,
    "descripcion": "Guitarra clásica/criolla",
    "imagen": "img/585.jpg?v=7cffd74f"
-  },
-  {
-   "id": "59",
-   "categoria": "Guitarras",
-   "marca": "FONSECA",
-   "nombre": "FONSECA \"25\"",
-   "precio": 355000,
-   "descripcion": "Guitarra clásica/criolla",
-   "imagen": "img/59.jpg?v=fb20d7bd"
   },
   {
    "id": "601",
@@ -1120,7 +1111,7 @@ window.CATALOGO = {
    "id": "67",
    "categoria": "Guitarras",
    "marca": "FONSECA",
-   "nombre": "FONSECA \"39\"",
+   "nombre": "FONSECA \"39\" EQ",
    "precio": 740000,
    "descripcion": "Guitarra clásica/criolla con corte - EQ Artec",
    "imagen": "img/67.jpg?v=d839404d"
@@ -1231,7 +1222,7 @@ window.CATALOGO = {
    "nombre": "FONSECA \"50\"",
    "precio": 640000,
    "descripcion": "Guitarra clásica/criolla semi concierto",
-   "imagen": "img/80.jpg?v=cabf925d"
+   "imagen": "img/80.jpg?v=3565dbd5"
   },
   {
    "id": "82",
@@ -1252,40 +1243,31 @@ window.CATALOGO = {
    "imagen": "img/83.jpg?v=42a6e0dd"
   },
   {
-   "id": "88",
-   "categoria": "Guitarras",
-   "marca": "FONSECA",
-   "nombre": "FONSECA ELECTRO CRIOLLA  EQ ARTEC MOD.50 EC",
-   "precio": 644068.9514,
-   "descripcion": "",
-   "imagen": ""
-  },
-  {
-   "id": "F15",
-   "categoria": "Guitarras",
-   "marca": "FONSECA",
-   "nombre": "FONSECA MEDIANA Tapa imita.pino. Aros y fondo abed",
-   "precio": 226666.9774,
-   "descripcion": "",
-   "imagen": ""
-  },
-  {
    "id": "UKEQGRACIA",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA UKELELE SOPRANO EQ",
-   "precio": 296523.7398,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "UKELELE SOPRANO EQ",
+   "precio": 300000,
+   "descripcion": "Ukelele soprano con EQ",
+   "imagen": "img/ukeqgracia.jpg?v=2cc0b93e"
   },
   {
-   "id": "UKERBGRACIA",
+   "id": "UKEBGRACIA",
    "categoria": "Guitarras",
    "marca": "GRACIA",
-   "nombre": "GRACIA UKELELE SOPRANO RIVER/BOCA",
-   "precio": 242009.6267,
-   "descripcion": "",
-   "imagen": ""
+   "nombre": "UKELELE SOPRANO \"BOCA\"",
+   "precio": 245000,
+   "descripcion": "Ukelele soprano diseño de Boca",
+   "imagen": "img/ukebgracia.jpg?v=51c6ad27"
+  },
+  {
+   "id": "UKERGRACIA",
+   "categoria": "Guitarras",
+   "marca": "GRACIA",
+   "nombre": "UKELELE SOPRANO \"RIVER\"",
+   "precio": 245000,
+   "descripcion": "Ukelele soprano diseño de River",
+   "imagen": "img/ukergracia.jpg?v=da63a6f4"
   },
   {
    "id": "N-537",
@@ -1293,16 +1275,16 @@ window.CATALOGO = {
    "marca": "GFAST",
    "nombre": "Notebook. Pantalla de 15.6\" FHD",
    "precio": 971500,
-   "descripcion": "Notebook. Pantalla de 15.6\" FHD (1920 X 1080), IPS. Tasa de refresco 60 Hz. Procesador AMD Ryzen 5 3500U (velocidad 2.1 Ghz hasta 3.7 Ghz). Capacidad 240 Gb SSD M.2. Memoria 8GB SO-DIMM DDR4 (ampliable). Placa de video: AMD Radeon RX Vega 8 graphics. Conexiones: Wi Fi. Bluetooth. 3 Entradas USB 3.0. 1 Entrada USB-C. 1 Entrada HDMI. Audio 1 x MIC / Auricular 3.5 mm. Lector de tarjetas: Micro SD. 1 Puerto Kensington Lock. Microfono incorporado. Sistema operativo Windows 11. Cámara frontal 1 MP. Bateria 5000 mAh. Teclado con pad numérico + tecla Copilot. Apertura de pantalla 180°. Incluye: cargador.",
+   "descripcion": "Notebook. Apertura de pantalla 180°. Incluye: cargador.",
    "imagen": "img/n-537.jpg?v=2a5ea5a6"
   },
   {
    "id": "DSH260211-AUDIFONO",
    "categoria": "Electrónica",
-   "marca": "GENERICO",
-   "nombre": "AUDIFONO 6 NIVELES VOLUMEN - AMPLIFICA 40db",
+   "marca": "",
+   "nombre": "Audífono de 6 niveles",
    "precio": 39000,
-   "descripcion": "",
+   "descripcion": "Audífono de 6 niveles con amplificación de hasta 40db",
    "imagen": "img/dsh260211-audifono.jpg?v=f3ada591"
   },
   {
@@ -1311,8 +1293,62 @@ window.CATALOGO = {
    "marca": "SAMSUNG",
    "nombre": "GALAXY A17 - RAM6GB- 128GB",
    "precio": 504000,
-   "descripcion": "",
-   "imagen": "img/galaxya17-6-128.jpg?v=f3ee7bc3"
+   "descripcion": "Celular smatphone",
+   "imagen": "img/galaxya17-6-128.jpg?v=f5847bf3"
+  },
+  {
+   "id": "INV1000 PRONEXT",
+   "categoria": "Electrónica",
+   "marca": "PRONEXT",
+   "nombre": "INVERSOR DE TENSIÓN DE 12V A 220V 1000W",
+   "precio": 31500,
+   "descripcion": "Inversor de tensión onda sinusoidal modificada 1000W - Con salida USB",
+   "imagen": "img/inv1000-pronext.jpg?v=4e46764f"
+  },
+  {
+   "id": "INV800 PRONEXT",
+   "categoria": "Electrónica",
+   "marca": "PRONEXT",
+   "nombre": "INVERSOR DE TENSIÓN DE 12V A 220V 800W",
+   "precio": 217000,
+   "descripcion": "Inversor de tensión onda sinusoidal modificada 800W - Con salida USB",
+   "imagen": "img/inv800-pronext.jpg?v=3d867bfd"
+  },
+  {
+   "id": "INV600 PRONEXT",
+   "categoria": "Electrónica",
+   "marca": "PRONEXT",
+   "nombre": "INVERSOR DE TENSIÓN DE 12V A 220V 600W",
+   "precio": 170000,
+   "descripcion": "Inversor de tensión onda sinusoidal modificada 600W - Con salida USB",
+   "imagen": "img/inv600-pronext.jpg?v=df02a646"
+  },
+  {
+   "id": "INV400 PRONEXT",
+   "categoria": "Electrónica",
+   "marca": "PRONEXT",
+   "nombre": "INVERSOR DE TENSIÓN DE 12V A 220V 400W",
+   "precio": 110000,
+   "descripcion": "Inversor de tensión onda sinusoidal modificada 400W - Con salida USB",
+   "imagen": "img/inv400-pronext.jpg?v=d94785d6"
+  },
+  {
+   "id": "INV250 PRONEXT",
+   "categoria": "Electrónica",
+   "marca": "PRONEXT",
+   "nombre": "INVERSOR DE TENSIÓN DE 12V A 220V 400W",
+   "precio": 106000,
+   "descripcion": "Inversor de tensión onda sinusoidal modificada 250W - Con salida USB",
+   "imagen": "img/inv250-pronext.jpg?v=6f68bdd9"
+  },
+  {
+   "id": "UM2150",
+   "categoria": "Electrónica",
+   "marca": "LUXELL",
+   "nombre": "CAJA DE DISCO DURO EXTERNO USB2.0 HDD 2,5\"",
+   "precio": 22000,
+   "descripcion": "Carry Case USB 2.0 HDD 2,5\"",
+   "imagen": "img/um2150.jpg?v=067e85eb"
   }
  ]
 };
