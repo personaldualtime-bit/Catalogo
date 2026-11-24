@@ -1349,6 +1349,96 @@ window.CATALOGO = {
    "precio": 22000,
    "descripcion": "Carry Case USB 2.0 HDD 2,5\"",
    "imagen": "img/um2150.jpg?v=067e85eb"
+  },
+  {
+   "id": "D-RK1",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO PORTÁTIL AM FM",
+   "precio": 40000,
+   "descripcion": "Radio portátil (funciona con pilas AA) AM FM sintonización analógica",
+   "imagen": "img/d-rk1.jpg?v=846b2fc4"
+  },
+  {
+   "id": "D-RK2",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO PORTÁTIL AM FM",
+   "precio": 40000,
+   "descripcion": "Radio portátil (funciona con pilas AA) AM FM sintonización analógica",
+   "imagen": "img/d-rk2.jpg?v=1fe7c1e7"
+  },
+  {
+   "id": "D-RK3",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO PORTÁTIL AM FM",
+   "precio": 40000,
+   "descripcion": "Radio portátil (funciona con pilas AA) AM FM sintonización analógica",
+   "imagen": "img/d-rk3.jpg?v=0add060c"
+  },
+  {
+   "id": "D-RK7",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO PORTÁTIL AM FM",
+   "precio": 40000,
+   "descripcion": "Radio portátil (funciona con pilas AA) AM FM sintonización analógica",
+   "imagen": "img/d-rk7.jpg?v=a18b88bc"
+  },
+  {
+   "id": "D-RK9",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO PORTÁTIL AM FM",
+   "precio": 40000,
+   "descripcion": "Radio portátil (funciona con pilas AA) AM FM sintonización analógica",
+   "imagen": "img/d-rk9.jpg?v=06158d88"
+  },
+  {
+   "id": "D-C120USB",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO REPRODUCTOR",
+   "precio": 195000,
+   "descripcion": "Radio AM FM Reproductor CD USB MP3",
+   "imagen": "img/d-c120usb.jpg?v=6c622cec"
+  },
+  {
+   "id": "D-RP400",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO AM FM",
+   "precio": 78000,
+   "descripcion": "Radio AM FM - Funciona con 4 pilas \"C\" o a 220V",
+   "imagen": "img/d-rp400.jpg?v=23643d2d"
+  },
+  {
+   "id": "D-RP50USB",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO AM FM RECARGABLE CON LINTERNA",
+   "precio": 78000,
+   "descripcion": "Radio AM FM - Batería recargable - Linterna incorporada",
+   "imagen": "img/d-rp50usb.jpg?v=2eb8d82f"
+  },
+  {
+   "id": "D-RP61USB",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO RECARGABLE AM FM MP3",
+   "precio": 70000,
+   "descripcion": "Radio AM FM - Batería recargable - Bluetooth - USB MP3 - Linterna incorporada",
+   "imagen": "img/d-rp61usb.jpg?v=0490f1aa"
+  },
+  {
+   "id": "D-RP62USB",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO RECARGABLE AM FM MP3",
+   "precio": 0,
+   "descripcion": "",
+   "imagen": ""
   }
  ]
 };
