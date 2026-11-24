@@ -1418,7 +1418,7 @@ window.CATALOGO = {
    "categoria": "Electrónica",
    "marca": "DAIHATSU",
    "nombre": "RADIO AM FM RECARGABLE CON LINTERNA",
-   "precio": 78000,
+   "precio": 75000,
    "descripcion": "Radio AM FM - Batería recargable - Linterna incorporada",
    "imagen": "img/d-rp50usb.jpg?v=2eb8d82f"
   },
@@ -1427,7 +1427,7 @@ window.CATALOGO = {
    "categoria": "Electrónica",
    "marca": "DAIHATSU",
    "nombre": "RADIO RECARGABLE AM FM MP3",
-   "precio": 70000,
+   "precio": 75000,
    "descripcion": "Radio AM FM - Batería recargable - Bluetooth - USB MP3 - Linterna incorporada",
    "imagen": "img/d-rp61usb.jpg?v=0490f1aa"
   },
@@ -1436,9 +1436,27 @@ window.CATALOGO = {
    "categoria": "Electrónica",
    "marca": "DAIHATSU",
    "nombre": "RADIO RECARGABLE AM FM MP3",
-   "precio": 0,
-   "descripcion": "",
+   "precio": 75000,
+   "descripcion": "Radio AM FM - Batería recargable - Bluetooth - USB MP3 - Linterna incorporada",
    "imagen": "img/d-rp62usb.jpg?v=ccd41bc2"
+  },
+  {
+   "id": "D-RP60PRO",
+   "categoria": "Electrónica",
+   "marca": "DAIHATSU",
+   "nombre": "RADIO RECARGABLE AM FM MP4",
+   "precio": 79000,
+   "descripcion": "Radio AM FM - Batería recargable - Bluetooth - USB MP3 - Panel solar",
+   "imagen": "img/d-rp60pro.jpg?v=ace22954"
+  },
+  {
+   "id": "W406C",
+   "categoria": "Electrónica",
+   "marca": "WINCO",
+   "nombre": "TOCADISCOS",
+   "precio": 260000,
+   "descripcion": "Tocadiscos",
+   "imagen": ""
   }
  ]
 };
