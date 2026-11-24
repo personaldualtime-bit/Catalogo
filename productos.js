@@ -1438,7 +1438,7 @@ window.CATALOGO = {
    "nombre": "RADIO RECARGABLE AM FM MP3",
    "precio": 0,
    "descripcion": "",
-   "imagen": ""
+   "imagen": "img/d-rp62usb.jpg?v=ccd41bc2"
   }
  ]
 };
