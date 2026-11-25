@@ -1273,7 +1273,7 @@ window.CATALOGO = {
    "id": "N-537",
    "categoria": "Electrónica",
    "marca": "GFAST",
-   "nombre": "Notebook. Pantalla de 15.6\" FHD",
+   "nombre": "NOTEBOOK - PANTALLA DE 16.5\" FHD",
    "precio": 971500,
    "descripcion": "Notebook. Apertura de pantalla 180°. Incluye: cargador.",
    "imagen": "img/n-537.jpg?v=2a5ea5a6"
@@ -1282,7 +1282,7 @@ window.CATALOGO = {
    "id": "DSH260211-AUDIFONO",
    "categoria": "Electrónica",
    "marca": "",
-   "nombre": "Audífono de 6 niveles",
+   "nombre": "AUDÍFONO DE 6 NIVELES",
    "precio": 39000,
    "descripcion": "Audífono de 6 niveles con amplificación de hasta 40db",
    "imagen": "img/dsh260211-audifono.jpg?v=f3ada591"
