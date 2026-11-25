@@ -1456,7 +1456,7 @@ window.CATALOGO = {
    "nombre": "TOCADISCOS",
    "precio": 260000,
    "descripcion": "Tocadiscos",
-   "imagen": ""
+   "imagen": "img/w406c.jpg?v=1d5e4d5a"
   }
  ]
 };
