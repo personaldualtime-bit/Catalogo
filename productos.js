@@ -1455,8 +1455,26 @@ window.CATALOGO = {
    "marca": "WINCO",
    "nombre": "TOCADISCOS",
    "precio": 260000,
-   "descripcion": "Tocadiscos",
+   "descripcion": "Tocadiscos transmisión por correa - Tres velocidades de reproducción 33, 45 y 78 RPM - Bluetooth",
    "imagen": "img/w406c.jpg?v=1d5e4d5a"
+  },
+  {
+   "id": "W408",
+   "categoria": "Electrónica",
+   "marca": "WINCO",
+   "nombre": "TOCADISCOS",
+   "precio": 235000,
+   "descripcion": "Tocadiscos transmisión por correa - Tres velocidades de reproducción 33, 45 y 78 RPM",
+   "imagen": "img/w408.jpg?v=b02d87d8"
+  },
+  {
+   "id": "W410",
+   "categoria": "Electrónica",
+   "marca": "WINCO",
+   "nombre": "TOCADISCOS",
+   "precio": 298000,
+   "descripcion": "Tocadiscos transmisión por correa - Tres velocidades de reproducción 33, 45 y 78 RPM - Bluetooth - Parlantes externos",
+   "imagen": "img/w410.jpg?v=a85f5411"
   }
  ]
 };
